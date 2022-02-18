@@ -189,7 +189,7 @@ ul.comment_list .comment-reply-link,
 .blog-author .authorDetails .author-title a,
 .header.header-version-4 .iw-menu-default .iw-nav-menu > li > a strong span,
 .header .iw-menu-default .iw-nav-menu > li .sub-menu li a:hover,
-.slide-container.slider-2 .tp-bullets .tp-bullet.selected:after,
+.slide-container.slider-2:after,
 .header .iw-menu-default .iw-nav-menu li.current-menu-parent .sub-menu li.selected.active a,
 .iw-footer-v2-widget .footer-post-campaign a:hover{
     color: #53761f;
@@ -200,7 +200,7 @@ ul.comment_list .comment-reply-link,
 }
 
 .page-numbers li span.page-numbers.current,
-.slide-container.slider-2 .tp-bullets .tp-bullet.selected:after,
+.slide-container.slider-2:after,
 .slide-container.slider-3 .tp-bullet.selected,
 .iw-footer-v2-widget .footer_extra_links > a:hover{
     border-color: #53761f;

@@ -194,7 +194,7 @@ ul.comment_list .comment-reply-link,
 .blog-author .authorDetails .author-title a,
 .header.header-version-4 .iw-menu-default .iw-nav-menu > li > a strong span,
 .header .iw-menu-default .iw-nav-menu > li .sub-menu li a:hover,
-.slide-container.slider-2 .tp-bullets .tp-bullet.selected:after,
+.slide-container.slider-2:after,
 .header .iw-menu-default .iw-nav-menu li.current-menu-parent .sub-menu li.selected.active a,
 .iw-footer-v2-widget .footer-post-campaign a:hover{
     color: #53761f;
@@ -205,7 +205,7 @@ ul.comment_list .comment-reply-link,
 }
 
 .page-numbers li span.page-numbers.current,
-.slide-container.slider-2 .tp-bullets .tp-bullet.selected:after,
+.slide-container.slider-2:after,
 .slide-container.slider-3 .tp-bullet.selected,
 .iw-footer-v2-widget .footer_extra_links > a:hover{
     border-color: #53761f;
@@ -241,17 +241,6 @@ ul.comment_list .comment-reply-link,
         color: #53761f;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 /*====== COLOR WOO ECOMERCE ======*/
 .product-detail .product-collateral ol.commentlist .woo-comment-author{
@@ -491,6 +480,11 @@ a.become-volunteer-button{
 
 
 
+tp-bullets, .tp-bullet{
+	display: none;
+}
+
+
 /*Theme color for campaign detail - duongca*/
 .sidebar-right .campaign-progress .circle {
 	background-image: linear-gradient(to right, transparent 50%, #53761f 0px);
@@ -588,7 +582,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 		<div class="container">
 			<div class="nav-block">
 				<div class="brand-top">
-					<a href="index.html"><img src="../wp-content/uploads/revslider/slider-2/apeslogowhite.png" alt="Logo" width="140px"></a>
+					<a href="../index.html"><img src="../wp-content/uploads/revslider/slider-2/apeslogowhite.png" alt="Logo" width="140px"></a>
 				</div>
 				
 				<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
@@ -700,7 +694,51 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 										conubia nostra, per inceptos himenaeos. Quisque vitae orci fermentum, dapibus neque eget, lacinia augue..
 									</p>
 								</div>
-								
+								<div class="vc_row wpb_row vc_inner vc_row-fluid">
+									<div class="wpb_column vc_column_container vc_col-sm-12">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="info-item  style2 ">
+													<div class="icon  style2 ">
+														<i class="theme-color fa fa-american-sign-language-interpreting"></i>
+													</div>
+													<div class="info-item-content">
+														<h4 class="theme-color info-item-title">Réinsertionsocioéconomique des jeunes et femmes vulnérablesaffectées par les guerres dans leurs communautés.</h4>
+														<div class="info-item-desc">
+															La réinsertion socio-économique s’impose pour la plupart, des femmes et jeunes affectés par les guerres et rejetées par leursfamilles. Ilsdoivent trouver 
+															un logement et se reconstruire économiquement et socialement. Voilà pourquoi APES leur a ouvert les portes de formations professionnelles et des activités 
+															génératrices de revenus dans différentes filières. Pour autonomiser les bénéficiaires identifiés par APES passent par un processus qui passe par leprofilage 
+															et identification du besoin exprimé par le bénéficiaire, l’alphabétisation fonctionnelle, la formation en gestion d’AGR et les mutuelles de solidarités sont 
+															organisées en leur faveur. Une fois rassuré de l’état psychologique stable du bénéficiaire, après profilage et formation, un paquet de démarrage AGR lui est 
+															offert pour exercer soit le petit commerce, l’agriculture, l’élevage, et toute autre activité selon son choix et son expérience. Les évaluations socioéconomiques 
+															sont organisées régulièrement pour relever l’impact de l’appui sur les vies des bénéficiaires. Environ942 des femmes survivantes des violences sexuelles et 366 
+															filles mineurs ont reçu des kits de relance des AGR. 
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="wpb_column vc_column_container vc_col-sm-12">
+										<div class="vc_column-inner">
+											<div class="wpb_wrapper">
+												<div class="info-item  style2 ">
+													<div class="icon  style2 ">
+														<i class="theme-color fa fa-book"></i>
+													</div>
+													<div class="info-item-content">
+														<h4 class="theme-color info-item-title">Ré-scolarisation des enfants.</h4>
+														<div class="info-item-desc">
+															Cette activité consiste à redonner une nouvelle chance aux enfants et filles mineures  qui ont dépassé l’âge scolaire pour leur autonomisation. Ces enfants reçoivent des 
+															kits scolaires, uniformes scolaires et les frais scolaires. APES croit que l’éducation des enfants est un aspect capital dans l’autonomisation des groupes marginalises. 
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -932,7 +970,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 
 	<div class="vc_row wpb_row vc_row-fluid has-overlay-parallax vc_custom_1470986961292 vc_row-has-fill" style="background:none!important;position:relative;margin-left:0;margin-right:0;background-size:100% auto">
 		<div class="iw-parallax" data-iw-paraspeed="0.1" style="background-image:url(../wp-content/uploads/revslider/slider-3/education_above_all_children0adb.jpg?id=1835)"></div>
-		<div class="iw-parallax-overlay theme-bg" style=";opacity:0.5"></div>
+		<div class="iw-parallax-overlay theme-bg" style="opacity:0.5"></div>
 			<div class="container">
 				<div class="row">
 					<div class="wpb_column vc_column_container vc_col-sm-12">

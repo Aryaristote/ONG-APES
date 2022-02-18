@@ -55,6 +55,9 @@ body {
   background-color: #53761f!important;
   border-radius: 0!important;
 }
+.navbar .brand-top{
+  margin-left: 6%;
+}
 .navbar .brand-top img:hover{
   opacity: 0.8;
 }
