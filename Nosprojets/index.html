@@ -9,7 +9,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="pingback" href="../xmlrpc.php">
 	<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
-	<title>APES RDCongo</title>
+	<title>Nos Projets</title>
 	<meta name='robots' content='max-image-preview:large' />
 	<link rel="alternate" type="application/rss+xml" title="inCharity &raquo; Feed" href="../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="inCharity &raquo; Comments Feed"
@@ -407,14 +407,6 @@
 	<link rel='stylesheet' id='incharity-style-css' href='../wp-content/themes/incharity/stylea4a0.css?ver=5.7.5'
 		type='text/css' media='all' />
 	<style id='incharity-style-inline-css' type='text/css'>
-		/*-------------------------------------------------------
-COLOR DEFINITION
---------------------------------------------------------*/
-
-		/** Default */
-
-		/* External code */
-
 		html body {
 			font-family: Roboto Slab
 		}
@@ -548,33 +540,10 @@ COLOR DEFINITION
 <body id="page-top"
 	class="page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page page-id-139 theme-incharity woocommerce-no-js wpb-js-composer js-comp-ver-6.3.0 vc_responsive">
 	<div class="wrapper " style="background: #f9f9f9;">
-		<nav class="navbar navbar-expand-md navbar-dark">
-			<div class="">
-				<div class="nav-block">
-					<div class="brand-top">
-						<a href="../index.html"><img src="../wp-content/uploads/revslider/slider-2/apeslogowhite.png"
-								alt="Logo" width="140px"></a>
-					</div>
-
-					<button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
-						data-target="#main-nav">
-						<span class="menu-icon-bar"></span>
-						<span class="menu-icon-bar"></span>
-						<span class="menu-icon-bar"></span>
-					</button>
-
-					<div id="main-nav" class="collapse navbar-collapse">
-						<ul class="navbar-nav ml-auto">
-							<li><a class="nav-item nav-link" href="../index.html">Accueil</a></li>
-							<li><a class="nav-item nav-link active" href="../Nosprojets/index.html">Nos Projets</a></li>
-							<li><a class="nav-item nav-link" href="../about-us/index.html">A Propos</a></li>
-							<li><a class="nav-item nav-link" href="../team/index.html">Equipe</a></li>
-							<li><a class="nav-item nav-link" href="../contact/index.html">Contact</b></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
+		<?php 
+			$nav = 'project';
+			require "../import/menu/menu.php" 
+		?>
 
 		<div class="contents-main" id="contents-main">
 			<article id="post-139" class="post-139 page type-page status-publish hentry">
@@ -647,7 +616,7 @@ COLOR DEFINITION
 										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
-												src="../wp-content/uploads/revslider/slider-2/education_above_all_children_v2.jpg"
+												src="../wp-content/uploads/revslider/slider-2/wch-project-img.jpeg"
 												data-image-width="720" data-image-height="1080">
 											<p class="u-text u-text-7" style="font-size: 13px;">
 												DRC-19/HCG10/UR3/PROT/NGO/13845 : Projet de soutien aux mécanismes de
@@ -670,8 +639,7 @@ COLOR DEFINITION
 						<div class="u-layout-row">
 							<div class="u-size-19">
 								<div class="u-layout-col">
-									<div
-										class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-1">
+									<div class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-1">
 										<div class="u-container-layout u-valign-middle u-container-layout-1">
 											<h2 class="u-text u-text-1">02.</h2>
 											<h3 class="u-text u-text-2">Renforcement des capacités des 30 groupements
@@ -679,8 +647,7 @@ COLOR DEFINITION
 											<p class="u-text u-text-3" style="font-size: 15px;"><b>Etat: </b>Finis</p>
 										</div>
 									</div>
-									<div
-										class="u-align-center u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-2">
+									<div class="u-align-center u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-2">
 										<div class="u-container-layout u-container-layout-2">
 											<div class="u-container-style u-group u-palette-1-base2 u-group-1">
 												<div class="u-container-layout u-valign-middle u-container-layout-3">
@@ -700,7 +667,7 @@ COLOR DEFINITION
 										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
-												src="../wp-content/uploads/revslider/slider-2/charitywater-uganda1.jpg"
+												src="../wp-content/uploads/revslider/slider-2/elimu-project-img.jpeg"
 												data-image-width="720" data-image-height="1080">
 											<p class="u-text u-text-7" style="font-size: 13px;"> Projet COD04AAP
 												Renforcement des capacités des 30 groupements féminins sur la
@@ -754,7 +721,7 @@ COLOR DEFINITION
 										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
-												src="../wp-content/uploads/revslider/slider-2/about_education_above_all.jpg"
+												src="../wp-content/uploads/revslider/slider-2/elimu-project-img1.jpeg"
 												data-image-width="720" data-image-height="1080">
 											<p class="u-text u-text-7" style="font-size: 13px;">Projet de prévention de
 												l’association d’enfants aux groupes armés, de prise en charge, de
@@ -808,7 +775,7 @@ COLOR DEFINITION
 										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
-												src="../wp-content/uploads/revslider/slider-2/about_education_above_all.jpg"
+												src="../wp-content/uploads/revslider/slider-2/autonamisation-de-la-femme.jpeg"
 												data-image-width="720" data-image-height="1080">
 											<p class="u-text u-text-7" style="font-size: 13px;">Projet d'autonomisation
 												des femmes et filles à
@@ -858,7 +825,7 @@ COLOR DEFINITION
 										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
-												src="../wp-content/uploads/revslider/slider-2/about_education_above_all.jpg"
+												src="../wp-content/uploads/revslider/slider-2/adu-project-img.jpg"
 												data-image-width="720" data-image-height="1080">
 											<p class="u-text u-text-7" style="font-size: 13px;">Projet de réalisation des activités de réinsertion économique pour le programme conjoint de lutte contre l'impunité, d'appui aux victimes des violences basées sur le genre et l'autonomisation des femmes et filles à Bukavu, Kalehe et Kamituga au Sud Kivu.
 											</p>
@@ -905,7 +872,7 @@ COLOR DEFINITION
 										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
-												src="../wp-content/uploads/revslider/slider-2/about_education_above_all.jpg"
+												src="../wp-content/uploads/revslider/slider-2/renforcement-coehesion-social.jpeg"
 												data-image-width="720" data-image-height="1080">
 											<p class="u-text u-text-7" style="font-size: 13px;">Projet d'appui au renforcement de la cohésion
 												sociale par l'installation/équipement de deux radios communautaires et le renforcement /création des structures locales de gestion des conflits dans les groupements de Kashenyi/Kamanyola et d'Itara-Luvungi au Sud-Kivu.
@@ -953,7 +920,7 @@ COLOR DEFINITION
 										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
-												src="../wp-content/uploads/revslider/slider-2/about_education_above_all.jpg"
+												src="../wp-content/uploads/revslider/slider-2/survivante-de-la-viole.jpg"
 												data-image-width="720" data-image-height="1080">
 											<p class="u-text u-text-7" style="font-size: 13px;">Projet d’appui à la réinsertion socioéconomique des survivantes des violences basées sur le genre et autonomisation des femmes dans la ville de Bukavu et à Kamituga dans la province du Sud-Kivu, RD Congo.
 											</p>
@@ -1000,7 +967,7 @@ COLOR DEFINITION
 										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
-												src="../wp-content/uploads/revslider/slider-2/about_education_above_all.jpg"
+												src="../wp-content/uploads/revslider/slider-2/perenisation-des-activite-eco.jpg"
 												data-image-width="720" data-image-height="1080">
 											<p class="u-text u-text-7" style="font-size: 13px;">Appui à la consolidation et pérennisation des activités de
 												réinsertion socioéconomique et rescolarisation des survivantes des VSBG à Bukavu, Walungu et Kamituga dans la province du Sud Kivu.												
@@ -1048,7 +1015,7 @@ COLOR DEFINITION
 										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
-												src="../wp-content/uploads/revslider/slider-2/about_education_above_all.jpg"
+												src="../wp-content/uploads/revslider/slider-2/mis-en-oeuvre.jpg"
 												data-image-width="720" data-image-height="1080">
 											<p class="u-text u-text-7" style="font-size: 13px;">RPA: CMA/RPP-COV/2020-15 Projet de Mise en œuvre des activités du programme de soutien à la coordination provinciale de la réponse multisectorielle COVID-19, au maintien des activités économiques et à la production locale de moyens de protection contre le COVID-19 au Sud-Kivu.
 											</p>
