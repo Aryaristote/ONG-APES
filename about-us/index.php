@@ -11,7 +11,7 @@
 <link rel="profile" href="https://gmpg.org/xfn/11">
 <link rel="pingback" href="../xmlrpc.php">
 <!-- <script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script> -->
-<title>APES RDCongo</title>
+<title>A propos</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
@@ -578,31 +578,10 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 <style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1451986343532{margin-top: 0px !important;margin-bottom: 0px !important;background-image: url(../wp-content/uploads/2015/10/map-world-aboutus0edc.png?id=1062) !important;background-position: 0 0 !important;background-repeat: no-repeat !important;}.vc_custom_1452240832541{margin-bottom: 0px !important;}.vc_custom_1451978423160{margin-right: 0px !important;margin-bottom: 0px !important;margin-left: 0px !important;}.vc_custom_1470986961292{margin-bottom: 0px !important;background-image: url(http://charity.sdemo.site/wp-content/uploads/revslider/slider-3/education_above_all_children.jpg?id=1835) !important;}.vc_custom_1452050615481{margin-bottom: 0px !important;}.vc_custom_1451989418344{padding-top: 60px !important;padding-bottom: 45px !important;}.vc_custom_1456214374353{margin-bottom: 0px !important;padding-top: 80px !important;}.vc_custom_1451981561873{padding-top: 60px !important;padding-bottom: 15px !important;}.vc_custom_1451981500824{padding-top: 30px !important;padding-bottom: 70px !important;}.vc_custom_1451903353304{padding-right: 0px !important;padding-left: 0px !important;}.vc_custom_1451978364117{margin-right: 0px !important;margin-left: 0px !important;border-bottom-width: 0px !important;}.vc_custom_1451903364543{padding-right: 0px !important;padding-left: 0px !important;}.vc_custom_1451527585372{padding-right: 0px !important;padding-left: 0px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
 <body id="page-top" class="page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page page-id-139 theme-incharity woocommerce-no-js wpb-js-composer js-comp-ver-6.3.0 vc_responsive">
 <div class="wrapper " style="background: #f9f9f9;">
-	<nav class="navbar navbar-expand-md navbar-dark">
-		<div class="">
-			<div class="nav-block">
-				<div class="brand-top">
-					<a href="../index.html"><img src="../wp-content/uploads/revslider/slider-2/apeslogowhite.png" alt="Logo" width="140px"></a>
-				</div>
-				
-				<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-					<span class="menu-icon-bar"></span>
-					<span class="menu-icon-bar"></span>
-					<span class="menu-icon-bar"></span>
-				</button>
-				
-				<div id="main-nav" class="collapse navbar-collapse">
-					<ul class="navbar-nav ml-auto">
-						<li><a class="nav-item nav-link" href="../index.html">Accueil</a></li>
-						<li><a class="nav-item nav-link" href="../Nosprojets/index.html">Nos Projets</a></li>
-						<li><a class="nav-item nav-link active" href="../about-us/index.html">A Propos</a></li>
-						<li><a class="nav-item nav-link" href="../team/index.html">Equipe</a></li>
-						<li><a class="nav-item nav-link" href="../contact/index.html">Contact</b></a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
+	<?php 
+		$nav = 'about';
+		require "../import/menu/menu.php" 
+	?>
 
 	<div class="contents-main" id="contents-main">
 		<article id="post-111" class="post-111 page type-page status-publish hentry">
@@ -956,7 +935,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 							<div class="wpb_text_column wpb_content_element ">
 								<div class="wpb_wrapper">
 									<div class="button1-wap">
-										<a href="../Nosprojets/index.html" class="button1" href="#">VISITER NOS PROJETS REALISES</a>
+										<a href="../Nosprojets/index.php" class="button1" href="#">VISITER NOS PROJETS REALISES</a>
 									</div>
 								</div>
 							</div>
@@ -966,7 +945,6 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 			</div>
 		</div>
 	</div>
-
 
 	<div class="vc_row wpb_row vc_row-fluid has-overlay-parallax vc_custom_1470986961292 vc_row-has-fill" style="background:none!important;position:relative;margin-left:0;margin-right:0;background-size:100% auto">
 		<div class="iw-parallax" data-iw-paraspeed="0.1" style="background-image:url(../wp-content/uploads/revslider/slider-3/education_above_all_children0adb.jpg?id=1835)"></div>
