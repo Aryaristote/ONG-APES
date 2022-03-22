@@ -12,7 +12,7 @@
 <link rel='stylesheet' id='js_composer_front-css' href='../wp-content/plugins/js_composer/assets/css/js_composer.mina086.css?ver=6.3.0' type='text/css' media='all' />
 <link rel="pingback" href="../xmlrpc.php">
 <script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
-<title>APES RDCongo</title>
+<title>Equipe</title>
 <meta name='robots' content='max-image-preview:large' />
 <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
 <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
@@ -570,31 +570,10 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 <noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
 <body id="page-top" class="archive post-type-archive post-type-archive-product theme-incharity woocommerce woocommerce-page woocommerce-no-js wpb-js-composer js-comp-ver-6.3.0 vc_responsive">
 	<div class="wrapper " style="background: #f9f9f9;">
-		<nav class="navbar navbar-expand-md navbar-dark">
-			<div class="">
-				<div class="nav-block">
-					<div class="brand-top">
-						<a href="../index.html"><img src="../wp-content/uploads/revslider/slider-2/apeslogowhite.png" alt="Logo" width="140px"></a>
-					</div>
-					
-					<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
-						<span class="menu-icon-bar"></span>
-						<span class="menu-icon-bar"></span>
-						<span class="menu-icon-bar"></span>
-					</button>
-					
-					<div id="main-nav" class="collapse navbar-collapse">
-						<ul class="navbar-nav ml-auto">
-							<li><a class="nav-item nav-link" href="../index.html">Accueil</a></li>
-							<li><a class="nav-item nav-link" href="../Nosprojets/index.html">Nos Projets</a></li>
-							<li><a class="nav-item nav-link" href="../about-us/index.html">A Propos</a></li>
-							<li><a class="nav-item nav-link active" href="../team/index.html">Equipe</a></li>
-							<li><a class="nav-item nav-link" href="../contact/index.html">Contact</b></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
+		<?php 
+			$nav = 'team';
+			require "../import/menu/menu.php" 
+		?>
 
 		<div class="vc_row wpb_row vc_row-fluid theme-bg vc_custom_1451450048827" style="margin-top: -20px;margin-left:0;margin-right:0;background-size:100% auto">
 			<div class="container">
@@ -723,7 +702,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 											<div class="wpb_wrapper">
 												<div class="profile-box item item2  style4  center-text">
 													<div class="profile-image">
-														<img src="../wp-content/uploads/revslider/slider-4/memeber4.jpg" alt="irene rose">
+														<img src="../wp-content/uploads/revslider/slider-4/member4.jpg" alt="Rodrigue Bwira">
 													</div>
 													<div class="item-info-wrap profile-info-wrap">
 														<div class="profile-info">
@@ -868,7 +847,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 			</div>
 		</footer>
 	</div> 
-<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
+		<script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">
 		(function () {
 			var c = document.body.className;
 			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
@@ -937,6 +916,4 @@ var woocommerce_price_slider_params = {"currency_format_num_decimals":"0","curre
 </script>
 <script type='text/javascript' src='../wp-content/plugins/woocommerce/assets/js/frontend/price-slider.min0e7d.js?ver=5.1.0' id='wc-price-slider-js'></script>
 </body>
-
-<!-- Mirrored from charity.sdemo.site/shop/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jan 2022 11:27:06 GMT -->
 </html>
