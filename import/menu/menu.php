@@ -18,7 +18,7 @@ HTML;
     <div class="">
         <div class="nav-block">
             <div class="brand-top">
-                <a href="../../index.php">
+                <a href="../index.php">
                     <img src="wp-content/uploads/revslider/slider-2/apeslogowhite.png" alt="Logo" width="140px">
                 </a>
             </div>
@@ -33,22 +33,22 @@ HTML;
             <div id="main-nav" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
                     <li class=" active">
-                        <a class="nav-link <?php if($nav === 'index'): ?> active<?php endif ?>" href="../../index.php">Accueil</a>
+                        <a class="nav-link <?php if($nav === 'index'): ?> active<?php endif ?>" href="index.php">Accueil</a>
                     </li> 
                     <li class=" active">
                         <a class="nav-link <?php if($nav === 'project'): ?> active <?php endif ?>" href="Nosprojets/index.php">Nos Projets</a>
                     </li>
                     <li class=" active">
-                        <a class="nav-link <?php if($nav === 'info'): ?> active <?php endif ?>" href="../../gallerie/index.php">Actualité</a>
+                        <a class="nav-link <?php if($nav === 'info'): ?> active <?php endif ?>" href="gallerie/index.php">Actualité</a>
                     </li> 
                     <li class=" active">
-                        <a class="nav-link <?php if($nav === 'about'): ?> active <?php endif ?>" href="../../about-us/index.php">A Propos</a>
+                        <a class="nav-link <?php if($nav === 'about'): ?> active <?php endif ?>" href="about-us/index.php">A Propos</a>
                     </li> 
                     <li class=" active">
-                        <a class="nav-link <?php if($nav === 'team'): ?> active <?php endif ?>" href="../../team/index.php">Equipe</a>
+                        <a class="nav-link <?php if($nav === 'team'): ?> active <?php endif ?>" href="team/index.php">Equipe</a>
                     </li>
                     <li class=" active">
-                        <a class="nav-link <?php if($nav === 'contact'): ?> active <?php endif ?>" href="../../contact/index.php">Contact</a>
+                        <a class="nav-link <?php if($nav === 'contact'): ?> active <?php endif ?>" href="contact/index.php">Contact</a>
                     </li>
                 </ul>
             </div>
