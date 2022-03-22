@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
-<!-- Mirrored from charity.sdemo.site/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jan 2022 11:30:22 GMT -->
-<!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 
 <head>
@@ -13,10 +10,8 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 	<link rel="pingback" href="../xmlrpc.php">
 	<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
-	<title>APES RDCongo</title>
+	<title>Contact</title>
 	<meta name='robots' content='max-image-preview:large' />
-	<!-- <link rel='dns-prefetch' href='http://maps.googleapis.com/' />
-<link rel='dns-prefetch' href='http://fonts.googleapis.com/' /> -->
 	<link rel='dns-prefetch' href='http://s.w.org/' />
 	<link rel="alternate" type="application/rss+xml" title="inCharity &raquo; Feed" href="../feed/index.html" />
 	<link rel="alternate" type="application/rss+xml" title="inCharity &raquo; Comments Feed"
@@ -141,11 +136,6 @@
 	<link rel='stylesheet' id='incharity-style-css' href='../wp-content/themes/incharity/stylea4a0.css?ver=5.7.5'
 		type='text/css' media='all' />
 	<style id='incharity-style-inline-css' type='text/css'>
-		/*-------------------------------------------------------
-COLOR DEFINITION
---------------------------------------------------------*/
-
-		/** Default */
 		a {
 			color: #53761f;
 		}
@@ -184,85 +174,6 @@ COLOR DEFINITION
 			border-color: #53761f;
 			background-color: #53761f;
 		}
-
-		/*****
- Color define (HienVT)
-*****/
-		.fill-color {
-			fill: #53761f;
-		}
-
-		.info-item.style1:hover .icon,
-		.info-item.style3:hover .icon:before,
-		.info-item.style3:hover .icon:after {
-			border: 2px #53761f solid;
-		}
-
-		.info-item:hover .iw-bottom-icon i,
-		.iw-posts-content .iw-bottom-item .share-fb .theme-color a,
-		.iw-posts.style2 .iw-posts-content .read-more a.theme-color,
-		.iw-posts-content .iw-title a.theme-color,
-		.infunding_slider-v3 .iw-campaign-listing-slider-v2.owl-theme .owl-controls .owl-buttons div.owl-prev:hover:after,
-		.infunding_slider-v3 .iw-campaign-listing-slider-v2.owl-theme .owl-controls .owl-buttons div.owl-next:hover:after,
-		.server-location-block .marker-info .description .simple-list li .list-content a:hover,
-		.server-location-block .marker-info .description .simple-list li i {
-			color: #53761f;
-		}
-
-		.info-item.style3 .icon:after,
-		.dg-wrapper .slider-box.dg-center .item-image,
-		.iw-slider-shortcode .iw-slider-action-button .iw-register-button a:after,
-		.server-location-block .marker-info .description .simple-list li .list-style,
-		.button1:hover,
-		.simple-list.angle-right .iw-typography li:hover i,
-		.simple-list.check-mark .iw-typography li:hover i,
-		blockquote.style3,
-		h5.iw-table-heading,
-		.tooltip .tooltip-inner {
-			background: #53761f;
-		}
-
-		.iw-slider-shortcode .dg-wrapper .slider-box.dg-center .item-image,
-		.infunding_slider-v3 .iw-campaign-listing-slider-v2.owl-theme .owl-controls .owl-buttons div.owl-prev:hover,
-		.infunding_slider-v3 .iw-campaign-listing-slider-v2.owl-theme .owl-controls .owl-buttons div.owl-next:hover {
-			border: 2px #53761f solid;
-		}
-
-		.iw-slider-shortcode .iw-slider-action-button .iw-register-button a:hover,
-		.iw-slider-shortcode .iw-slider-action-button .donate-us-button a {
-			border: 2px #53761f solid;
-		}
-
-		.iw-our-missions:after {
-			border-top: 14px solid #53761f;
-		}
-
-		.simple-list.angle-right .iw-typography li:hover i,
-		.simple-list.check-mark .iw-typography li:hover i {
-			border: 1px #53761f solid;
-		}
-
-		.iw-campaign-slider-item .campaign-title a:hover,
-		.server-location-block .marker-info .description .simple-list li .list-style,
-		blockquote.style2 p:before {
-			color: #53761f;
-		}
-
-		.iw-campaign-slider-item .campaign-title:after {
-			border-top: 2px #53761f solid;
-		}
-
-		blockquote,
-		blockquote.style2 {
-			border-left: 5px #53761f solid;
-		}
-
-		.tooltip.top .tooltip-arrow,
-		.donates-info .current-donate::after {
-			border-top-color: #53761f;
-		}
-
-		/*twitter  widget*/
 		.env-narrow .header .p-name,
 		.customisable,
 		.customisable:link,
@@ -276,90 +187,6 @@ COLOR DEFINITION
 		a:focus .customisable-highlight {
 			color: #53761f !important;
 		}
-
-
-		/*****
-  Color define(TruongDX)
-****/
-		.theme-color-hover:hover,
-		.widget_categories ul li a:hover,
-		.widget_archive ul li a:hover,
-		.widget_meta ul li a:hover,
-		.widget_recent_comments ul li a:hover,
-		.recent-blog-post-detail .recent-blog-post-title>a:hover,
-		.shortcode_widget .iw-tabs .iw-tab-item .iw-tab-title,
-		.iw-category .more-link,
-		.iw-category .tags-links>a,
-		ul.comment_list .name-cmt,
-		.author-title,
-		ul.comment_list .comment-reply-link,
-		.post-info-category a:hover,
-		.post-content-right .post-info span:hover,
-		.post-content-right .post-info span:hover a,
-		.post-content-right .post-info span:hover i,
-		.iw-category .tags-links>a,
-		.search-results .main-content article .entry-header .entry-meta time,
-		.search-results .main-content article .tags-links a,
-		.search-results .main-content article .entry-header .author a,
-		.header.header-version-2 .iw-button-toggle i,
-		.blog-author .authorDetails .author-title a,
-		.header.header-version-4 .iw-menu-default .iw-nav-menu>li>a strong span,
-		.header .iw-menu-default .iw-nav-menu>li .sub-menu li a:hover,
-		.slide-container.slider-2 .tp-bullets .tp-bullet.selected:after,
-		.header .iw-menu-default .iw-nav-menu li.current-menu-parent .sub-menu li.selected.active a,
-		.iw-footer-v2-widget .footer-post-campaign a:hover {
-			color: #53761f;
-		}
-
-		.slide-container.slider-2 .slider-2-round-left {
-			background-color: #53761f !important;
-			opacity: 0.5 !important;
-		}
-
-		.page-numbers li span.page-numbers.current,
-		.slide-container.slider-2 .tp-bullets .tp-bullet.selected:after,
-		.slide-container.slider-3 .tp-bullet.selected,
-		.iw-footer-v2-widget .footer_extra_links>a:hover {
-			border-color: #53761f;
-		}
-
-		.page-numbers li span.page-numbers.current,
-		.widget_tag_cloud .tagcloud a:hover,
-		.shortcode_widget .iw-tabs .iw-tab-item,
-		.btn-submit.button,
-		.iw-category .post-item-quote .featured-image:after,
-		.shortcode_widget .iw-tabs .iw-tab-item.active .iw-tab-title,
-		.header.header-version-2 .header-donate-button a,
-		.header.header-version-4 .iw-menu-default .iw-nav-menu>li>a strong:hover:before,
-		.header .iw-menu-default .iw-nav-menu>li.selected.active>a strong:before,
-		.header.header-sticky.clone .header-donate-button a,
-		.header .iw-menu-default .iw-nav-menu li.current-menu-parent>a strong::before,
-		.header .iw-menu-default .iw-nav-menu>li:hover>a strong:before,
-		.header .iw-menu-default .iw-nav-menu>li.selected.active>a strong:before,
-		.header .iw-menu-default .iw-nav-menu li.current-menu-parent>a strong:before,
-		.iw-footer-v2-widget .footer_extra_links>a:hover,
-		.header.no-pageheading.header-sticky .header-donate-button a,
-		.header.header-version-4.no-pageheading.header-sticky .nav-trigger span,
-		.header.header-version-2.header-version-5.no-pageheading {
-			background-color: #53761f;
-		}
-
-		@media (max-width: 991px) {
-
-			.header .header-donate-button a,
-			.header.header-version-4 .header-donate-button a {
-				background-color: #53761f;
-			}
-
-			.header.header-version-4 .iw-menu-default .iw-nav-menu>li:hover>a strong,
-			.header .iw-menu-default .iw-nav-menu>li.selected.active>a strong {
-				color: #53761f;
-			}
-		}
-
-
-
-		/*====== COLOR WOO ECOMERCE ======*/
 		.product-detail .product-collateral ol.commentlist .woo-comment-author {
 			color: #53761f;
 		}
@@ -1164,34 +991,10 @@ COLOR DEFINITION
 <body id="page-top"
 	class="page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page page-id-139 theme-incharity woocommerce-no-js wpb-js-composer js-comp-ver-6.3.0 vc_responsive">
 	<div class="wrapper " style="background: #f9f9f9;">
-		<nav class="navbar navbar-expand-md navbar-dark">
-			<div class="">
-				<div class="nav-block">
-					<div class="brand-top">
-						<a href="../index.html"><img src="../wp-content/uploads/revslider/slider-2/apeslogowhite.png"
-								alt="Logo" width="140px"></a>
-					</div>
-
-					<button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
-						data-target="#main-nav">
-						<span class="menu-icon-bar"></span>
-						<span class="menu-icon-bar"></span>
-						<span class="menu-icon-bar"></span>
-					</button>
-
-					<div id="main-nav" class="collapse navbar-collapse">
-						<ul class="navbar-nav ml-auto">
-							<li><a class="nav-item nav-link" href="../index.html">Accueil</a></li>
-							<li><a class="nav-item nav-link" href="../Nosprojets/index.html">Nos Projets</a></li>
-							<li><a class="nav-item nav-link" href="../about-us/index.html">A Propos</a></li>
-							<li><a class="nav-item nav-link" href="../team/index.html">Equipe</a></li>
-							<li><a class="nav-item nav-link active" href="../contact/index.html">Contact</b></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</nav>
-
+		<?php 
+			$nav = 'contact';
+			require "../import/menu/menu.php" 
+		?>
 
 		<section class="u-align-center u-clearfix u-grey-5 u-section-2" id="sec-c628">
 			<div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
@@ -1212,28 +1015,16 @@ COLOR DEFINITION
 														style="color: #838383;font-weight: bold;">DISPONIBLE 24h / 24h
 													</h6>
 													<div class="u-form u-form-1">
-														<form action="contactProcess.php"
-															method="POST"
-															id="contactForm"
-															class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
+														<form action="contactProcess.php" method="POST" id="contactForm" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
 															style="padding: 0;" source="email" name="form">
 															<div class="u-form-group u-form-name">
-																<label for="name-3d90"
-																	class="u-form-control-hidden u-label">Name</label>
-																<input required="" type="text"
-																	placeholder="Entrez votre nom" id="name-3d90"
-																	name="name"
-																	class="u-input u-input-rectangle u-white"
-																	required="">
+																<label for="name-3d90" class="u-form-control-hidden u-label">Name</label>
+																<input required="" type="text" required="" placeholder="Entrez votre nom" id="name-3d90" name="name" class="u-input u-input-rectangle u-white">
 															</div>
 															<div class="u-form-email u-form-group">
 																<label for="email-3d90"
 																	class="u-form-control-hidden u-label">Email</label>
-																<input type="email"
-																	placeholder="Entrez votre addresse mail"
-																	id="email-3d90" name="email"
-																	class="u-input u-input-rectangle u-white"
-																	required="">
+																<input type="email" placeholder="Entrez votre addresse mail" id="email-3d90" name="email" class="u-input u-input-rectangle u-white" required="">
 															</div>
 															<div class="u-form-group u-form-message">
 																<label for="message-3d90"
@@ -1244,16 +1035,14 @@ COLOR DEFINITION
 																	required=""></textarea>
 															</div>
 															<div class="u-align-left u-form-group u-form-submit">
-																<button type="submit" value="submit"
-																class="u-border-2 u-border-grey-dark-1 u-btn u-btn-rectangle u-btn-submit u-button-style u-none u-btn-1"
-																style="font-size: 14px;">
-																Envoyez
+																<button type="submit" value="submit" class="stage-btn">Envoyez
 																</button>	
 															</div>
-															<div class="u-form-send-message u-form-send-success"> Thank
-																you! Your message has been sent. </div>
-															<div class="u-form-send-error u-form-send-message"> Unable
-																to send your message. Please fix errors then try again.
+															<div class="u-form-send-message u-form-send-success">
+																Thank you! Your message has been sent.
+															</div>
+															<div class="u-form-send-error u-form-send-message"> 
+																Unable to send your message. Please fix errors then try again.
 															</div>
 															<input type="hidden" value="" name="recaptchaResponse">
 														</form>
@@ -1301,9 +1090,10 @@ COLOR DEFINITION
 										class="u-align-center u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-2">
 										<div class="u-container-layout u-valign-top u-container-layout-2"><span
 												class="u-icon u-icon-circle u-text-grey-40 u-icon-2"></span>
-											<h2 class="u-text u-text-4" style="color: #838383;">TELEPHONE</h2>
-											<p class="u-text u-text-5" style="color: #838383;">+243 997 738 579<br>+243
-												853 210 640</p>
+											<h2 class="u-text u-text-4" style="color: #838383;">PHONE & EMAIL</h2>
+											<p class="u-text u-text-5" style="color: #838383;">
+												+243 997 738 579<br>+243 853 210 640 <br>apesrdc@gmail.com
+											</p>
 										</div>
 									</div>
 									<div
@@ -1320,9 +1110,10 @@ COLOR DEFINITION
 										class="u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-layout-cell-4">
 										<div class="u-container-layout u-valign-top u-container-layout-4">
 											<span class="u-icon u-icon-circle u-text-grey-40 u-icon-4"></span>
-											<h2 class="u-align-center u-text u-text-8" style="color: #838383;">mail</h2>
-											<p class="u-align-center u-text u-text-9" style="color: #838383;">
-												apesrdc@gmail.com</p>
+											<h2 class="u-align-center u-text u-text-8" style="color: #838383;">Demander un stage</h2><br>
+											<div class="u-align-center u-form-group u-form-submit">
+												<a href="../stage/index.php" type="submit" value="submit" class="stage-btn">Demander un stage</a>	
+											</div>
 										</div>
 									</div>
 								</div>
