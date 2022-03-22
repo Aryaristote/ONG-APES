@@ -732,7 +732,7 @@
 												<div class="u-container-layout u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-xl"
 													src="#">
 													<img class="u-expanded-width u-image u-image-1"
-														src="../wp-content/uploads/revslider/slider-3/image-distribution-vivre.jpeg"
+														src="wp-content/uploads/revslider/slider-3/image-distribution-vivre.jpeg"
 														data-image-width="1621" data-image-height="1080">
 												</div>
 											</div>
@@ -759,7 +759,7 @@
 										<div class="u-container-layout u-valign-top u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-3"
 												style="border:8px solid #51741e;"
-												src="../wp-content/uploads/revslider/slider-3/photo-les-enfants.jpeg"
+												src="wp-content/uploads/revslider/slider-3/photo-les-enfants.jpeg"
 												data-image-width="1118" data-image-height="1080">
 											<h2 class="u-text u-text-1">Objectif Global</h2>
 											<ul style="font-size: 15px;">

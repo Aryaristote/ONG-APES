@@ -7,7 +7,7 @@
         }
         return <<<HTML
            <li class=" active">
-                <a class="nav-link " href="$lien">$titre</a>
+                <a class="nav-link " href="$lien">$titre</a> 
            </li> 
 HTML;
         // return $html;
@@ -18,8 +18,8 @@ HTML;
     <div class="">
         <div class="nav-block">
             <div class="brand-top">
-                <a href="../../index.php"><img src="../../wp-content/uploads/revslider/slider-2/apeslogowhite.png"
-                    alt="Logo" width="140px">
+                <a href="../../index.php">
+                    <img src="wp-content/uploads/revslider/slider-2/apeslogowhite.png" alt="Logo" width="140px">
                 </a>
             </div>
 
@@ -36,7 +36,7 @@ HTML;
                         <a class="nav-link <?php if($nav === 'index'): ?> active<?php endif ?>" href="../../index.php">Accueil</a>
                     </li> 
                     <li class=" active">
-                        <a class="nav-link <?php if($nav === 'project'): ?> active <?php endif ?>" href="../../Nosprojets/index.php">Nos Projets</a>
+                        <a class="nav-link <?php if($nav === 'project'): ?> active <?php endif ?>" href="Nosprojets/index.php">Nos Projets</a>
                     </li>
                     <li class=" active">
                         <a class="nav-link <?php if($nav === 'info'): ?> active <?php endif ?>" href="../../gallerie/index.php">Actualité</a>
@@ -50,12 +50,6 @@ HTML;
                     <li class=" active">
                         <a class="nav-link <?php if($nav === 'contact'): ?> active <?php endif ?>" href="../../contact/index.php">Contact</a>
                     </li>
-                    <!-- <?= nav_item('../../index.php', 'Accueil'); ?>
-                    <?= nav_item('../../Nosprojets/index.php', 'Nos Projets'); ?>
-                    <?= nav_item('../../gallerie/index.php', 'Gallerie'); ?>
-                    <?= nav_item('../../about-us/index.php', 'A Propos'); ?>
-                    <?= nav_item('../../team/index.php', 'Equipe'); ?>
-                    <?= nav_item('../../contact/index.php', 'Contact'); ?> -->
                 </ul>
             </div>
         </div>
