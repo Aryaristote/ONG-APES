@@ -21,18 +21,62 @@
 	<link rel="stylesheet" href="bootstrap.min.css">
 	<link rel="pingback" href="xmlrpc.php">
 	<link rel="stylesheet" href="nicepage0648.css" media="screen">
-	<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+	<script>
+		document.documentElement.className = document.documentElement.className + ' yes-js js_active js'
+	</script>
 	<title>APES RDCongo</title>
 	<meta name='robots' content='max-image-preview:large' />
 
 	<link rel="shortcut icon" type="image/png" href="wp-content/favIcons/android-icon-36x361.png">
 	<link rel='dns-prefetch' href='http://s.w.org/' />
 	<link rel="alternate" type="application/rss+xml" title="inCharity &raquo; Feed" href="feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="inCharity &raquo; Comments Feed"
-		href="comments/feed/index.html" />
+	<link rel="alternate" type="application/rss+xml" title="inCharity &raquo; Comments Feed" href="comments/feed/index.html" />
 	<script type="text/javascript">
-		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/charity.sdemo.site\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.5" } };
-		!function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
+		window._wpemojiSettings = {
+			"baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/",
+			"ext": ".png",
+			"svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/",
+			"svgExt": ".svg",
+			"source": {
+				"concatemoji": "https:\/\/charity.sdemo.site\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.5"
+			}
+		};
+		! function(e, a, t) {
+			var n, r, o, i = a.createElement("canvas"),
+				p = i.getContext && i.getContext("2d");
+
+			function s(e, t) {
+				var a = String.fromCharCode;
+				p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0);
+				e = i.toDataURL();
+				return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL()
+			}
+
+			function c(e) {
+				var t = a.createElement("script");
+				t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t)
+			}
+			for (o = Array("flag", "emoji"), t.supports = {
+					everything: !0,
+					everythingExceptFlag: !0
+				}, r = 0; r < o.length; r++) t.supports[o[r]] = function(e) {
+				if (!p || !p.fillText) return !1;
+				switch (p.textBaseline = "top", p.font = "600 32px Arial", e) {
+					case "flag":
+						return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]);
+					case "emoji":
+						return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212])
+				}
+				return !1
+			}(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]);
+			t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function() {
+				t.DOMReady = !0
+			}, t.supports.everything || (n = function() {
+				t.readyCallback()
+			}, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function() {
+				"complete" === a.readyState && t.readyCallback()
+			})), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji)))
+		}(window, document, window._wpemojiSettings);
 	</script>
 	<style type="text/css">
 		img.wp-smiley,
@@ -48,29 +92,14 @@
 			padding: 0 !important;
 		}
 	</style>
-	<link rel='stylesheet' id='wp-block-library-css'
-		href='wp-includes/css/dist/block-library/style.mina4a0.css?ver=5.7.5' type='text/css' media='all' />
-	<link rel='stylesheet' id='wc-block-vendors-style-css'
-		href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-stylecb20.css?ver=4.4.3'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='wc-block-style-css'
-		href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/stylecb20.css?ver=4.4.3' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='jquery-selectBox-css'
-		href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox7359.css?ver=1.2.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='yith-wcwl-font-awesome-css'
-		href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='yith-wcwl-main-css'
-		href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/stylef214.css?ver=3.0.20' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='font-awesome-css'
-		href='wp-content/plugins/iw_composer_addons/assets/css/font-awesome/css/font-awesome.mine7f3.css?ver=2.1.7'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='yith-wcwl-font-awesome-css'
-		href='../wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css'
-		media='all' />
+	<link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.mina4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='wc-block-vendors-style-css' href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-stylecb20.css?ver=4.4.3' type='text/css' media='all' />
+	<link rel='stylesheet' id='wc-block-style-css' href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/stylecb20.css?ver=4.4.3' type='text/css' media='all' />
+	<link rel='stylesheet' id='jquery-selectBox-css' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox7359.css?ver=1.2.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='yith-wcwl-main-css' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/stylef214.css?ver=3.0.20' type='text/css' media='all' />
+	<link rel='stylesheet' id='font-awesome-css' href='wp-content/plugins/iw_composer_addons/assets/css/font-awesome/css/font-awesome.mine7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='../wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css' media='all' />
 	<style id='font-awesome-inline-css' type='text/css'>
 		[data-font="FontAwesome"]:before {
 			font-family: 'FontAwesome' !important;
@@ -85,114 +114,65 @@
 			-moz-osx-font-smoothing: grayscale !important;
 		}
 	</style>
-	<link rel='stylesheet' id='custombox-css'
-		href='wp-content/plugins/infunding/assets/css/custombox.mina4a0.css?ver=5.7.5' type='text/css' media='all' />
-	<link rel='stylesheet' id='iw-legacy-css' href='wp-content/plugins/infunding/assets/css/iw-legacya4a0.css?ver=5.7.5'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='infsite-style-css'
-		href='wp-content/plugins/infunding/assets/css/infunding_stylea4a0.css?ver=5.7.5' type='text/css' media='all' />
-	<link rel='stylesheet' id='infsite-slider-css'
-		href='wp-content/plugins/infunding/assets/css/infunding_slidera4a0.css?ver=5.7.5' type='text/css' media='all' />
-	<link rel='stylesheet' id='owl-carousel-css'
-		href='wp-content/plugins/infunding/assets/css/owl.carousela4a0.css?ver=5.7.5' type='text/css' media='all' />
-	<link rel='stylesheet' id='owl-theme-css' href='wp-content/plugins/infunding/assets/css/owl.themea4a0.css?ver=5.7.5'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='owl-transitions-css'
-		href='wp-content/plugins/infunding/assets/css/owl.transitionsa4a0.css?ver=5.7.5' type='text/css' media='all' />
-	<link rel='stylesheet' id='iw-shortcodes-css'
-		href='wp-content/plugins/iw_composer_addons/assets/css/iw-shortcodese7f3.css?ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='iw-testimonials-css'
-		href='wp-content/plugins/iw_composer_addons/assets/css/iw-testimonialse7f3.css?ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='rs-plugin-settings-css'
-		href='wp-content/plugins/revslider/public/assets/css/rs6b724.css?ver=6.2.15' type='text/css' media='all' />
+	<link rel='stylesheet' id='custombox-css' href='wp-content/plugins/infunding/assets/css/custombox.mina4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='iw-legacy-css' href='wp-content/plugins/infunding/assets/css/iw-legacya4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='infsite-style-css' href='wp-content/plugins/infunding/assets/css/infunding_stylea4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='infsite-slider-css' href='wp-content/plugins/infunding/assets/css/infunding_slidera4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='owl-carousel-css' href='wp-content/plugins/infunding/assets/css/owl.carousela4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='owl-theme-css' href='wp-content/plugins/infunding/assets/css/owl.themea4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='owl-transitions-css' href='wp-content/plugins/infunding/assets/css/owl.transitionsa4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='iw-shortcodes-css' href='wp-content/plugins/iw_composer_addons/assets/css/iw-shortcodese7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='iw-testimonials-css' href='wp-content/plugins/iw_composer_addons/assets/css/iw-testimonialse7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='rs-plugin-settings-css' href='wp-content/plugins/revslider/public/assets/css/rs6b724.css?ver=6.2.15' type='text/css' media='all' />
 	<style id='rs-plugin-settings-inline-css' type='text/css'>
 		#rs-demo-id {}
 	</style>
-	<link rel='stylesheet' id='woocommerce-layout-css'
-		href='wp-content/plugins/woocommerce/assets/css/woocommerce-layout0e7d.css?ver=5.1.0' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='woocommerce-smallscreen-css'
-		href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen0e7d.css?ver=5.1.0' type='text/css'
-		media='only screen and (max-width: 768px)' />
-	<link rel='stylesheet' id='woocommerce-general-css'
-		href='wp-content/plugins/woocommerce/assets/css/woocommerce0e7d.css?ver=5.1.0' type='text/css' media='all' />
-	<style id='woocommerce-inline-inline-css' type='text/css'>
-		.woocommerce form .form-row .required {
-			visibility: visible;
-		}
-	</style>
-	<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css'
-		href='wp-content/plugins/woocommerce/assets/css/prettyPhotoa4a0.css?ver=5.7.5' type='text/css' media='all' />
-	<link rel='stylesheet' id='google-font-robotoslab-css'
-		href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='google-font-abeezee-css'
-		href='http://fonts.googleapis.com/css?family=ABeeZee%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='fancybox-css'
-		href='wp-content/themes/incharity/fancybox/jquery.fancyboxe7f3.css?ver=2.1.7' type='text/css' media='all' />
-	<link rel='stylesheet' id='fancybox-thumbs-css'
-		href='wp-content/themes/incharity/fancybox/helpers/jquery.fancybox-thumbse7f3.css?ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='select2-css-css' href='wp-content/themes/incharity/css/select2e7f3.css?ver=2.1.7'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='pwsignaturetwo-css'
-		href='wp-content/themes/incharity/fonts/pwsignaturetwo/stylesheete7f3.css?ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='woocommece-css' href='wp-content/themes/incharity/css/woocommecee7f3.css?ver=2.1.7'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='incharity-animation-css'
-		href='wp-content/themes/incharity/css/animatione7f3.css?ver=2.1.7' type='text/css' media='all' />
-	<link rel='stylesheet' id='incharity-style-css' href='wp-content/themes/incharity/stylea4a0.css?ver=5.7.5'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='incharity-responsive-css'
-		href='wp-content/themes/incharity/css/responsivee7f3.css?ver=2.1.7' type='text/css' media='all' />
-	<link rel='stylesheet' id='js_composer_front-css'
-		href='wp-content/plugins/js_composer/assets/css/js_composer.mina086.css?ver=6.3.0' type='text/css'
-		media='all' />
+	<link rel='stylesheet' id='woocommerce-layout-css' href='wp-content/plugins/woocommerce/assets/css/woocommerce-layout0e7d.css?ver=5.1.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='woocommerce-smallscreen-css' href='wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen0e7d.css?ver=5.1.0' type='text/css' media='only screen and (max-width: 768px)' />
+	<link rel='stylesheet' id='woocommerce-general-css' href='wp-content/plugins/woocommerce/assets/css/woocommerce0e7d.css?ver=5.1.0' type='text/css' media='all' />
+	<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css' href='wp-content/plugins/woocommerce/assets/css/prettyPhotoa4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-font-robotoslab-css' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='google-font-abeezee-css' href='http://fonts.googleapis.com/css?family=ABeeZee%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='fancybox-css' href='wp-content/themes/incharity/fancybox/jquery.fancyboxe7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='fancybox-thumbs-css' href='wp-content/themes/incharity/fancybox/helpers/jquery.fancybox-thumbse7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='select2-css-css' href='wp-content/themes/incharity/css/select2e7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='pwsignaturetwo-css' href='wp-content/themes/incharity/fonts/pwsignaturetwo/stylesheete7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='woocommece-css' href='wp-content/themes/incharity/css/woocommecee7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='incharity-animation-css' href='wp-content/themes/incharity/css/animatione7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='incharity-style-css' href='wp-content/themes/incharity/stylea4a0.css?ver=5.7.5' type='text/css' media='all' />
+	<link rel='stylesheet' id='incharity-responsive-css' href='wp-content/themes/incharity/css/responsivee7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='js_composer_front-css' href='wp-content/plugins/js_composer/assets/css/js_composer.mina086.css?ver=6.3.0' type='text/css' media='all' />
 	<script type='text/javascript' src='wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1' id='jquery-core-js'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2'
-		id='jquery-migrate-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/masonry.pkgd.mina4a0.js?ver=5.7.5'
-		id='masonry-min-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/iw_composer_addons/assets/js/iw-testimonialse7f3.js?ver=2.1.7'
-		id='iw-testimonials-js'></script>
-	<script type='text/javascript'
-		src='http://maps.googleapis.com/maps/api/js?key=AIzaSyAQ-kNIGl-wRlW4gbo-Se0tZKkBXnvbuT0&amp;ver=5.7.5'
-		id='google-maps-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rbtools.minb724.js?ver=6.2.15'
-		id='tp-tools-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rs6.minb724.js?ver=6.2.15'
-		id='revmin-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'
-		id='jquery-blockui-js'></script>
+	<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.mind617.js?ver=3.3.2' id='jquery-migrate-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/masonry.pkgd.mina4a0.js?ver=5.7.5' id='masonry-min-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/iw-testimonialse7f3.js?ver=2.1.7' id='iw-testimonials-js'></script>
+	<script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?key=AIzaSyAQ-kNIGl-wRlW4gbo-Se0tZKkBXnvbuT0&amp;ver=5.7.5' id='google-maps-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rbtools.minb724.js?ver=6.2.15' id='tp-tools-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rs6.minb724.js?ver=6.2.15' id='revmin-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70' id='jquery-blockui-js'></script>
 	<script type='text/javascript' id='wc-add-to-cart-js-extra'>
 		/* <![CDATA[ */
-		var wc_add_to_cart_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "i18n_view_cart": "View cart", "cart_url": "https:\/\/charity.sdemo.site\/cart\/", "is_cart": "", "cart_redirect_after_add": "no" };
-/* ]]> */
+		var wc_add_to_cart_params = {
+			"ajax_url": "\/wp-admin\/admin-ajax.php",
+			"wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+			"i18n_view_cart": "View cart",
+			"cart_url": "https:\/\/charity.sdemo.site\/cart\/",
+			"is_cart": "",
+			"cart_redirect_after_add": "no"
+		};
+		/* ]]> */
 	</script>
-	<script type='text/javascript'
-		src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min0e7d.js?ver=5.1.0'
-		id='wc-add-to-cart-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-carta086.js?ver=6.3.0'
-		id='vc_woocommerce-add-to-cart-js-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min0e7d.js?ver=5.1.0' id='wc-add-to-cart-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/vendors/woocommerce-add-to-carta086.js?ver=6.3.0' id='vc_woocommerce-add-to-cart-js-js'></script>
 	<link rel="https://api.w.org/" href="wp-json/index.html" />
 	<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/725.json" />
 	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc0db0.php?rsd" />
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="wp-includes/wlwmanifest.xml" />
 	<link rel="canonical" href="index.html" />
 	<link rel='shortlink' href='index.html' />
-	<link rel="alternate" type="application/json+oembed"
-		href="wp-json/oembed/1.0/embede429.json?url=https%3A%2F%2Fcharity.sdemo.site%2F" />
-	<link rel="alternate" type="text/xml+oembed"
-		href="wp-json/oembed/1.0/embed085d?url=https%3A%2F%2Fcharity.sdemo.site%2F&amp;format=xml" />
+	<link rel="alternate" type="application/json+oembed" href="wp-json/oembed/1.0/embede429.json?url=https%3A%2F%2Fcharity.sdemo.site%2F" />
+	<link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embed085d?url=https%3A%2F%2Fcharity.sdemo.site%2F&amp;format=xml" />
 	<noscript>
 		<style>
 			.woocommerce-product-gallery {
@@ -201,9 +181,8 @@
 		</style>
 	</noscript>
 	<meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress." />
-	<meta name="generator"
-		content="Powered by Slider Revolution 6.2.15 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-	<script type="text/javascript">function setREVStartSize(e) {
+	<script type="text/javascript">
+		function setREVStartSize(e) {
 			//window.requestAnimationFrame(function() {				 
 			window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
 			window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
@@ -222,10 +201,12 @@
 					newh = Math.max(e.mh, window.RSIH);
 				else {
 					e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-					for (var i in e.rl) if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
+					for (var i in e.rl)
+						if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
 					e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
 					e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
-					for (var i in e.rl) if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
+					for (var i in e.rl)
+						if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
 
 					var nl = new Array(e.rl.length),
 						ix = 0,
@@ -236,7 +217,11 @@
 					e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
 					for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
 					sl = nl[0];
-					for (var i in nl) if (sl > nl[i] && nl[i] > 0) { sl = nl[i]; ix = i; }
+					for (var i in nl)
+						if (sl > nl[i] && nl[i] > 0) {
+							sl = nl[i];
+							ix = i;
+						}
 					var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
 					newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
 				}
@@ -247,404 +232,101 @@
 				console.log("Failure at Presize of Slider:" + e)
 			}
 			//});
-		};</script>
-	<style type="text/css" data-type="vc_shortcodes-custom-css">
-		.vc_custom_1448859410666 {
-			margin-top: 70px !important;
-			margin-bottom: 0px !important;
-			background-position: 0 0 !important;
-			background-repeat: no-repeat !important;
-		}
-
-		.vc_custom_1469616174792 {
-			padding-bottom: 140px !important;
-			background: #000000 url(../../wp-content/uploads/revslider/slider-4/about_education_above_alld53a.jpg?id=1843) !important;
-			background-position: center !important;
-			background-repeat: no-repeat !important;
-			background-size: cover !important;
-		}
-
-		.vc_custom_1452498732281 {
-			margin-bottom: 0px !important;
-			padding-bottom: 70px !important;
-		}
-
-		.vc_custom_1469616060534 {
-			margin-bottom: 0px !important;
-			background: #000000 url(http://charity.sdemo.site/wp-content/uploads/2015/11/page-bg-volunter1.jpg?id=1848) !important;
-		}
-
-		.vc_custom_1448859418135 {
-			padding-right: 0px !important;
-			padding-left: 0px !important;
-		}
-
-		.vc_custom_1453879288544 {
-			margin-top: 25px !important;
-			margin-right: 0px !important;
-			margin-bottom: 95px !important;
-			margin-left: 0px !important;
-			padding-top: 45px !important;
-			padding-right: 15px !important;
-			padding-left: 15px !important;
-			background-color: #ffffff !important;
-		}
-
-		.vc_custom_1452497706406 {
-			padding-top: 45px !important;
-		}
-
-		.vc_custom_1452498499701 {
-			padding-top: 75px !important;
-		}
-
-		.vc_custom_1453360363202 {
-			margin-bottom: 0px !important;
-			padding-top: 50px !important;
-			padding-bottom: 70px !important;
-		}
-
-		.vc_custom_1447831112370 {
-			margin-top: 45px !important;
-			margin-bottom: 60px !important;
-		}
-	</style><noscript>
-		<style>
-			.wpb_animate_when_almost_visible {
-				opacity: 1;
-			}
-		</style>
-	</noscript>
+		};
+	</script>
 </head>
 
-<body id="page-top"
-	class="page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page page-id-404 page-child parent-pageid-725 theme-incharity woocommerce-no-js wpb-js-composer js-comp-ver-6.3.0 vc_responsive">
+<body id="page-top" class="page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page page-id-404 page-child parent-pageid-725 theme-incharity woocommerce-no-js wpb-js-composer js-comp-ver-6.3.0 vc_responsive">
 	<div class="">
-		<?php 
-			$nav = 'index';
-			require "import/menu/menu.php" 
+		<?php
+		$nav = 'index';
+		require "import/menu/menu.php"
 		?>
-		
+
 		<div class="slide-container slider-4" style="margin-top: -90px;">
 			<p class="rs-p-wp-fix"></p>
 			<rs-module-wrap id="rev_slider_9_1_wrapper" data-source="gallery" style="background:transparent;padding:0;">
 				<rs-module id="rev_slider_9_1" data-version="6.2.15">
 					<rs-slides>
-						<rs-slide data-key="rs-55" data-title="Slide"
-							data-thumb="//charity.sdemo.site/wp-content/uploads/revslider/slider-3/education_above_all_children-100x50.jpg"
-							data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
-							<img src="wp-content/uploads/revslider/slider-3/education_above_all_children.jpg"
-								title="Home Version 2" class="rev-slidebg" data-no-retina>
-							<rs-layer id="slider-9-slide-55-layer-3" class="slider-3-bg-image tp-shape tp-shapewrapper"
-								data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:0,0,5px,5px;y:m;yo:0,0,-2px,-2px;"
-								data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;"
-								data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:400;sp:600;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:5;background-color:rgba(255,255,255,0.05);">
+						<rs-slide data-key="rs-55" data-title="Slide" data-thumb="//charity.sdemo.site/wp-content/uploads/revslider/slider-3/education_above_all_children-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+							<img src="wp-content/uploads/revslider/slider-3/education_above_all_children.jpg" title="Home Version 2" class="rev-slidebg" data-no-retina>
+							<rs-layer id="slider-9-slide-55-layer-3" class="slider-3-bg-image tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:0,0,5px,5px;y:m;yo:0,0,-2px,-2px;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:400;sp:600;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:5;background-color:rgba(255,255,255,0.05);">
 							</rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-1" class="slider-3-image-volunteer" data-type="image"
-								data-rsp_ch="on" data-xy="x:r;xo:86px,86px,53px,53px;y:m;yo:-28px,-28px,-23px,-23px;"
-								data-text="l:22;" data-dim="w:74px,74px,54px,54px;h:74px,74px,54px,54px;"
-								data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:400;sp:2500;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:5500;sp:1500;"
-								data-frame_999_mask="u:t;" style="z-index:6;"><img
-									src="wp-content/uploads/revslider/slider-3/icon1.png" width="74" height="74"
-									data-no-retina></rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-2" class="slider-3-volunteer" data-type="text"
-								data-color="rgba(131,131,131,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:28px,28px,9px,9px;y:m;yo:61px,61px,34px,34px;"
-								data-text="s:16,16,12,12;l:40,40,30,30;fw:700;" data-frame_0="x:-50px;tp:600;"
-								data-frame_1="tp:600;e:power2.out;st:420;sp:2100;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:7;"> VILLAGES <br>THERAPEUTIQUE</rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-4"
-								class="slider-3-bg-image-2 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on"
-								data-xy="x:r;xo:0,0,3px,3px;y:m;yo:250px,250px,156px,156px;" data-text="fw:700;"
-								data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;"
-								data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:720;sp:1960;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:8;background-color:rgba(255,255,255,0.05);">
+							<rs-layer id="slider-9-slide-55-layer-1" class="slider-3-image-volunteer" data-type="image" data-rsp_ch="on" data-xy="x:r;xo:86px,86px,53px,53px;y:m;yo:-28px,-28px,-23px,-23px;" data-text="l:22;" data-dim="w:74px,74px,54px,54px;h:74px,74px,54px,54px;" data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:400;sp:2500;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:5500;sp:1500;" data-frame_999_mask="u:t;" style="z-index:6;"><img src="wp-content/uploads/revslider/slider-3/icon1.png" width="74" height="74" data-no-retina></rs-layer>
+							<rs-layer id="slider-9-slide-55-layer-2" class="slider-3-volunteer" data-type="text" data-color="rgba(131,131,131,1)" data-rsp_ch="on" data-xy="x:r;xo:28px,28px,9px,9px;y:m;yo:61px,61px,34px,34px;" data-text="s:16,16,12,12;l:40,40,30,30;fw:700;" data-frame_0="x:-50px;tp:600;" data-frame_1="tp:600;e:power2.out;st:420;sp:2100;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:7;"> VILLAGES <br>THERAPEUTIQUE</rs-layer>
+							<rs-layer id="slider-9-slide-55-layer-4" class="slider-3-bg-image-2 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:0,0,3px,3px;y:m;yo:250px,250px,156px,156px;" data-text="fw:700;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:720;sp:1960;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:8;background-color:rgba(255,255,255,0.05);">
 							</rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-5" class="slider-3-image-volunteer-2"
-								data-type="image" data-rsp_ch="on"
-								data-xy="x:r;xo:89px,89px,39px,39px;y:m;yo:235px,235px,135px,135px;" data-text="l:22;"
-								data-dim="w:60px,60px,73,73;h:72px,72px,72,72;" data-frame_0="sX:0.9;sY:0.9;tp:600;"
-								data-frame_1="tp:600;st:1010;sp:2500;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:5500;sp:1500;"
-								data-frame_999_mask="u:t;" style="z-index:9;"><img
-									src="wp-content/uploads/revslider/slider-3/icon.png" width="60" height="72"
-									data-no-retina></rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-6" class="slider-3-volunteer-2" data-type="text"
-								data-color="rgba(131,131,131,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:52px,52px,-11px,-11px;y:m;yo:306px,306px,214px,214px;"
-								data-text="w:nowrap,nowrap,normal,normal;s:18,18,12,12;l:24,24,30,30;fw:700;"
-								data-dim="w:auto,auto,120px,120px;h:auto,auto,49px,49px;" data-frame_0="x:-50px;tp:600;"
-								data-frame_1="tp:600;e:power2.out;st:1190;sp:1480;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:10;color: white;">DONNER DES KITS <br> DE
+							<rs-layer id="slider-9-slide-55-layer-5" class="slider-3-image-volunteer-2" data-type="image" data-rsp_ch="on" data-xy="x:r;xo:89px,89px,39px,39px;y:m;yo:235px,235px,135px,135px;" data-text="l:22;" data-dim="w:60px,60px,73,73;h:72px,72px,72,72;" data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:1010;sp:2500;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:5500;sp:1500;" data-frame_999_mask="u:t;" style="z-index:9;"><img src="wp-content/uploads/revslider/slider-3/icon.png" width="60" height="72" data-no-retina></rs-layer>
+							<rs-layer id="slider-9-slide-55-layer-6" class="slider-3-volunteer-2" data-type="text" data-color="rgba(131,131,131,1)" data-rsp_ch="on" data-xy="x:r;xo:52px,52px,-11px,-11px;y:m;yo:306px,306px,214px,214px;" data-text="w:nowrap,nowrap,normal,normal;s:18,18,12,12;l:24,24,30,30;fw:700;" data-dim="w:auto,auto,120px,120px;h:auto,auto,49px,49px;" data-frame_0="x:-50px;tp:600;" data-frame_1="tp:600;e:power2.out;st:1190;sp:1480;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:10;color: white;">DONNER DES KITS <br> DE
 								REINSERTION</rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-7"
-								class="slider-3-bg-image-3 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on"
-								data-xy="x:r;xo:250px,250px,159px,159px;y:m;yo:250px,250px,155px,155px;"
-								data-text="fw:100;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;"
-								data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:1410;sp:600;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:11;background-color:rgba(255,255,255,0.05);">
+							<rs-layer id="slider-9-slide-55-layer-7" class="slider-3-bg-image-3 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:250px,250px,159px,159px;y:m;yo:250px,250px,155px,155px;" data-text="fw:100;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:1410;sp:600;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:11;background-color:rgba(255,255,255,0.05);">
 							</rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-8" class="slider-3-image-volunteer-3"
-								data-type="image" data-rsp_ch="on"
-								data-xy="x:r;xo:335px,335px,199px,199px;y:m;yo:235px,235px,138px,138px;"
-								data-text="l:22;" data-dim="w:79px,79px,73,73;h:69px,69px,60,60;"
-								data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:1690;sp:2500;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:5500;sp:1500;"
-								data-frame_999_mask="u:t;" style="z-index:12;"><img
-									src="wp-content/uploads/revslider/slider-3/icon3.png" width="79" height="69"
-									data-no-retina></rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-9" class="slider-3-volunteer-3" data-type="text"
-								data-color="rgba(131,131,131,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:277px,277px,156px,156px;y:m;yo:309px,309px,193px,193px;"
-								data-text="w:nowrap,nowrap,normal,normal;s:16,16,12,12;l:40,40,30,30;fw:700;"
-								data-dim="w:auto,auto,139px,139px;" data-frame_0="x:-50px;tp:600;"
-								data-frame_1="tp:600;e:power2.out;st:2020;sp:1020;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6540;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:13;">ACCAMPAGNER LES <br> VICTIMES</rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-10" data-type="text" data-color="rgba(255,255,255,1)"
-								data-rsp_ch="on"
-								data-xy="x:r;xo:274px,274px,170px,167px;y:m;yo:-63px,-63px,-62px,-53px;"
-								data-text="s:30,30,20,20;l:60,60,40,40;fw:300;" data-frame_0="y:-100%;o:1;tp:600;"
-								data-frame_0_mask="u:t;" data-frame_1="tp:600;st:2290;sp:1380;" data-frame_1_mask="u:t;"
-								data-frame_999="x:left;tp:600;st:6320;sp:680;" style="z-index:14;">L'APES RD Congo
+							<rs-layer id="slider-9-slide-55-layer-8" class="slider-3-image-volunteer-3" data-type="image" data-rsp_ch="on" data-xy="x:r;xo:335px,335px,199px,199px;y:m;yo:235px,235px,138px,138px;" data-text="l:22;" data-dim="w:79px,79px,73,73;h:69px,69px,60,60;" data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:1690;sp:2500;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:5500;sp:1500;" data-frame_999_mask="u:t;" style="z-index:12;"><img src="wp-content/uploads/revslider/slider-3/icon3.png" width="79" height="69" data-no-retina></rs-layer>
+							<rs-layer id="slider-9-slide-55-layer-9" class="slider-3-volunteer-3" data-type="text" data-color="rgba(131,131,131,1)" data-rsp_ch="on" data-xy="x:r;xo:277px,277px,156px,156px;y:m;yo:309px,309px,193px,193px;" data-text="w:nowrap,nowrap,normal,normal;s:16,16,12,12;l:40,40,30,30;fw:700;" data-dim="w:auto,auto,139px,139px;" data-frame_0="x:-50px;tp:600;" data-frame_1="tp:600;e:power2.out;st:2020;sp:1020;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6540;sp:500;" data-frame_999_mask="u:t;" style="z-index:13;">ACCAMPAGNER LES <br> VICTIMES</rs-layer>
+							<rs-layer id="slider-9-slide-55-layer-10" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:r;xo:274px,274px,170px,167px;y:m;yo:-63px,-63px,-62px,-53px;" data-text="s:30,30,20,20;l:60,60,40,40;fw:300;" data-frame_0="y:-100%;o:1;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;st:2290;sp:1380;" data-frame_1_mask="u:t;" data-frame_999="x:left;tp:600;st:6320;sp:680;" style="z-index:14;">L'APES RD Congo
 							</rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-11" class="slider-3-text" data-type="text"
-								data-color="rgba(255,255,255,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:272px,225px,158px,168px;y:m;yo:-3px,-22px,-23px,-27px;"
-								data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="x:left;o:1;tp:600;"
-								data-frame_1="tp:600;e:power2.inOut;st:2640;sp:1340;"
-								data-frame_999="x:left;skX:45px;tp:600;st:6560;sp:440;" style="z-index:15;">Action pour
+							<rs-layer id="slider-9-slide-55-layer-11" class="slider-3-text" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:r;xo:272px,225px,158px,168px;y:m;yo:-3px,-22px,-23px,-27px;" data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.inOut;st:2640;sp:1340;" data-frame_999="x:left;skX:45px;tp:600;st:6560;sp:440;" style="z-index:15;">Action pour
 								la Promotion</rs-layer>
-							<rs-layer id="slider-9-slide-55-layer-12" class="slider-3-text" data-type="text"
-								data-color="rgba(255,255,255,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:264px,226px,161px,163px;y:m;yo:69px,36px,30px,8px;"
-								data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="sX:0.9;sY:0.9;tp:600;"
-								data-frame_1="tp:600;st:2840;sp:1390;"
-								data-frame_999="x:left;tp:600;e:back.in;st:6770;sp:230;" style="z-index:16;">de
+							<rs-layer id="slider-9-slide-55-layer-12" class="slider-3-text" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:r;xo:264px,226px,161px,163px;y:m;yo:69px,36px,30px,8px;" data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:2840;sp:1390;" data-frame_999="x:left;tp:600;e:back.in;st:6770;sp:230;" style="z-index:16;">de
 								l'Environnement Social.</rs-layer>
 						</rs-slide>
 
-						<rs-slide data-key="rs-56" data-title="Slide"
-							data-thumb="//charity.sdemo.site/wp-content/uploads/revslider/slider-3/programme_education_above_all-100x50.jpg"
-							data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
-							<img src="wp-content/uploads/revslider/slider-3/programme_education_above_all.jpg"
-								title="Home Version 2" class="rev-slidebg" data-no-retina>
-							<rs-layer id="slider-9-slide-56-layer-3" class="slider-3-bg-image tp-shape tp-shapewrapper"
-								data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:0,0,5px,5px;y:m;yo:0,0,-2px,-2px;"
-								data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;"
-								data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:400;sp:600;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:5;background-color:rgba(255,255,255,0.05);">
+						<rs-slide data-key="rs-56" data-title="Slide" data-thumb="//charity.sdemo.site/wp-content/uploads/revslider/slider-3/programme_education_above_all-100x50.jpg" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+							<img src="wp-content/uploads/revslider/slider-3/programme_education_above_all.jpg" title="Home Version 2" class="rev-slidebg" data-no-retina>
+							<rs-layer id="slider-9-slide-56-layer-3" class="slider-3-bg-image tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:0,0,5px,5px;y:m;yo:0,0,-2px,-2px;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:400;sp:600;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:5;background-color:rgba(255,255,255,0.05);">
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-1" class="slider-3-image-volunteer" data-type="image"
-								data-rsp_ch="on" data-xy="x:r;xo:80px,80px,53px,53px;y:m;yo:-25px,-25px,-23px,-23px;"
-								data-text="l:22;" data-dim="w:74px,74px,54px,54px;h:74px,74px,54px,54px;"
-								data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;"
-								data-frame_1="tp:600;e:power2.out;st:400;sp:2500;" data-frame_1_mask="u:t;"
-								data-frame_999="x:-100%;tp:600;st:5500;sp:1500;" data-frame_999_mask="u:t;"
-								style="z-index:6;"><img src="wp-content/uploads/revslider/slider-3/icon1.png" width="74"
-									height="74" data-no-retina>
+							<rs-layer id="slider-9-slide-56-layer-1" class="slider-3-image-volunteer" data-type="image" data-rsp_ch="on" data-xy="x:r;xo:80px,80px,53px,53px;y:m;yo:-25px,-25px,-23px,-23px;" data-text="l:22;" data-dim="w:74px,74px,54px,54px;h:74px,74px,54px,54px;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:400;sp:2500;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5500;sp:1500;" data-frame_999_mask="u:t;" style="z-index:6;"><img src="wp-content/uploads/revslider/slider-3/icon1.png" width="74" height="74" data-no-retina>
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-2" class="slider-3-volunteer" data-type="text"
-								data-color="rgba(131,131,131,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:28px,28px,9px,9px;y:m;yo:50px,50px,34px,34px;"
-								data-text="s:16,16,12,12;l:40,40,30,30;fw:700;" data-frame_0="sX:2;sY:2;tp:600;"
-								data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:420;sp:2100;"
-								data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5400;sp:1600;"
-								data-frame_999_mask="u:t;" style="z-index:7;">VILLAGES <br>THERAPEUTIQUES
+							<rs-layer id="slider-9-slide-56-layer-2" class="slider-3-volunteer" data-type="text" data-color="rgba(131,131,131,1)" data-rsp_ch="on" data-xy="x:r;xo:28px,28px,9px,9px;y:m;yo:50px,50px,34px,34px;" data-text="s:16,16,12,12;l:40,40,30,30;fw:700;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:420;sp:2100;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5400;sp:1600;" data-frame_999_mask="u:t;" style="z-index:7;">VILLAGES <br>THERAPEUTIQUES
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-4"
-								class="slider-3-bg-image-2 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on"
-								data-xy="x:r;xo:0,0,3px,3px;y:m;yo:250px,250px,156px,156px;" data-text="fw:700;"
-								data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;"
-								data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:720;sp:1960;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:8;background-color:rgba(255,255,255,0.05);">
+							<rs-layer id="slider-9-slide-56-layer-4" class="slider-3-bg-image-2 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:0,0,3px,3px;y:m;yo:250px,250px,156px,156px;" data-text="fw:700;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:720;sp:1960;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:8;background-color:rgba(255,255,255,0.05);">
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-5" class="slider-3-image-volunteer-2"
-								data-type="image" data-rsp_ch="on"
-								data-xy="x:r;xo:71px,71px,39px,39px;y:m;yo:226px,226px,135px,135px;" data-text="l:22;"
-								data-dim="w:93px,93px,73,73;h:112px,112px,72,72;" data-frame_0="sX:2;sY:2;tp:600;"
-								data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:1010;sp:2500;"
-								data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5500;sp:1500;"
-								data-frame_999_mask="u:t;" style="z-index:9;"><img
-									src="wp-content/uploads/revslider/slider-3/icon.png" width="60" height="72"
-									data-no-retina>
+							<rs-layer id="slider-9-slide-56-layer-5" class="slider-3-image-volunteer-2" data-type="image" data-rsp_ch="on" data-xy="x:r;xo:71px,71px,39px,39px;y:m;yo:226px,226px,135px,135px;" data-text="l:22;" data-dim="w:93px,93px,73,73;h:112px,112px,72,72;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:1010;sp:2500;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5500;sp:1500;" data-frame_999_mask="u:t;" style="z-index:9;"><img src="wp-content/uploads/revslider/slider-3/icon.png" width="60" height="72" data-no-retina>
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-6" class="slider-3-volunteer-2" data-type="text"
-								data-color="rgba(131,131,131,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:54px,54px,-11px,-11px;y:m;yo:305px,305px,214px,214px;"
-								data-text="w:nowrap,nowrap,normal,normal;s:18,18,12,12;l:24,24,30,30;fw:700;"
-								data-dim="w:auto,auto,120px,120px;h:auto,auto,49px,49px;"
-								data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;"
-								data-frame_1="tp:600;e:power2.out;st:1190;sp:1480;" data-frame_1_mask="u:t;"
-								data-frame_999="x:-100%;tp:600;st:5460;sp:1540;" data-frame_999_mask="u:t;"
-								style="z-index:10;">DONNER DES KITS <br> DE REINSERTION
+							<rs-layer id="slider-9-slide-56-layer-6" class="slider-3-volunteer-2" data-type="text" data-color="rgba(131,131,131,1)" data-rsp_ch="on" data-xy="x:r;xo:54px,54px,-11px,-11px;y:m;yo:305px,305px,214px,214px;" data-text="w:nowrap,nowrap,normal,normal;s:18,18,12,12;l:24,24,30,30;fw:700;" data-dim="w:auto,auto,120px,120px;h:auto,auto,49px,49px;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:1190;sp:1480;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5460;sp:1540;" data-frame_999_mask="u:t;" style="z-index:10;">DONNER DES KITS <br> DE REINSERTION
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-7"
-								class="slider-3-bg-image-3 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on"
-								data-xy="x:r;xo:250px,250px,159px,159px;y:m;yo:250px,250px,155px,155px;"
-								data-text="fw:100;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;"
-								data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:1410;sp:600;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:11;background-color:rgba(255,255,255,0.05);">
+							<rs-layer id="slider-9-slide-56-layer-7" class="slider-3-bg-image-3 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:250px,250px,159px,159px;y:m;yo:250px,250px,155px,155px;" data-text="fw:100;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:1410;sp:600;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:11;background-color:rgba(255,255,255,0.05);">
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-8" class="slider-3-image-volunteer-3"
-								data-type="image" data-rsp_ch="on"
-								data-xy="x:r;xo:334px,334px,199px,199px;y:m;yo:237px,237px,138px,138px;"
-								data-text="l:22;" data-dim="w:79px,79px,73,73;h:69px,69px,60,60;"
-								data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;"
-								data-frame_1="tp:600;e:power2.out;st:1690;sp:2500;" data-frame_1_mask="u:t;"
-								data-frame_999="x:-100%;tp:600;st:5500;sp:1500;" data-frame_999_mask="u:t;"
-								style="z-index:12;"><img src="wp-content/uploads/revslider/slider-3/icon3.png"
-									width="79" height="69" data-no-retina>
+							<rs-layer id="slider-9-slide-56-layer-8" class="slider-3-image-volunteer-3" data-type="image" data-rsp_ch="on" data-xy="x:r;xo:334px,334px,199px,199px;y:m;yo:237px,237px,138px,138px;" data-text="l:22;" data-dim="w:79px,79px,73,73;h:69px,69px,60,60;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:1690;sp:2500;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5500;sp:1500;" data-frame_999_mask="u:t;" style="z-index:12;"><img src="wp-content/uploads/revslider/slider-3/icon3.png" width="79" height="69" data-no-retina>
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-9" class="slider-3-volunteer-3" data-type="text"
-								data-color="rgba(131,131,131,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:285px,285px,156px,156px;y:m;yo:306px,306px,193px,193px;"
-								data-text="w:nowrap,nowrap,normal,normal;s:16,16,12,12;l:40,40,30,30;fw:700;"
-								data-dim="w:auto,auto,139px,139px;" data-frame_0="sX:2;sY:2;tp:600;"
-								data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:2020;sp:1020;"
-								data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5490;sp:1550;"
-								data-frame_999_mask="u:t;" style="z-index:13;">ACCAMPAGNER LES <br> VICTIMES
+							<rs-layer id="slider-9-slide-56-layer-9" class="slider-3-volunteer-3" data-type="text" data-color="rgba(131,131,131,1)" data-rsp_ch="on" data-xy="x:r;xo:285px,285px,156px,156px;y:m;yo:306px,306px,193px,193px;" data-text="w:nowrap,nowrap,normal,normal;s:16,16,12,12;l:40,40,30,30;fw:700;" data-dim="w:auto,auto,139px,139px;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:2020;sp:1020;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5490;sp:1550;" data-frame_999_mask="u:t;" style="z-index:13;">ACCAMPAGNER LES <br> VICTIMES
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-10" data-type="text" data-color="rgba(255,255,255,1)"
-								data-rsp_ch="on"
-								data-xy="x:r;xo:275px,275px,170px,167px;y:m;yo:-60px,-60px,-62px,-53px;"
-								data-text="s:30,30,20,20;l:60,60,40,40;fw:300;" data-frame_0="y:-100%;o:1;tp:600;"
-								data-frame_0_mask="u:t;" data-frame_1="tp:600;st:2290;sp:1380;" data-frame_1_mask="u:t;"
-								data-frame_999="x:left;tp:600;st:6320;sp:680;" style="z-index:14;">Au Sud-Kivu,
+							<rs-layer id="slider-9-slide-56-layer-10" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:r;xo:275px,275px,170px,167px;y:m;yo:-60px,-60px,-62px,-53px;" data-text="s:30,30,20,20;l:60,60,40,40;fw:300;" data-frame_0="y:-100%;o:1;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;st:2290;sp:1380;" data-frame_1_mask="u:t;" data-frame_999="x:left;tp:600;st:6320;sp:680;" style="z-index:14;">Au Sud-Kivu,
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-11" class="slider-3-text" data-type="text"
-								data-color="rgba(255,255,255,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:269px,225px,158px,168px;y:m;yo:-7px,-22px,-23px,-27px;"
-								data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="x:left;o:1;tp:600;"
-								data-frame_1="tp:600;e:power2.inOut;st:2640;sp:1340;"
-								data-frame_999="x:left;skX:45px;tp:600;st:6560;sp:440;" style="z-index:15;">
+							<rs-layer id="slider-9-slide-56-layer-11" class="slider-3-text" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:r;xo:269px,225px,158px,168px;y:m;yo:-7px,-22px,-23px,-27px;" data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.inOut;st:2640;sp:1340;" data-frame_999="x:left;skX:45px;tp:600;st:6560;sp:440;" style="z-index:15;">
 								Autonomisation de la femme
 							</rs-layer>
-							<rs-layer id="slider-9-slide-56-layer-12" class="slider-3-text" data-type="text"
-								data-color="rgba(255,255,255,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:266px,226px,161px,163px;y:m;yo:65px,36px,30px,8px;"
-								data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="sX:0.9;sY:0.9;tp:600;"
-								data-frame_1="tp:600;st:2840;sp:1390;"
-								data-frame_999="x:left;tp:600;e:back.in;st:6770;sp:230;" style="z-index:16;">pour un
+							<rs-layer id="slider-9-slide-56-layer-12" class="slider-3-text" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:r;xo:266px,226px,161px,163px;y:m;yo:65px,36px,30px,8px;" data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:2840;sp:1390;" data-frame_999="x:left;tp:600;e:back.in;st:6770;sp:230;" style="z-index:16;">pour un
 								developpement durable.
 							</rs-layer>
 						</rs-slide>
 
-						<rs-slide data-key="rs-57" data-title="Slide"
-							data-thumb="//charity.sdemo.site/wp-content/uploads/revslider/slider-3/dustribution-livre.png"
-							data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
-							<img src="wp-content/uploads/revslider/slider-3/dustribution-livre.PNG"
-								title="Home Version 2" class="rev-slidebg" data-no-retina>
-							<rs-layer id="slider-9-slide-57-layer-3" class="slider-3-bg-image tp-shape tp-shapewrapper"
-								data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:0,0,5px,5px;y:m;yo:0,0,-2px,-2px;"
-								data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;"
-								data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:400;sp:600;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:5;background-color:rgba(255,255,255,0.05);">
+						<rs-slide data-key="rs-57" data-title="Slide" data-thumb="//charity.sdemo.site/wp-content/uploads/revslider/slider-3/dustribution-livre.png" data-anim="ei:d;eo:d;s:600;r:0;t:fade;sl:d;">
+							<img src="wp-content/uploads/revslider/slider-3/dustribution-livre.PNG" title="Home Version 2" class="rev-slidebg" data-no-retina>
+							<rs-layer id="slider-9-slide-57-layer-3" class="slider-3-bg-image tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:0,0,5px,5px;y:m;yo:0,0,-2px,-2px;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:400;sp:600;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:5;background-color:rgba(255,255,255,0.05);">
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-1" class="slider-3-image-volunteer" data-type="image"
-								data-rsp_ch="on" data-xy="x:r;xo:80px,80px,53px,53px;y:m;yo:-25px,-25px,-23px,-23px;"
-								data-text="l:22;" data-dim="w:74px,74px,54px,54px;h:74px,74px,54px,54px;"
-								data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;"
-								data-frame_1="tp:600;e:power2.out;st:400;sp:2500;" data-frame_1_mask="u:t;"
-								data-frame_999="x:-100%;tp:600;st:5410;sp:1590;" data-frame_999_mask="u:t;"
-								style="z-index:6;"><img src="wp-content/uploads/revslider/slider-3/icon1.png" width="74"
-									height="74" data-no-retina>
+							<rs-layer id="slider-9-slide-57-layer-1" class="slider-3-image-volunteer" data-type="image" data-rsp_ch="on" data-xy="x:r;xo:80px,80px,53px,53px;y:m;yo:-25px,-25px,-23px,-23px;" data-text="l:22;" data-dim="w:74px,74px,54px,54px;h:74px,74px,54px,54px;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:400;sp:2500;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5410;sp:1590;" data-frame_999_mask="u:t;" style="z-index:6;"><img src="wp-content/uploads/revslider/slider-3/icon1.png" width="74" height="74" data-no-retina>
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-2" class="slider-3-volunteer" data-type="text"
-								data-color="rgba(131,131,131,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:28px,28px,9px,9px;y:m;yo:50px,50px,34px,34px;"
-								data-text="s:16,16,12,12;l:40,40,30,30;fw:700;" data-frame_0="sX:2;sY:2;tp:600;"
-								data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:420;sp:2100;"
-								data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5400;sp:1600;"
-								data-frame_999_mask="u:t;" style="z-index:7;">VILLAGES <br>THERAPEUTIQUES
+							<rs-layer id="slider-9-slide-57-layer-2" class="slider-3-volunteer" data-type="text" data-color="rgba(131,131,131,1)" data-rsp_ch="on" data-xy="x:r;xo:28px,28px,9px,9px;y:m;yo:50px,50px,34px,34px;" data-text="s:16,16,12,12;l:40,40,30,30;fw:700;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:420;sp:2100;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5400;sp:1600;" data-frame_999_mask="u:t;" style="z-index:7;">VILLAGES <br>THERAPEUTIQUES
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-4"
-								class="slider-3-bg-image-2 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on"
-								data-xy="x:r;xo:0,0,3px,3px;y:m;yo:250px,250px,156px,156px;" data-text="fw:700;"
-								data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;"
-								data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:720;sp:1960;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:8;background-color:rgba(255,255,255,0.05);">
+							<rs-layer id="slider-9-slide-57-layer-4" class="slider-3-bg-image-2 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:0,0,3px,3px;y:m;yo:250px,250px,156px,156px;" data-text="fw:700;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:720;sp:1960;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:8;background-color:rgba(255,255,255,0.05);">
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-5" class="slider-3-image-volunteer-2"
-								data-type="image" data-rsp_ch="on"
-								data-xy="x:r;xo:77px,77px,39px,39px;y:m;yo:233px,233px,135px,135px;" data-text="l:22;"
-								data-dim="w:93px,93px,73,73;h:112px,112px,72,72;" data-frame_0="sX:2;sY:2;tp:600;"
-								data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:1010;sp:2500;"
-								data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5500;sp:1500;"
-								data-frame_999_mask="u:t;" style="z-index:9;"><img
-									src="wp-content/uploads/revslider/slider-3/icon.png" width="60" height="72"
-									data-no-retina>
+							<rs-layer id="slider-9-slide-57-layer-5" class="slider-3-image-volunteer-2" data-type="image" data-rsp_ch="on" data-xy="x:r;xo:77px,77px,39px,39px;y:m;yo:233px,233px,135px,135px;" data-text="l:22;" data-dim="w:93px,93px,73,73;h:112px,112px,72,72;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:1010;sp:2500;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5500;sp:1500;" data-frame_999_mask="u:t;" style="z-index:9;"><img src="wp-content/uploads/revslider/slider-3/icon.png" width="60" height="72" data-no-retina>
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-6" class="slider-3-volunteer-2" data-type="text"
-								data-color="rgba(131,131,131,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:69px,69px,-11px,-11px;y:m;yo:315px,315px,214px,214px;"
-								data-text="w:nowrap,nowrap,normal,normal;s:18,18,12,12;l:24,24,30,30;fw:700;"
-								data-dim="w:auto,auto,120px,120px;h:auto,auto,49px,49px;"
-								data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;"
-								data-frame_1="tp:600;e:power2.out;st:1190;sp:1480;" data-frame_1_mask="u:t;"
-								data-frame_999="x:-100%;tp:600;st:5460;sp:1540;" data-frame_999_mask="u:t;"
-								style="z-index:10;">DONNER DES KITS <br> DE REINSERTION
+							<rs-layer id="slider-9-slide-57-layer-6" class="slider-3-volunteer-2" data-type="text" data-color="rgba(131,131,131,1)" data-rsp_ch="on" data-xy="x:r;xo:69px,69px,-11px,-11px;y:m;yo:315px,315px,214px,214px;" data-text="w:nowrap,nowrap,normal,normal;s:18,18,12,12;l:24,24,30,30;fw:700;" data-dim="w:auto,auto,120px,120px;h:auto,auto,49px,49px;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:1190;sp:1480;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5460;sp:1540;" data-frame_999_mask="u:t;" style="z-index:10;">DONNER DES KITS <br> DE REINSERTION
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-7"
-								class="slider-3-bg-image-3 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on"
-								data-xy="x:r;xo:250px,250px,159px,159px;y:m;yo:250px,250px,155px,155px;"
-								data-text="fw:100;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;"
-								data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:1410;sp:600;"
-								data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;"
-								data-frame_999_mask="u:t;" style="z-index:11;background-color:rgba(255,255,255,0.05);">
+							<rs-layer id="slider-9-slide-57-layer-7" class="slider-3-bg-image-3 tp-shape tp-shapewrapper" data-type="shape" data-rsp_ch="on" data-xy="x:r;xo:250px,250px,159px,159px;y:m;yo:250px,250px,155px,155px;" data-text="fw:100;" data-dim="w:245px,245px,150px,150px;h:245px,245px,150px,150px;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.out;st:1410;sp:600;" data-frame_999="sX:0.7;sY:0.7;o:0;rZ:0deg;tp:600;e:back.in;st:6500;sp:500;" data-frame_999_mask="u:t;" style="z-index:11;background-color:rgba(255,255,255,0.05);">
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-8" class="slider-3-image-volunteer-3"
-								data-type="image" data-rsp_ch="on"
-								data-xy="x:r;xo:337px,337px,199px,199px;y:m;yo:228px,228px,138px,138px;"
-								data-text="l:22;" data-dim="w:79px,79px,73,73;h:69px,69px,60,60;"
-								data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;"
-								data-frame_1="tp:600;e:power2.out;st:1690;sp:2500;" data-frame_1_mask="u:t;"
-								data-frame_999="x:-100%;tp:600;st:5500;sp:1500;" data-frame_999_mask="u:t;"
-								style="z-index:12;"><img src="wp-content/uploads/revslider/slider-3/icon3.png"
-									width="79" height="69" data-no-retina>
+							<rs-layer id="slider-9-slide-57-layer-8" class="slider-3-image-volunteer-3" data-type="image" data-rsp_ch="on" data-xy="x:r;xo:337px,337px,199px,199px;y:m;yo:228px,228px,138px,138px;" data-text="l:22;" data-dim="w:79px,79px,73,73;h:69px,69px,60,60;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:1690;sp:2500;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5500;sp:1500;" data-frame_999_mask="u:t;" style="z-index:12;"><img src="wp-content/uploads/revslider/slider-3/icon3.png" width="79" height="69" data-no-retina>
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-9" class="slider-3-volunteer-3" data-type="text"
-								data-color="rgba(131,131,131,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:289px,289px,156px,156px;y:m;yo:317px,317px,193px,193px;"
-								data-text="w:nowrap,nowrap,normal,normal;s:16,16,12,12;l:40,40,30,30;fw:700;"
-								data-dim="w:auto,auto,139px,139px;" data-frame_0="sX:2;sY:2;tp:600;"
-								data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:2020;sp:1020;"
-								data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5490;sp:1550;"
-								data-frame_999_mask="u:t;" style="z-index:13;">ACCAMPAGNER LES <br> VICTIMES
+							<rs-layer id="slider-9-slide-57-layer-9" class="slider-3-volunteer-3" data-type="text" data-color="rgba(131,131,131,1)" data-rsp_ch="on" data-xy="x:r;xo:289px,289px,156px,156px;y:m;yo:317px,317px,193px,193px;" data-text="w:nowrap,nowrap,normal,normal;s:16,16,12,12;l:40,40,30,30;fw:700;" data-dim="w:auto,auto,139px,139px;" data-frame_0="sX:2;sY:2;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;e:power2.out;st:2020;sp:1020;" data-frame_1_mask="u:t;" data-frame_999="x:-100%;tp:600;st:5490;sp:1550;" data-frame_999_mask="u:t;" style="z-index:13;">ACCAMPAGNER LES <br> VICTIMES
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-10" data-type="text" data-color="rgba(255,255,255,1)"
-								data-rsp_ch="on"
-								data-xy="x:r;xo:270px,270px,170px,167px;y:m;yo:-50px,-50px,-62px,-53px;"
-								data-text="s:30,30,20,20;l:60,60,40,40;fw:300;" data-frame_0="y:-100%;o:1;tp:600;"
-								data-frame_0_mask="u:t;" data-frame_1="tp:600;st:2290;sp:1380;" data-frame_1_mask="u:t;"
-								data-frame_999="x:left;tp:600;st:6320;sp:680;" style="z-index:14;">Au centre du problem,
+							<rs-layer id="slider-9-slide-57-layer-10" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:r;xo:270px,270px,170px,167px;y:m;yo:-50px,-50px,-62px,-53px;" data-text="s:30,30,20,20;l:60,60,40,40;fw:300;" data-frame_0="y:-100%;o:1;tp:600;" data-frame_0_mask="u:t;" data-frame_1="tp:600;st:2290;sp:1380;" data-frame_1_mask="u:t;" data-frame_999="x:left;tp:600;st:6320;sp:680;" style="z-index:14;">Au centre du problem,
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-11" class="slider-3-text" data-type="text"
-								data-color="rgba(255,255,255,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:270px,225px,158px,168px;y:m;yo:0,-22px,-23px,-27px;"
-								data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="x:left;o:1;tp:600;"
-								data-frame_1="tp:600;e:power2.inOut;st:2640;sp:1340;"
-								data-frame_999="x:left;skX:45px;tp:600;st:6560;sp:440;" style="z-index:15;">Améliorer
+							<rs-layer id="slider-9-slide-57-layer-11" class="slider-3-text" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:r;xo:270px,225px,158px,168px;y:m;yo:0,-22px,-23px,-27px;" data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="x:left;o:1;tp:600;" data-frame_1="tp:600;e:power2.inOut;st:2640;sp:1340;" data-frame_999="x:left;skX:45px;tp:600;st:6560;sp:440;" style="z-index:15;">Améliorer
 								les mécanismes de
 							</rs-layer>
-							<rs-layer id="slider-9-slide-57-layer-12" class="slider-3-text" data-type="text"
-								data-color="rgba(255,255,255,1)" data-rsp_ch="on"
-								data-xy="x:r;xo:270px,226px,161px,163px;y:m;yo:56px,36px,30px,8px;"
-								data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="sX:0.9;sY:0.9;tp:600;"
-								data-frame_1="tp:600;st:2840;sp:1390;"
-								data-frame_999="x:left;tp:600;e:back.in;st:6770;sp:230;" style="z-index:16;">prise en
+							<rs-layer id="slider-9-slide-57-layer-12" class="slider-3-text" data-type="text" data-color="rgba(255,255,255,1)" data-rsp_ch="on" data-xy="x:r;xo:270px,226px,161px,163px;y:m;yo:56px,36px,30px,8px;" data-text="s:48,40,36,20;l:72,72,52,32;fw:700;" data-frame_0="sX:0.9;sY:0.9;tp:600;" data-frame_1="tp:600;st:2840;sp:1390;" data-frame_999="x:left;tp:600;e:back.in;st:6770;sp:230;" style="z-index:16;">prise en
 								charge psychosociale.
 							</rs-layer>
 						</rs-slide>
@@ -652,10 +334,22 @@
 				</rs-module>
 
 				<script type="text/javascript">
-					setREVStartSize({ c: 'rev_slider_9_1', rl: [1240, 1024, 778, 480], el: [], gw: [1170, 1024, 767, 479], gh: [868, 768, 960, 720], type: 'standard', justify: '', layout: 'fullscreen', offsetContainer: '', offset: '', mh: "0" });
+					setREVStartSize({
+						c: 'rev_slider_9_1',
+						rl: [1240, 1024, 778, 480],
+						el: [],
+						gw: [1170, 1024, 767, 479],
+						gh: [868, 768, 960, 720],
+						type: 'standard',
+						justify: '',
+						layout: 'fullscreen',
+						offsetContainer: '',
+						offset: '',
+						mh: "0"
+					});
 					var revapi9,
 						tpj;
-					jQuery(function () {
+					jQuery(function() {
 						tpj = jQuery;
 						revapi9 = tpj("#rev_slider_9_1")
 						if (revapi9 == undefined || revapi9.revolution == undefined) {
@@ -670,7 +364,9 @@
 								spinner: "spinner0",
 								perspectiveType: "local",
 								responsiveLevels: "1240,1024,778,480",
-								progressBar: { disableProgressBar: true },
+								progressBar: {
+									disableProgressBar: true
+								},
 								navigation: {
 									mouseScrollNavigation: false,
 									onHoverStop: false,
@@ -727,25 +423,19 @@
 								<div class="u-layout-col">
 									<div class="u-size-30">
 										<div class="u-layout-row">
-											<div
-												class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
-												<div class="u-container-layout u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-xl"
-													src="#">
-													<img class="u-expanded-width u-image u-image-1"
-														src="wp-content/uploads/revslider/slider-3/image-distribution-vivre.jpeg"
-														data-image-width="1621" data-image-height="1080">
+											<div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+												<div class="u-container-layout u-valign-bottom-lg u-valign-bottom-md u-valign-bottom-xl" src="#">
+													<img class="u-expanded-width u-image u-image-1" src="wp-content/uploads/revslider/slider-3/image-distribution-vivre.jpeg" data-image-width="1621" data-image-height="1080">
 												</div>
 											</div>
-											<div
-												class="u-align-left u-container-style u-layout-cell u-palette-1-light-1 u-size-30 u-layout-cell-2">
+											<div class="u-align-left u-container-style u-layout-cell u-palette-1-light-1 u-size-30 u-layout-cell-2">
 												<div class="u-container-layout"></div>
 											</div>
 										</div>
 									</div>
 									<div class="u-size-30">
 										<div class="u-layout-col">
-											<div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-60 u-image-2"
-												data-image-width="1118" data-image-height="1080">
+											<div class="u-align-left u-container-style u-image u-layout-cell u-left-cell u-size-60 u-image-2" data-image-width="1118" data-image-height="1080">
 												<div class="u-container-layout u-valign-top"></div>
 											</div>
 										</div>
@@ -754,38 +444,28 @@
 							</div>
 							<div class="u-size-31">
 								<div class="u-layout-col">
-									<div
-										class="u-align-left u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-4">
+									<div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-4">
 										<div class="u-container-layout u-valign-top u-container-layout-4">
-											<img class="u-expanded-width u-image u-image-3"
-												style="border:8px solid #51741e;"
-												src="wp-content/uploads/revslider/slider-3/photo-les-enfants.jpeg"
-												data-image-width="1118" data-image-height="1080">
+											<img class="u-expanded-width u-image u-image-3" style="border:8px solid #51741e;" src="wp-content/uploads/revslider/slider-3/photo-les-enfants.jpeg" data-image-width="1118" data-image-height="1080">
 											<h2 class="u-text u-text-1">Objectif Global</h2>
 											<ul style="font-size: 15px;">
-												<li><i class="fa fa-circle"
-														style="margin-right: 10px;color: #53761f;"></i>
+												<li><i class="fa fa-circle" style="margin-right: 10px;color: #53761f;"></i>
 													Améliorer les mécanismes de prise en charge psychosociale des
 													personnes traumatisées en vue de l’introduction des approches
 													psychosociales au sein des communautés du sud Kivu
 												</li><br>
-												<li><i class="fa fa-circle"
-														style="margin-right: 10px;color: #53761f;"></i>
+												<li><i class="fa fa-circle" style="margin-right: 10px;color: #53761f;"></i>
 													Faciliter l’accès aux soins de santé de qualités aux victimes des
 													violences sexuelles et celles traumatisées plus vulnérables de
 													milieux reculés.
 												</li><br>
-												<li><i class="fa fa-circle"
-														style="margin-right: 10px;color: #53761f;"></i>
+												<li><i class="fa fa-circle" style="margin-right: 10px;color: #53761f;"></i>
 													Renforcer les capacités des bénéficiaires pour un développement
 													harmonieux des activités génératrices de revenus et d’autonomisation
 													des femmes dans la communauté.
 												</li>
 											</ul>
-											<a href="about-us/index.html"
-												class="u-active-black u-border-none u-button-style u-hover-black u-palette-1-light-1 u-text-active-white u-text-hover-white u-text-white u-btn-2"
-												data-animation-name="zoomIn" data-animation-duration="1500"
-												data-animation-direction="" data-animation-delay="0">
+											<a href="about-us/index.html" class="u-active-black u-border-none u-button-style u-hover-black u-palette-1-light-1 u-text-active-white u-text-hover-white u-text-white u-btn-2" data-animation-name="zoomIn" data-animation-duration="1500" data-animation-direction="" data-animation-delay="0">
 												<b style="font-size: 14px;">Notre Histoire</b>
 											</a>
 										</div>
@@ -800,8 +480,7 @@
 
 		<!-- Nos projets par regions  -->
 		<div class="">
-			<div class="vc_row wpb_row vc_row-fluid vc_custom_1452055433606 vc_row-has-fill"
-				style="margin-left:0;margin-right:0;background-size:100% auto">
+			<div class="vc_row wpb_row vc_row-fluid vc_custom_1452055433606 vc_row-has-fill" style="margin-left:0;margin-right:0;background-size:100% auto">
 				<div class="container">
 					<div class="row">
 						<div class="wpb_column vc_column_container vc_col-sm-12">
@@ -836,26 +515,12 @@
 										<div class="iw-server-location-wrap site-view">
 											<div class="image-map-preview col-sm-6">
 												<div class="image">
-													<img style="height: 100%;"
-														src="wp-content/plugins/iw_composer_addons/assets/images/Provinces_et_Territoires_du_Republique_Democratique_du_Congo.png"
-														alt="map" />
+													<img style="height: 100%;" src="wp-content/plugins/iw_composer_addons/assets/images/Provinces_et_Territoires_du_Republique_Democratique_du_Congo.png" alt="map" />
 												</div>
 												<div class="iw-map-pickers">
-													<div data-post="995"
-														data-position="0.7682512733446519x0.2773234427639986"
-														class="map-picker theme-bg"
-														style="left:72.825127334465%; top:30.7323442764%;"><span
-															class="numerical-order">01</span></div>
-													<div data-post="1015"
-														data-position="0.567062818336163x0.5700743721320284"
-														class="map-picker theme-bg"
-														style="left:70.706281833616%; top:38.007437213203%;"><span
-															class="numerical-order">02</span></div>
-													<div data-post="1015"
-														data-position="0.567062818336163x0.5700743721320284"
-														class="map-picker theme-bg"
-														style="left:64.706281833616%; top:33.007437213203%;"><span
-															class="numerical-order">03</span></div>
+													<div data-post="995" data-position="0.7682512733446519x0.2773234427639986" class="map-picker theme-bg" style="left:72.825127334465%; top:30.7323442764%;"><span class="numerical-order">01</span></div>
+													<div data-post="1015" data-position="0.567062818336163x0.5700743721320284" class="map-picker theme-bg" style="left:70.706281833616%; top:38.007437213203%;"><span class="numerical-order">02</span></div>
+													<div data-post="1015" data-position="0.567062818336163x0.5700743721320284" class="map-picker theme-bg" style="left:64.706281833616%; top:33.007437213203%;"><span class="numerical-order">03</span></div>
 												</div>
 											</div>
 											<div class="marker-info col-sm-6 col-sm">
@@ -870,12 +535,9 @@
 																Framing for life.</b>
 															<div class="simple-list  check-circle ">
 																<ul>
-																	<li> <i class="fa fa-check-circle"></i><span
-																			class="list-content"> Uvira</span></li>
-																	<li> <i class="fa fa-check-circle"></i><span
-																			class="list-content"> Kalehe</span></li>
-																	<li> <i class="fa fa-check-circle"></i><span
-																			class="list-content"> Kabare</span></li>
+																	<li> <i class="fa fa-check-circle"></i><span class="list-content"> Uvira</span></li>
+																	<li> <i class="fa fa-check-circle"></i><span class="list-content"> Kalehe</span></li>
+																	<li> <i class="fa fa-check-circle"></i><span class="list-content"> Kabare</span></li>
 																</ul>
 															</div>
 															&nbsp;
@@ -895,14 +557,10 @@
 																femmes et filles.</b>
 															<div class="simple-list  check-circle ">
 																<ul>
-																	<li> <i class="fa fa-check-circle"></i><span
-																			class="list-content"> Bukavu</span></li>
-																	<li> <i class="fa fa-check-circle"></i><span
-																			class="list-content"> Kalehe</span></li>
-																	<li> <i class="fa fa-check-circle"></i><span
-																			class="list-content"> Kamituga</span></li>
-																	<li> <i class="fa fa-check-circle"></i><span
-																			class="list-content"> Minova</span></li>
+																	<li> <i class="fa fa-check-circle"></i><span class="list-content"> Bukavu</span></li>
+																	<li> <i class="fa fa-check-circle"></i><span class="list-content"> Kalehe</span></li>
+																	<li> <i class="fa fa-check-circle"></i><span class="list-content"> Kamituga</span></li>
+																	<li> <i class="fa fa-check-circle"></i><span class="list-content"> Minova</span></li>
 																</ul>
 															</div>
 															&nbsp;
@@ -922,11 +580,9 @@
 																groupements de: </b>
 															<div class="simple-list  check-circle ">
 																<ul>
-																	<li> <i class="fa fa-check-circle"></i><span
-																			class="list-content"> Kashenyi / Kamanyola
+																	<li> <i class="fa fa-check-circle"></i><span class="list-content"> Kashenyi / Kamanyola
 																		</span></li>
-																	<li> <i class="fa fa-check-circle"></i><span
-																			class="list-content"> Itara Luvungi </span>
+																	<li> <i class="fa fa-check-circle"></i><span class="list-content"> Itara Luvungi </span>
 																	</li>
 																</ul>
 															</div>
@@ -939,14 +595,10 @@
 												<div class="col-md-6">
 													<div class="col-md-5 btn-more-prjt">
 														<a href="Nosprojets/index.html" class="u-active-black u-border-none u-button-style u-hover-black u-palette-1-light-1 u-text-active-white 
-															u-text-hover-white u-text-white u-btn-2" data-animation-name="zoomIn" data-animation-duration="1500"
-															data-animation-direction="" data-animation-delay="0"
-															style="padding: 10px 20px;font-size: 20px;">Plus de Projet</a>
+															u-text-hover-white u-text-white u-btn-2" data-animation-name="zoomIn" data-animation-duration="1500" data-animation-direction="" data-animation-delay="0" style="padding: 10px 20px;font-size: 20px;">Plus de Projet</a>
 													</div>
 													<div class="col-md-7 btn-more-prjt">
-														<a href="/stage/index.php" class="stage-btn" data-animation-name="zoomIn" data-animation-duration="1500"
-															data-animation-direction="" data-animation-delay="0"
-															style="padding: 9px 20px;font-size: 18px;">Demander un stage</a>
+														<a href="/stage/index.php" class="stage-btn" data-animation-name="zoomIn" data-animation-duration="1500" data-animation-direction="" data-animation-delay="0" style="padding: 9px 20px;font-size: 18px;">Demander un stage</a>
 													</div>
 												</div>
 												<div class="col-md-6"></div>
@@ -964,10 +616,7 @@
 
 		<!-- Nos sponsor et leur about  -->
 		<div role="main" class="main" style="position: relative; z-index: 90;">
-			<section
-				class="section section-with-shape-divider page-header page-header-modern page-header-lg border-0 my-0 lazyload"
-				data-bg-src="img/demos/business-consulting-3/backgrounds/background-5.jpg"
-				style="background-size: cover; background-position: center;">
+			<section class="section section-with-shape-divider page-header page-header-modern page-header-lg border-0 my-0 lazyload" data-bg-src="img/demos/business-consulting-3/backgrounds/background-5.jpg" style="background-size: cover; background-position: center;">
 				<div class="shape-divider shape-divider-bottom shape-divider-reverse-x">
 
 				</div>
@@ -976,22 +625,17 @@
 			<div class="container pt-3 pb-4 mt-4 mb-5">
 				<div class="row mb-4 pb-3">
 					<div class="col">
-						<h2 class="text-9 text-lg-5 text-xl-9 line-height-3 text-transform-none font-weight-semibold mb-4 mb-lg-3 mb-xl-4 appear-animation"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Nos dévoués
-							sponsors</h2>
-						<h6 class="text-3-5 appear-animation" style="font-size: 14px;"
-							data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
+						<h2 class="text-9 text-lg-5 text-xl-9 line-height-3 text-transform-none font-weight-semibold mb-4 mb-lg-3 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Nos dévoués sponsors
+						</h2>
+						<h6 class="text-3-5 appear-animation" style="font-size: 14px;" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">
 							Grâce à vous, ces actions menées en faveur des centaines de population et nos efforts ne
 							pourraient être aussi efficaces sans votre soutien.</h6>
 					</div>
 				</div>
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter"
-					data-appear-animation-delay="750">
+				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
 					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
-							<img class="d-inline-block img-fluid py-5 my-5"
-								src="wp-content/uploads/revslider/slider-3/danish-mission-council-development-department-dmcdd-60445.jpg"
-								alt="" />
+							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/dmcdd.jpg" alt="" />
 						</div>
 					</div>
 					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
@@ -1013,10 +657,9 @@
 					<div class="col-lg-5">
 						<blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-2">
 							<div class="custom-read-more-style-1" data-plugin-readmore data-plugin-options="{
-						'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
-						'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
-						'maxHeight': 300
-					}">
+								'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
+								'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
+								'maxHeight': 300 }">
 								<h3>Projets</h3>
 								<p style="font-size: 16px;">Projet d'autonomisation des femmes et filles à travers
 									l'agriculture dans l'approche Framing for life.</p>
@@ -1033,12 +676,10 @@
 					<hr>
 				</div>
 
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter"
-					data-appear-animation-delay="250">
+				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
 					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
-							<img class="d-inline-block img-fluid py-5 my-5"
-								src="wp-content/uploads/revslider/slider-3/pnud.jpg" alt="" />
+							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/pnud.jpg" alt="" />
 						</div>
 					</div>
 					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
@@ -1066,8 +707,7 @@
 								<p style="font-size: 14px;">
 									Programme de soutien provincial, sur la lutte contre la COVID – 19.</p>
 								<div class="readmore-button-wrapper d-none">
-									<a href="https://www.undp.org/?utm_source=EN&utm_medium=GSR&utm_content=US_UNDP_PaidSearch_Brand_English&utm_campaign=CENTRAL&c_src=CENTRAL&c_src2=GSR&gclid=Cj0KCQiApL2QBhC8ARIsAGMm-KFJ4QY0JA5Aif8qKPB6GUuBXRaz-DV61IvqQOhrawb0VrRArYzUSwsaAsCuEALw_wcB"
-										class="text-decoration-none">
+									<a href="https://www.undp.org/?utm_source=EN&utm_medium=GSR&utm_content=US_UNDP_PaidSearch_Brand_English&utm_campaign=CENTRAL&c_src=CENTRAL&c_src2=GSR&gclid=Cj0KCQiApL2QBhC8ARIsAGMm-KFJ4QY0JA5Aif8qKPB6GUuBXRaz-DV61IvqQOhrawb0VrRArYzUSwsaAsCuEALw_wcB" class="text-decoration-none">
 										En savoir plus sur le sponsor
 									</a>
 								</div>
@@ -1079,12 +719,10 @@
 					<hr>
 				</div>
 
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter"
-					data-appear-animation-delay="250">
+				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
 					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
-							<img class="d-inline-block img-fluid py-5 my-5"
-								src="wp-content/uploads/revslider/slider-3/FHRDC.png" alt="" />
+							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/fhrdc.jpg" alt="" />
 						</div>
 					</div>
 					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
@@ -1113,8 +751,7 @@
 								<p style="font-size: 14px;">Prise en charge holistique de la survivante de violences
 									sexuelles.</p>
 								<div class="readmore-button-wrapper d-none">
-									<a href="https://www.humanitarianresponse.info/fr/operations/democratic-republic-congo/pooled-fund-0"
-										class="text-decoration-none">
+									<a href="https://www.humanitarianresponse.info/fr/operations/democratic-republic-congo/pooled-fund-0" class="text-decoration-none">
 										En savoir plus sur le sponsor
 									</a>
 								</div>
@@ -1126,12 +763,10 @@
 					<hr>
 				</div>
 
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter"
-					data-appear-animation-delay="250">
+				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
 					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
-							<img class="d-inline-block img-fluid py-5 my-5"
-								src="wp-content/uploads/revslider/slider-3/warchild.png" alt="" />
+							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/warchild.jpg" alt="" />
 						</div>
 					</div>
 					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
@@ -1171,12 +806,10 @@
 					<hr>
 				</div>
 
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter"
-					data-appear-animation-delay="250">
+				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
 					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
-							<img class="d-inline-block img-fluid py-5 my-5"
-								src="wp-content/uploads/revslider/slider-3/unfpa.png" alt="" />
+							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/unfpa.jpg" alt="" />
 						</div>
 					</div>
 					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
@@ -1214,16 +847,6 @@
 					</div>
 				</div>
 			</div>
-			<section class="section">
-				<div class="shape-divider shape-divider-bottom shape-divider-reverse-x"
-					style="height: 90px;background-color: black;">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-						x="0px" y="0px" viewBox="0 0 1920 123" preserveAspectRatio="xMinYMin">
-						<polygon fill="#aaa9a9" points="0,90 221,60 563,88 931,35 1408,93 1920,41 1920,-1 0,-1 " />
-						<polygon fill="#FFFFFF" points="0,75 219,44 563,72 930,19 1408,77 1920,25 1920,-1 0,-1 " />
-					</svg>
-				</div>
-			</section>
 		</div>
 		<!-- Nos sponsor et leur about  -->
 
@@ -1235,8 +858,7 @@
 						<div class="col-md-3 col-sm-3 footer-left">
 							<div class="iw-footer-logo">
 								<a href="index.html">
-									<img alt="logo-widget" src="wp-content/uploads/revslider/slider-2/apeslogowhite.png"
-										style="width: 200px;" />
+									<img alt="logo-widget" src="wp-content/uploads/revslider/slider-2/apeslogowhite.png" style="width: 200px;" />
 								</a>
 							</div>
 							<div class="footer-text">
@@ -1251,38 +873,31 @@
 						<div class="col-md-9 col-sm-9 footer-right">
 							<div class="iw-footer-widget">
 								<div id="iw-sidebar-four" class="widget-area" role="complementary">
-									<div id="latest_post_campaign-2"
-										class="widget_latest_post_campaign widget-count-2 col-md-6 col-sm-6 col-xs-12">
+									<div id="latest_post_campaign-2" class="widget_latest_post_campaign widget-count-2 col-md-6 col-sm-6 col-xs-12">
 										<div class="footer-post-campaign">
 											<div class="footer-title">
 												<h4>Suivez nous sur: </h4>
 											</div>
 											<ol>
-												<li><i class="fa fa-youtube"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
+												<li><i class="fa fa-youtube" style="font-size: 20px;color: white;padding-right: 10px;"></i>
 													<a href="https://www.youtube.com"> YOUTUBE</a>
 												</li>
-												<li><i class="fa fa-facebook"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
-													<a href="https://www.youtube.com"> FACEBOOK</a>
+												<li><i class="fa fa-facebook" style="font-size: 20px;color: white;padding-right: 10px;"></i>
+													<a href="https://www.facebook.com"> FACEBOOK</a>
 												</li>
-												<li><i class="fa fa-instagram"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
-													<a href="https://www.youtube.com"> INSTAGRAM</a>
+												<li><i class="fa fa-instagram" style="font-size: 20px;color: white;padding-right: 10px;"></i>
+													<a href="https://www.instagram.com"> INSTAGRAM</a>
 												</li>
-												<li><i class="fa fa-google-plus"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
-													<a href="https://www.youtube.com"> GOOGLE +</a>
+												<li><i class="fa fa-google-plus" style="font-size: 20px;color: white;padding-right: 10px;"></i>
+													<a href="https://www.google.com"> GOOGLE +</a>
 												</li>
-												<li><i class="fa fa-wikipedia-w"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
-													<a href="https://www.youtube.com"> WIKIPEDIA</a>
+												<li><i class="fa fa-wikipedia-w" style="font-size: 20px;color: white;padding-right: 10px;"></i>
+													<a href="https://www.wikipedia.com"> WIKIPEDIA</a>
 												</li>
 											</ol>
 										</div>
 									</div>
-									<div id="shortcode-widget-6"
-										class="shortcode_widget widget-count-2 col-md-6 col-sm-6 col-xs-12">
+									<div id="shortcode-widget-6" class="shortcode_widget widget-count-2 col-md-6 col-sm-6 col-xs-12">
 										<div class="footer-title">
 											<h4>Nous contacter</h4>
 										</div>
@@ -1303,11 +918,9 @@
 											</ul>
 											<div class="iw-contact iw-contact-widget">
 												<div class="ajax-overlay">
-													<span class="ajax-loading"><i
-															class="fa fa-spinner fa-spin fa-2x"></i></span>
+													<span class="ajax-loading"><i class="fa fa-spinner fa-spin fa-2x"></i></span>
 												</div>
 												<div class="headding-bottom"></div>
-
 											</div>
 										</div>
 									</div>
@@ -1327,21 +940,12 @@
 						<div class="col-md-6 col-sm-6 back-to-top-container">
 							<nav class="iw-main-nav">
 								<ul id="menu-footer-menu" class="menu">
-									<li id="menu-item-475"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-475"><a
-											href="index.html">Accueil</a></li>
-									<li id="menu-item-476"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-476"><a
-											href="Nosprojets/index.html">Nos projets</a></li>
-									<li id="menu-item-477"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-477"><a
-											href="about-us/index.html">A propos</a></li>
-									<li id="menu-item-479"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-479"><a
-											href="contact/index.html">Contact</a></li>
+									<li id="menu-item-475" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-475"><a href="index.php">Accueil</a></li>
+									<li id="menu-item-476" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-476"><a href="projects.php">Nos projets</a></li>
+									<li id="menu-item-477" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-477"><a href="about_us.php">A propos</a></li>
+									<li id="menu-item-479" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-479"><a href="contact.php">Contact</a></li>
 								</ul>
 							</nav>
-
 						</div>
 					</div>
 				</div>
@@ -1356,120 +960,103 @@
 	</div>
 	</div>
 	</div>
-	<script type="text/javascript">
-		if (typeof revslider_showDoubleJqueryError === "undefined") {
-			function revslider_showDoubleJqueryError(sliderID) {
-				var err = "<div class='rs_error_message_box'>";
-				err += "<div class='rs_error_message_oops'>Oops...</div>";
-				err += "<div class='rs_error_message_content'>";
-				err += "You have some jquery.js library include that comes after the Slider Revolution files js inclusion.<br>";
-				err += "To fix this, you can:<br>&nbsp;&nbsp;&nbsp; 1. Set 'Module General Options' -> 'Advanced' -> 'jQuery & OutPut Filters' -> 'Put JS to Body' to on";
-				err += "<br>&nbsp;&nbsp;&nbsp; 2. Find the double jQuery.js inclusion and remove it";
-				err += "</div>";
-				err += "</div>";
-				var slider = document.getElementById(sliderID); slider.innerHTML = err; slider.style.display = "block";
-			}
-		};
-	</script>
-	<script type='text/javascript'
-		src='wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min7359.js?ver=1.2.0'
-		id='jquery-selectBox-js'></script>
+
+	<script type='text/javascript' src='wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.selectBox.min7359.js?ver=1.2.0' id='jquery-selectBox-js'></script>
 	<script type='text/javascript' id='jquery-yith-wcwl-js-extra'>
 		/* <![CDATA[ */
-		var yith_wcwl_l10n = { "ajax_url": "\/wp-admin\/admin-ajax.php", "redirect_to_cart": "no", "multi_wishlist": "", "hide_add_button": "1", "enable_ajax_loading": "", "ajax_loader_url": "https:\/\/charity.sdemo.site\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg", "remove_from_wishlist_after_add_to_cart": "1", "is_wishlist_responsive": "1", "time_to_close_prettyphoto": "3000", "fragments_index_glue": ".", "reload_on_found_variation": "1", "mobile_media_query": "768", "labels": { "cookie_disabled": "We are sorry, but this feature is available only if cookies on your browser are enabled.", "added_to_cart_message": "<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>" }, "actions": { "add_to_wishlist_action": "add_to_wishlist", "remove_from_wishlist_action": "remove_from_wishlist", "reload_wishlist_and_adding_elem_action": "reload_wishlist_and_adding_elem", "load_mobile_action": "load_mobile", "delete_item_action": "delete_item", "save_title_action": "save_title", "save_privacy_action": "save_privacy", "load_fragments": "load_fragments" } };
-/* ]]> */
+		var yith_wcwl_l10n = {
+			"ajax_url": "\/wp-admin\/admin-ajax.php",
+			"redirect_to_cart": "no",
+			"multi_wishlist": "",
+			"hide_add_button": "1",
+			"enable_ajax_loading": "",
+			"ajax_loader_url": "https:\/\/charity.sdemo.site\/wp-content\/plugins\/yith-woocommerce-wishlist\/assets\/images\/ajax-loader-alt.svg",
+			"remove_from_wishlist_after_add_to_cart": "1",
+			"is_wishlist_responsive": "1",
+			"time_to_close_prettyphoto": "3000",
+			"fragments_index_glue": ".",
+			"reload_on_found_variation": "1",
+			"mobile_media_query": "768",
+			"labels": {
+				"cookie_disabled": "We are sorry, but this feature is available only if cookies on your browser are enabled.",
+				"added_to_cart_message": "<div class=\"woocommerce-notices-wrapper\"><div class=\"woocommerce-message\" role=\"alert\">Product added to cart successfully<\/div><\/div>"
+			},
+			"actions": {
+				"add_to_wishlist_action": "add_to_wishlist",
+				"remove_from_wishlist_action": "remove_from_wishlist",
+				"reload_wishlist_and_adding_elem_action": "reload_wishlist_and_adding_elem",
+				"load_mobile_action": "load_mobile",
+				"delete_item_action": "delete_item",
+				"save_title_action": "save_title",
+				"save_privacy_action": "save_privacy",
+				"load_fragments": "load_fragments"
+			}
+		};
+		/* ]]> */
 	</script>
-	<script type='text/javascript'
-		src='wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.minf214.js?ver=3.0.20'
-		id='jquery-yith-wcwl-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/infunding_script.js'
-		id='infsite-script-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/iw_composer_addons/assets/js/iw-server-locatione7f3.js?ver=2.1.7'
-		id='iw-server-location-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/iw-shortcodese7f3.js?ver=2.1.7'
-		id='iw-shortcodes-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/iw_composer_addons/assets/js/owl.carousel.mine7f3.js?ver=2.1.7'
-		id='owl-carousel-min-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/iw_sponsorse7f3.js?ver=2.1.7'
-		id='iw_sponsors-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/iw_custome7f3.js?ver=2.1.7'
-		id='iw_custom-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/jquery.gallerye7f3.js?ver=2.1.7'
-		id='jquery-gallery-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/infunding_map.js'
-		id='infunding_map-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/markerclusterer.js'
-		id='markerclusterer-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4'
-		id='js-cookie-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/yith-woocommerce-wishlist/assets/js/jquery.yith-wcwl.minf214.js?ver=3.0.20' id='jquery-yith-wcwl-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/infunding_script.js' id='infsite-script-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/iw-server-locatione7f3.js?ver=2.1.7' id='iw-server-location-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/iw-shortcodese7f3.js?ver=2.1.7' id='iw-shortcodes-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/owl.carousel.mine7f3.js?ver=2.1.7' id='owl-carousel-min-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/iw_sponsorse7f3.js?ver=2.1.7' id='iw_sponsors-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/iw_custome7f3.js?ver=2.1.7' id='iw_custom-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/jquery.gallerye7f3.js?ver=2.1.7' id='jquery-gallery-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/infunding_map.js' id='infunding_map-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/markerclusterer.js' id='markerclusterer-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4' id='js-cookie-js'></script>
 	<script type='text/javascript' id='woocommerce-js-extra'>
 		/* <![CDATA[ */
-		var woocommerce_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%" };
-/* ]]> */
+		var woocommerce_params = {
+			"ajax_url": "\/wp-admin\/admin-ajax.php",
+			"wc_ajax_url": "\/?wc-ajax=%%endpoint%%"
+		};
+		/* ]]> */
 	</script>
-	<script type='text/javascript'
-		src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min0e7d.js?ver=5.1.0'
-		id='woocommerce-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min0e7d.js?ver=5.1.0' id='woocommerce-js'></script>
 	<script type='text/javascript' id='wc-cart-fragments-js-extra'>
 		/* <![CDATA[ */
-		var wc_cart_fragments_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_0913cbd3ab01c0e01a9ab9639c7df8b6", "fragment_name": "wc_fragments_0913cbd3ab01c0e01a9ab9639c7df8b6", "request_timeout": "5000" };
-/* ]]> */
+		var wc_cart_fragments_params = {
+			"ajax_url": "\/wp-admin\/admin-ajax.php",
+			"wc_ajax_url": "\/?wc-ajax=%%endpoint%%",
+			"cart_hash_key": "wc_cart_hash_0913cbd3ab01c0e01a9ab9639c7df8b6",
+			"fragment_name": "wc_fragments_0913cbd3ab01c0e01a9ab9639c7df8b6",
+			"request_timeout": "5000"
+		};
+		/* ]]> */
 	</script>
 
 	<script src="header-1.js"></script>
 
-	<script type='text/javascript'
-		src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min0e7d.js?ver=5.1.0'
-		id='wc-cart-fragments-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min005e.js?ver=3.1.6'
-		id='prettyPhoto-js'></script>
-	<script type='text/javascript' src='wp-content/themes/incharity/js/bootstrap.mine7f3.js?ver=2.1.7'
-		id='bootstrap-js'></script>
-	<script type='text/javascript' src='wp-content/themes/incharity/js/jquery.easing.1.3e7f3.js?ver=2.1.7'
-		id='easing-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/owl.carousel.mina4a0.js?ver=5.7.5'
-		id='owl-carousel-js'></script>
-	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/custombox.mina4a0.js?ver=5.7.5'
-		id='custombox-js'></script>
-	<script type='text/javascript' src='wp-content/themes/incharity/fancybox/jquery.fancyboxe7f3.js?ver=2.1.7'
-		id='jquery.fancybox-js'></script>
-	<script type='text/javascript'
-		src='wp-content/themes/incharity/fancybox/helpers/jquery.fancybox-thumbse7f3.js?ver=2.1.7'
-		id='jquery.fancybox-thumbs-js'></script>
-	<script type='text/javascript' src='wp-content/themes/incharity/js/select2.fulle7f3.js?ver=2.1.7'
-		id='select2.full-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min0e7d.js?ver=5.1.0' id='wc-cart-fragments-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/prettyPhoto/jquery.prettyPhoto.min005e.js?ver=3.1.6' id='prettyPhoto-js'></script>
+	<script type='text/javascript' src='wp-content/themes/incharity/js/bootstrap.mine7f3.js?ver=2.1.7' id='bootstrap-js'></script>
+	<script type='text/javascript' src='wp-content/themes/incharity/js/jquery.easing.1.3e7f3.js?ver=2.1.7' id='easing-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/owl.carousel.mina4a0.js?ver=5.7.5' id='owl-carousel-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/custombox.mina4a0.js?ver=5.7.5' id='custombox-js'></script>
+	<script type='text/javascript' src='wp-content/themes/incharity/fancybox/jquery.fancyboxe7f3.js?ver=2.1.7' id='jquery.fancybox-js'></script>
+	<script type='text/javascript' src='wp-content/themes/incharity/fancybox/helpers/jquery.fancybox-thumbse7f3.js?ver=2.1.7' id='jquery.fancybox-thumbs-js'></script>
+	<script type='text/javascript' src='wp-content/themes/incharity/js/select2.fulle7f3.js?ver=2.1.7' id='select2.full-js'></script>
 	<script type='text/javascript' src='wp-content/themes/incharity/js/ichecke7f3.js?ver=2.1.7' id='icheck-js'></script>
-	<script type='text/javascript' src='wp-content/themes/incharity/js/jquery.fitvidse7f3.js?ver=2.1.7'
-		id='jquery-fitvids-js'></script>
+	<script type='text/javascript' src='wp-content/themes/incharity/js/jquery.fitvidse7f3.js?ver=2.1.7' id='jquery-fitvids-js'></script>
 	<script type='text/javascript' id='incharity-template-js-extra'>
 		/* <![CDATA[ */
-		var inwaveCfg = { "siteUrl": "https:\/\/charity.sdemo.site\/wp-admin\/", "themeUrl": "https:\/\/charity.sdemo.site\/wp-content\/themes\/incharity", "baseUrl": "https:\/\/charity.sdemo.site", "ajaxUrl": "https:\/\/charity.sdemo.site\/wp-admin\/admin-ajax.php" };
-/* ]]> */
+		var inwaveCfg = {
+			"siteUrl": "https:\/\/charity.sdemo.site\/wp-admin\/",
+			"themeUrl": "https:\/\/charity.sdemo.site\/wp-content\/themes\/incharity",
+			"baseUrl": "https:\/\/charity.sdemo.site",
+			"ajaxUrl": "https:\/\/charity.sdemo.site\/wp-admin\/admin-ajax.php"
+		};
+		/* ]]> */
 	</script>
-
-	<!-- <script src="jquery-3.3.1.min.js"></script>
-<script src="popper.min.js"></script> -->
-	<!-- <script src="bootstrap.min.js"></script> -->
-	<!-- <script src="jquery.sticky.js"></script> -->
-	<!-- <script src="main.js"></script> -->
 
 	<script src="header-1.js"></script>
 
-	<script type='text/javascript' src='wp-content/themes/incharity/js/templatee7f3.js?ver=2.1.7'
-		id='incharity-template-js'></script>
-	<script type='text/javascript' src='wp-content/themes/incharity/js/panel-settingse7f3.js?ver=2.1.7'
-		id='incharity-panel-settings-js'></script>
+	<script type='text/javascript' src='wp-content/themes/incharity/js/templatee7f3.js?ver=2.1.7' id='incharity-template-js'></script>
+	<script type='text/javascript' src='wp-content/themes/incharity/js/panel-settingse7f3.js?ver=2.1.7' id='incharity-panel-settings-js'></script>
 	<script type='text/javascript' src='wp-includes/js/wp-embed.mina4a0.js?ver=5.7.5' id='wp-embed-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.mina086.js?ver=6.3.0'
-		id='wpb_composer_front_js-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/iw_composer_addons/assets/js/jquery.parallax-1.1.3e7f3.js?ver=2.1.7'
-		id='jquery-parallax-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.mina086.js?ver=6.3.0' id='wpb_composer_front_js-js'></script>
+	<script type='text/javascript' src='wp-content/plugins/iw_composer_addons/assets/js/jquery.parallax-1.1.3e7f3.js?ver=2.1.7' id='jquery-parallax-js'></script>
 </body>
 
 </html>
