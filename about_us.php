@@ -999,7 +999,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 				</div>
 			</div>
 		</div>
-	</div>
+	</div><br><br><br>
 
 	<footer class="page-footer">
 		<div class="iw-footer-v2-widget">

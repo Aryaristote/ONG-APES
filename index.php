@@ -91,6 +91,45 @@
 			background: none !important;
 			padding: 0 !important;
 		}
+		.more-project{
+			color: white;
+			border: 4px solid #76a120;
+			background-color:#76a120;
+			outline: none;
+			font-size: 16px;
+			font-weight: bold;
+			padding: 7px 2em;
+			margin: 10px 20px;
+		}
+		.more-project a{
+			color: white;
+			padding: 20px 1em;
+		}
+		.more-project a:hover{
+			color: white;
+		}
+		.stage-btn-submit{
+			color: #76a120;
+			border: 4px solid #76a120;
+			background-color:#fff;
+			outline: none;
+			font-size: 16px;
+			font-weight: bold;
+			padding: 7px 0;
+		}
+		.stage-btn-submit a{
+			color: #76a120;
+			padding: 20px 2em;
+		}
+		.stage-btn-submit a:hover{
+			color: #76a120;
+		}
+		.stage-btn-submit, .stage-btn-submit2:hover{
+			opacity: .9;
+			color: #76a120;
+			border: 4px solid #76a120;
+			background-color:#fff;
+		}
 	</style>
 	<link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.mina4a0.css?ver=5.7.5' type='text/css' media='all' />
 	<link rel='stylesheet' id='wc-block-vendors-style-css' href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-stylecb20.css?ver=4.4.3' type='text/css' media='all' />
@@ -591,17 +630,15 @@
 													</div>
 												</div>
 											</div>
-											<div class="col-md-12">
-												<div class="col-md-6">
-													<div class="col-md-5 btn-more-prjt">
-														<a href="Nosprojets/index.html" class="u-active-black u-border-none u-button-style u-hover-black u-palette-1-light-1 u-text-active-white 
-															u-text-hover-white u-text-white u-btn-2" data-animation-name="zoomIn" data-animation-duration="1500" data-animation-direction="" data-animation-delay="0" style="padding: 10px 20px;font-size: 20px;">Plus de Projet</a>
-													</div>
-													<div class="col-md-7 btn-more-prjt">
-														<a href="/stage/index.php" class="stage-btn" data-animation-name="zoomIn" data-animation-duration="1500" data-animation-direction="" data-animation-delay="0" style="padding: 9px 20px;font-size: 18px;">Demander un stage</a>
-													</div>
+											<div class="">
+												<div class="">
+													<button class="more-project">
+														<a href="Nosprojets/index.html">Plus de Projet</a>
+													</button>
+													<button class="stage-btn-submit">
+														<a href="/stage/index.php">Demander un stage</a>
+													</button>
 												</div>
-												<div class="col-md-6"></div>
 											</div>
 										</div>
 									</div>
@@ -622,7 +659,7 @@
 				</div>
 			</section>
 
-			<div class="container pt-3 pb-4 mt-4 mb-5">
+			<div class="container pt-3 pb-4 mt-4 mb-20">
 				<div class="row mb-4 pb-3">
 					<div class="col">
 						<h2 class="text-9 text-lg-5 text-xl-9 line-height-3 text-transform-none font-weight-semibold mb-4 mb-lg-3 mb-xl-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">Nos dévoués sponsors
@@ -632,14 +669,14 @@
 							pourraient être aussi efficaces sans votre soutien.</h6>
 					</div>
 				</div>
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
-					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
+				<div class="row" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750">
+					<div class="col-sm-3">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
 							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/dmcdd.jpg" alt="" />
 						</div>
 					</div>
-					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
-						<h2 class="text-color-primary text-5-5 mb-3">
+					<div class="col-sm-4">
+						<h2 class="text-color-primary text-5-5 mb-3" style="font-size: 28px;">
 							<strong style="color: #51741e;" class="font-weight-medium">DMCDD:</strong>
 							Danish Mission Council Development Departement
 						</h2>
@@ -654,12 +691,9 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-sm-5">
 						<blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-2">
-							<div class="custom-read-more-style-1" data-plugin-readmore data-plugin-options="{
-								'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
-								'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
-								'maxHeight': 300 }">
+							<div class="custom-read-more-style-1">
 								<h3>Projets</h3>
 								<p style="font-size: 16px;">Projet d'autonomisation des femmes et filles à travers
 									l'agriculture dans l'approche Framing for life.</p>
@@ -676,14 +710,14 @@
 					<hr>
 				</div>
 
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
-					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
+				<div class="row">
+					<div class="col-sm-3">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
 							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/pnud.jpg" alt="" />
 						</div>
 					</div>
-					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
-						<h2 class="text-color-primary text-5-5 mb-3">
+					<div class="col-sm-4">
+						<h2 class="text-color-primary text-5-5 mb-3" style="font-size: 28px;>
 							<strong style="color: #51741e;" class="font-weight-medium">PNUD CANADA:</strong>
 							Programme des Nations Unies pour le Développement.
 						</h2>
@@ -698,12 +732,9 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-sm-5">
 						<blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-2">
-							<div class="custom-read-more-style-1" data-plugin-readmore data-plugin-options="{
-						'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
-						'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
-						'maxHeight': 300}">
+							<div class="custom-read-more-style-1">
 								<p style="font-size: 14px;">
 									Programme de soutien provincial, sur la lutte contre la COVID – 19.</p>
 								<div class="readmore-button-wrapper d-none">
@@ -719,14 +750,14 @@
 					<hr>
 				</div>
 
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
-					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
+				<div class="row">
+					<div class="col-sm-3">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
 							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/fhrdc.jpg" alt="" />
 						</div>
 					</div>
-					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
-						<h2 class="text-color-primary text-5-5 mb-3">
+					<div class="col-sm-4">
+						<h2 class="text-color-primary text-5-5 mb-3" style="font-size: 28px;>
 							<strong style="color: #51741e;" class="font-weight-medium">FHRDC:</strong>
 							Fond Humanutaire RD Congo
 						</h2>
@@ -741,13 +772,9 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-sm-5">
 						<blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-2">
-							<div class="custom-read-more-style-1" data-plugin-readmore data-plugin-options="{
-						'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
-						'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
-						'maxHeight': 300
-					}">
+							<div class="custom-read-more-style-1">
 								<p style="font-size: 14px;">Prise en charge holistique de la survivante de violences
 									sexuelles.</p>
 								<div class="readmore-button-wrapper d-none">
@@ -763,14 +790,14 @@
 					<hr>
 				</div>
 
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
-					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
+				<div class="row">
+					<div class="col-sm-3">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
 							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/warchild.jpg" alt="" />
 						</div>
 					</div>
-					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
-						<h2 class="text-color-primary text-5-5 mb-3">
+					<div class="col-sm-4">
+						<h2 class="text-color-primary text-5-5 mb-3" style="font-size: 28px;>
 							<strong style="color: #51741e;" class="font-weight-medium">WAR Child:</strong>
 							Children who are used in War
 						</h2>
@@ -785,13 +812,9 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-sm-5">
 						<blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-2">
-							<div class="custom-read-more-style-1" data-plugin-readmore data-plugin-options="{
-						'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
-						'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
-						'maxHeight': 300
-					}">
+							<div class="custom-read-more-style-1">
 								<p style="font-size: 14px;">Prise en charge survivante de violences sexuelles.</p>
 								<div class="readmore-button-wrapper d-none">
 									<a href="https://www.warchild.org/" class="text-decoration-none">
@@ -806,14 +829,14 @@
 					<hr>
 				</div>
 
-				<div class="row align-items-center appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="250">
-					<div class="col-md-5 col-lg-3 mb-4 mb-lg-0">
+				<div class="row">
+					<div class="col-sm-3">
 						<div class="bg-light custom-box-shadow-1 text-center py-5">
 							<img class="d-inline-block img-fluid py-5 my-5" src="wp-content/uploads/revslider/slider-3/unfpa.jpg" alt="" />
 						</div>
 					</div>
-					<div class="col-md-7 col-lg-4 mb-4 mb-lg-0">
-						<h2 class="text-color-primary text-5-5 mb-3">
+					<div class="col-sm-4">
+						<h2 class="text-color-primary text-5-5 mb-3" style="font-size: 28px;>
 							<strong style="color: #51741e;" class="font-weight-medium">UNFPA:</strong>
 							Financial Rules and Regulations
 						</h2>
@@ -828,13 +851,9 @@
 							</li>
 						</ul>
 					</div>
-					<div class="col-lg-5">
+					<div class="col-sm-5">
 						<blockquote class="custom-blockquote-style-1 m-0 pt-1 pb-2">
-							<div class="custom-read-more-style-1" data-plugin-readmore data-plugin-options="{
-						'buttonOpenLabel': 'View More <i class=\'fas fa-chevron-down text-2 ms-1\'></i>',
-						'buttonCloseLabel': 'View Less <i class=\'fas fa-chevron-up text-2 ms-1\'></i>',
-						'maxHeight': 300
-					}">
+							<div class="custom-read-more-style-1">
 								<p style="font-size: 14px;">AAP/PSEA, diminution de de crime commis par les humanitaire.
 								</p>
 								<div class="readmore-button-wrapper d-none">
@@ -847,7 +866,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div><br><br><br>
 		<!-- Nos sponsor et leur about  -->
 
 		<!-- Footer  -->
