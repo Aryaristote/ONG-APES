@@ -862,7 +862,7 @@
 									</div>
 									<div class="u-align-center u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-2">
 										<div class="u-container-layout u-container-layout-2">
-											<div class="u-container-style u-group u-palette-1-base u-group-1">
+											<div class="u-container-style u-group u-palette-1-base10 u-group-1">
 												<div class="u-container-layout u-valign-middle u-container-layout-3">
 													<h2 class="u-text">PNUD- Programme JAD 2</h2>
 													<p class="u-text" style="font-size: 15px;">Bukavu, 2018 - 2019</p>
@@ -956,7 +956,7 @@
 									</div>
 									<div class="u-align-center u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-2">
 										<div class="u-container-layout u-container-layout-2">
-											<div class="u-container-style u-group u-palette-1-base3 u-group-1">
+											<div class="u-container-style u-group u-palette-1-base7 u-group-1">
 												<div class="u-container-layout u-valign-middle u-container-layout-3">
 													<h2 class="u-text">PNUD</h2>
 													<p class="u-text" style="font-size: 15px;">Bukavu, Sept.2020 - Dec.2020</p>
@@ -1002,9 +1002,9 @@
 									</div>
 									<div class="u-align-center u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-2">
 										<div class="u-container-layout u-container-layout-2">
-											<div class="u-container-style u-group u-palette-1-base3 u-group-1">
+											<div class="u-container-style u-group u-palette-1-base8 u-group-1">
 												<div class="u-container-layout u-valign-middle u-container-layout-3">
-													<h2 class="u-text">Projet Adi</h2>
+													<h2 class="u-text">Projet ADIJ</h2>
 													<p class="u-text" style="font-size: 15px;">Kalehe Ihusi, Nybibwe, Minova, Numbi, 
 														Ziralo, Bundje, Kalonge et Bunyakiri, 2020 - 2021</p>
 												</div>
@@ -1020,7 +1020,7 @@
 											<img class="u-expanded-width u-image u-image-1"
 												src="wp-content/uploads/revslider/slider-2/edc.jpeg"
 												data-image-width="720" data-image-height="1080">
-											<p class="u-text u-text-7" style="font-size: 13px;">Activités de l’Usaid pour le développement des intégrés des jeunes dans 
+											<p class="u-text u-text-7" style="font-size: 13px;">Activités de USAID pour le développement des intégrés des jeunes dans 
 												le territoire de Kalehe au dans les province du sud-Kivu à pris 500 jeunes filles et garçons désœuvrés et de peuples 
 												autochtones, analphabètes pour une alphabétisation appuyée par les curricula de développement personnel et d’entrepreneuriat 
 												(work ready now, be your only boss, work base landing) initiation aux activités des micro finance( approche SILC, save and 
@@ -1046,16 +1046,16 @@
 									<div class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-1">
 										<div class="u-container-layout u-valign-middle u-container-layout-1">
 											<h2 class="u-text u-text-1">12.</h2>
-											<h3 class="u-text u-text-2">Mise en œuvre des activités du programme de soutien,</h3>
-											<p class="u-text u-text-3" style="font-size: 15px;"><b>Etat: </b>Finis</p>
+											<h3 class="u-text u-text-2">Elimu ni Jibu,</h3>
+											<p class="u-text u-text-3" style="font-size: 15px;"><b>Etat: </b>En cours...</p>
 										</div>
 									</div>
 									<div class="u-align-center u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-2">
 										<div class="u-container-layout u-container-layout-2">
-											<div class="u-container-style u-group u-palette-1-base3 u-group-1">
+											<div class="u-container-style u-group u-palette-1-base9 u-group-1">
 												<div class="u-container-layout u-valign-middle u-container-layout-3">
-													<h2 class="u-text">PNUD</h2>
-													<p class="u-text" style="font-size: 15px;">Ngweshe, Walungu, Sept.2020 - Dec.2020</p>
+													<h2 class="u-text">USAID</h2>
+													<p class="u-text" style="font-size: 15px;">Mwenga, 2021 à aujourd’hui,</p>
 												</div>
 											</div>
 										</div>
@@ -1066,12 +1066,12 @@
 								<div class="u-layout-col">
 									<div class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
-											<img class="u-expanded-width u-image u-image-1"
-												src="wp-content/uploads/revslider/slider-2/fhi360.jpeg"
-												data-image-width="720" data-image-height="1080">
-											<p class="u-text u-text-7" style="font-size: 13px;">RPA: CMA/RPP-COV/2020-15 Projet de Mise en œuvre des activités du programme 
-											de soutien à la coordination provinciale de la réponse multisectorielle COVID-19, au maintien des activités économiques et à la 
-											production locale de moyens de protection contre le COVID-19 au Sud-Kivu.</p>
+											<img class="u-expanded-width u-image u-image-1" src="wp-content/uploads/revslider/slider-2/fhi360.jpeg" data-image-width="720" data-image-height="1080">
+											<p class="u-text u-text-7" style="font-size: 13px;">Vice l’accès et la qualité à l’éducation de jeunes filles et garçons 
+											dans le territoire de MWENGA, qu’ils soient doué et compétitif. Ce projet organise des programme de tutorat dans les écoles 
+											étatiques et conventionnée, pour relever le niveau des élèves ayant de lacune en lecture-écriture et calculs, a noté la lutte 
+											contre toute forme des violences en milieu scolaire en mettant en place des comité genre et surveillance des toute formes des 
+											violences en milieu scolaire et dans la communauté, promouvoir le leadership féminin par l’approche GLOW (Girls Lead Our World).</p>
 										</div>
 									</div>
 								</div>
@@ -1197,14 +1197,7 @@
 
 	<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 	
-	<script type='text/javascript'
-		src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min0e7d.js?ver=5.1.0'
-		id='woocommerce-js'></script>
-	<script type='text/javascript' id='wc-cart-fragments-js-extra'>
-		/* <![CDATA[ */
-		var wc_cart_fragments_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_0913cbd3ab01c0e01a9ab9639c7df8b6", "fragment_name": "wc_fragments_0913cbd3ab01c0e01a9ab9639c7df8b6", "request_timeout": "5000" };
-/* ]]> */
-	</script>
+	<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min0e7d.js?ver=5.1.0' id='woocommerce-js'></script>
 	<script type='text/javascript'
 		src='wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min0e7d.js?ver=5.1.0'
 		id='wc-cart-fragments-js'></script>
