@@ -852,8 +852,7 @@
 						<div class="u-layout-row">
 							<div class="u-size-19">
 								<div class="u-layout-col">
-									<div
-										class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-1">
+									<div class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-30 u-layout-cell-1">
 										<div class="u-container-layout u-valign-middle u-container-layout-1">
 											<h2 class="u-text u-text-1">08.</h2>
 											<h3 class="u-text u-text-2">Appui à la réinsertion socioéconomique des survivantes des violences,</h3>
@@ -874,8 +873,7 @@
 							</div>
 							<div class="u-size-41">
 								<div class="u-layout-col">
-									<div
-										class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
+									<div class="u-align-justify u-container-style u-layout-cell u-size-60 u-layout-cell-3">
 										<div class="u-container-layout u-container-layout-4">
 											<img class="u-expanded-width u-image u-image-1"
 												src="wp-content/uploads/revslider/slider-2/jad2.jpeg"
