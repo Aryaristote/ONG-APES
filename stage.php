@@ -695,7 +695,7 @@
 										<div class="u-layout-col">
 											<div class="u-container-style u-layout-cell u-left-cell u-size-60 u-layout-cell-5">
 												<div class="u-container-layout u-container-layout-5">
-													<div class="alert alert-danger" role="alert">
+													<div class="alert alert-success" role="alert">
 														<h4 class="alert-heading">ALERTE ! ALERTE ! ALERTE !</h4>
 														<p>Compte tenu du nombre de demandes que nous recevons chaque jour, avoir une réponse de notre part n'est pas forcément garanti si votre profil ne correspond pas.</p>
 														<hr>

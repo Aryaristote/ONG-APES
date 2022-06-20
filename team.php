@@ -655,7 +655,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 									<div class="wpb_column vc_column_container vc_col-sm-3"></div>
 								</div><br><br>
 								<div class="vc_row wpb_row vc_inner vc_row-fluid">
-									<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="wpb_column vc_column_container vc_col-sm-4">
 										<div class="vc_column-inner">
 											<div class="wpb_wrapper">
 												<div class="profile-box item item0  style4  center-text">
@@ -676,28 +676,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 											</div>
 										</div>
 									</div>
-									<div class="wpb_column vc_column_container vc_col-sm-3">
-										<div class="vc_column-inner">
-											<div class="wpb_wrapper">
-												<div class="profile-box item item1  style4  center-text">
-													<div class="profile-image">
-														<img src="wp-content/uploads/revslider/slider-4/financier.jpg" alt="Michale Tik">
-													</div>
-													<div class="item-info-wrap profile-info-wrap">
-														<div class="profile-info">
-															<h3 class="name">Janvier BUZIRIKO</h3>
-															<div class="position"></div>
-															<div class="description">Financier</div>
-														</div>
-														<div class="social-links">
-															<a href="https://www.facebook.com/janvier.buziriko"><i class="fa fa-facebook"></i></a><a href="https://twitter.com/"><i class="fa fa-twitter"></i></a><a href="https://plus.google.com/"><i class="fa fa-google-plus"></i></a>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="wpb_column vc_column_container vc_col-sm-4">
 										<div class="vc_column-inner">
 											<div class="wpb_wrapper">
 												<div class="profile-box item item2  style4  center-text">
@@ -719,7 +698,7 @@ var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_ur
 											</div>
 										</div>
 									</div>
-									<div class="wpb_column vc_column_container vc_col-sm-3">
+									<div class="wpb_column vc_column_container vc_col-sm-4">
 										<div class="vc_column-inner">
 											<div class="wpb_wrapper">
 												<div class="profile-box item item3  style4  center-text">

@@ -36,8 +36,11 @@
 			color: #76a120;
   			border: 4px solid #76a120;
 			padding: 10px 15px;
-			font-size: 17px;
+			font-size: 14px;
 			background-color: transparent;
+		}
+		.stage-btn:hover{
+			color: #76a120;
 		}
 		.header-block{
 			display: flex;
@@ -45,6 +48,23 @@
 			align-items: center;
 			justify-content: space-between;
 		}
+		@media (max-width: 450px) {
+
+			.header-block{
+				margin-top: -2em;
+			}
+
+			.header-block .title-item h2 {
+				font-size: 17px;
+			}
+			.container h2,h3 {
+				font-size: 14px;
+			}
+
+			.header-block .stage-btn{
+				padding: 3px 8px;
+			}
+		}	
 		.btn-item, .title-item{
 			align-self: center;
 		}
@@ -147,35 +167,6 @@
 		a {
 			color: #53761f;
 		}
-
-		.theme-color {
-			color: #53761f !important;
-		}
-
-		.theme-color-force {
-			color: #53761f !important;
-		}
-
-		.theme-color-hover:hover {
-			color: #53761f !important;
-		}
-
-		.theme-bg-color {
-			background-color: #53761f !important;
-		}
-
-		.theme-bg {
-			background: none repeat scroll 0 0 #53761f !important;
-		}
-
-		.theme-bg-hover:hover {
-			background: none repeat scroll 0 0 #53761f !important;
-		}
-
-		.theme-border-color {
-			border-color: #53761f !important;
-		}
-
 		/** panel settings */
 		.panel-tools .button-command.active,
 		.reset-button button {
@@ -685,34 +676,33 @@
 
 		<main class="container">
 			<div class="header-block">
-				<div class="title-item"><h1>Événement</h1></div>
-				<div class=""></div>
+				<div class="title-item"><h2>Événement</h2></div>
 				<div class="btn-item">
-					<div class="u-align-center u-form-group u-form-submit">
+					<div class="">
 						<a href="stage.php" class="stage-btn">Demander un stage</a>	
 					</div>
 				</div>
 			</div>
 			<div class="col-md-12">
-				<h2>02 Janvier</h2>
+				<h3>02 Janvier</h3>
 				<div class="col-md-1"></div>
 				<div class="col-md-3">
 					<article>
-						<h3>DEBUT DU PROJET</h3>
+						<h4>DEBUT DU PROJET</h4>
 						<p>Avril, 2022</p>
 					</article>
 					<article>
-						<h3>SPONSORTS</h3>
+						<h4>SPONSORTS</h4>
 						<p>Unicef, PAM, MONUSCO</p>
 					</article>
 					<article>
-						<h3>FIN DE PROJET</h3>
+						<h4>FIN DE PROJET</h4>
 						<p>23, Novembre 2023</p>
 					</article>
 				</div>
 				<div class="col-md-7">
 					<article class="main-article">
-						<h3>Juin 2023, PROJET D'EAU POTABLE.</h3>
+						<h4>Juin 2023, PROJET D'EAU POTABLE.</h4>
 						<p>La Ville de Bukavu s’est engagé depuis 2002 dans un vaste programme de municipalisation accélérée. Le programme, financé sur des 
 							ressources propres du Gouvernement, vise à réhabiliter les infrastructures urbaines dans les différentes villes du Congo en 
 							particulier celles liées au secteur de l’eau. L’intervention des bailleurs de fonds est récente et il n’y apas de cadre de concertation formel.</p>
@@ -723,13 +713,13 @@
 					<div class="post-react">
 						<ul>
 							<li class="like-btn">
-								<button><h4><i class="fa-regular fa-heart"></i> J'aime</h4></button>
+								<button><i class="fa-regular fa-heart"></i> <small>J'aime</small></button>
 							</li>
 							<li class="comment-btn">
-								<button><h4><i class="fa-regular fa-message"></i> Commenter</h4></button>
+								<button><i class="fa-regular fa-message"></i> <small>Commenter</small></button>
 							</li>
 							<li class="share-btn">
-								<button><h4><i class="fa-solid fa-share-from-square"></i> Partager</h4></button>
+								<button><i class="fa-solid fa-share-from-square"></i> <small>Partager</small></button>
 							</li>
 						</ul>
 					</div>
@@ -763,25 +753,25 @@
 				<div class="col-md-1"></div>
 			</div><br>
 			<div class="col-md-12">
-				<h2>24 Juin</h2>
+				<h3>24 Juin</h3>
 				<div class="col-md-1"></div>
 				<div class="col-md-3">
 					<article>
-						<h3>DEBUT DU PROJET</h3>
+						<h4>DEBUT DU PROJET</h4>
 						<p>Avril, 2022</p>
 					</article>
 					<article>
-						<h3>SPONSORTS</h3>
+						<h4>SPONSORTS</h4>
 						<p>Unicef, PAM, MONUSCO</p>
 					</article>
 					<article>
-						<h3>FIN DE PROJET</h3>
+						<h4>FIN DE PROJET</h4>
 						<p>23, Novembre 2023</p>
 					</article>
 				</div>
 				<div class="col-md-7">
 					<article class="main-article">
-						<h3>ASSAINISMENT DE LA VILLE DE BUKAVU</h3>
+						<h4>ASSAINISMENT DE LA VILLE DE BUKAVU</h4>
 						<p>Les stations de traitement reçoivent les matières de vidange fraîches collectées dans les latrines 
 							familiales ou publiques par les camions vidangeurs des sociétés privées. La filière de traitement proposée comprend : 
 							(i) des bassins de sédimentation qui assurent la séparation des phases liquide-solide; (ii) des bassins de digestion 
@@ -799,18 +789,19 @@
 					<div class="post-react">
 						<ul>
 							<li class="like-btn">
-								<button><h4><i class="fa-regular fa-heart"></i> J'aime</h4></button>
+								<button><i class="fa-regular fa-heart"></i> <small>J'aime</small></button>
 							</li>
 							<li class="comment-btn">
-								<button><h4><i class="fa-regular fa-message"></i> Commenter</h4></button>
+								<button><i class="fa-regular fa-message"></i> <small>Commenter</small></button>
 							</li>
 							<li class="share-btn">
-								<button><h4><i class="fa-solid fa-share-from-square"></i> Partager</h4></button>
+								<button><i class="fa-solid fa-share-from-square"></i> <small>Partager</small></button>
 							</li>
 						</ul>
-					</div>
+					</div><br>
+					
 					<div class="col-md-12 post-comment">
-						<div class="comment-widgets m-b-20">
+						<div class="comment-widgets m-b-20"><br>
 							<div class="d-flex flex-row comment-row">
 								<div class="comment-profil">
 									<span class="">
@@ -819,7 +810,7 @@
 								<div class="comment-text w-100">
 									<h5>Samso Nagaro</h5>
 									<div class="comment-footer"> <span class="date">April 14, 2019</span> <span class="action-icons"> <a href="#" data-abc="true"><i class="fa fa-pencil"></i></a> <a href="#" data-abc="true"><i class="fa fa-rotate-right"></i></a> <a href="#" data-abc="true"><i class="fa fa-heart"></i></a> </span> </div>
-									<p class="m-b-5 m-t-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+									<p class="m-b-5 m-t-10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it</p>
 								</div>
 							</div>
 							<div class="d-flex flex-row comment-row">
