@@ -636,7 +636,7 @@
 														<a href="Nosprojets/index.html">Plus de Projet</a>
 													</button>
 													<button class="stage-btn-submit">
-														<a href="/stage/index.php">Demander un stage</a>
+														<a href="stage.php">Demander un stage</a>
 													</button>
 												</div>
 											</div>

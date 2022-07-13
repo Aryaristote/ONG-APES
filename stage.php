@@ -1,3 +1,7 @@
+<?php
+	require "./template/stage.views.php"
+?>
+
 <!DOCTYPE html>
 <html lang="en-US">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
@@ -685,6 +689,9 @@
 		<section class="u-align-center u-clearfix u-grey-5 u-section-2">
 			<div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
 				<h2 class="u-text u-text-1" style="color: #838383;">DEMANDER UN STAGE</h2>
+
+				<?= set_flash("Love") ?>
+
 				<div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
 					<div class="u-layout">
 						<div class="u-layout-col">
@@ -702,21 +709,20 @@
 														<p class="mb-0">Notez que vos données sont protégées et sécurisées par l'Organisation APES Congo.</p>
 													</div>
 													<div class="u-form u-form-1">
-														<form action="contactProcess.php" method="POST" id="contactForm" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
-															source="email" name="form">
+														<form method="post" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form">
 															<div class="u-form-group u-form-name">
 																<h5>Nom complet * </h5>
-																<input required="" type="text" required="" placeholder="Ex: Kalume Ernest Aristote" id="name-3d90" name="name" class="u-input u-input-rectangle u-white">
+																<input name="name" type="text" required="" placeholder="Ex: Kalume Ernest Aristote" class="u-input u-input-rectangle u-white">
 															</div>
 															<div class="u-form-group u-form-name">
 																<h5>Nationalité * </h5>
-																<input required="" type="text" required="" placeholder="Ex: Congolaise" id="name-3d90" name="name" class="u-input u-input-rectangle u-white">
+																<input name="country" type="text" required="" placeholder="Ex: Congolaise" class="u-input u-input-rectangle u-white">
 															</div>
 															<div class="u-form-group u-form-name">
 																<h5>Residence actuelle * </h5>
-																<input required="" type="text" required="" placeholder="Ex: Bukavu" id="name-3d90" name="name" class="u-input u-input-rectangle u-white">
+																<input name="location" type="text" required="" placeholder="Ex: Bukavu" class="u-input u-input-rectangle u-white">
 															</div>
-															<div class="u-form-group u-form-name">
+															<!-- <div class="u-form-group u-form-name">
 																<h5>Niveau d'etude *</h5>
 																<label class="card">
 																	<input class="card__input" type="checkbox"/>
@@ -758,15 +764,15 @@
 																		</header>
 																	</div>
 																</label>
-															</div>
+															</div> -->
 															<div class="col-md-12 u-form-group u-form-name" style="padding: 0 10px;margin: 0;">
 																<div class="col-md-8" style="padding: 0;margin: 0 25px 0 0;">
 																	<h5>Domaine d'intervation * </h5>
-																	<input required="" type="text" required="" placeholder="Ex: Géologie" id="name-3d90" name="name" class="u-input u-input-rectangle u-white">
+																	<input type="text" required="" placeholder="Ex: Géologie" name="domain" class="u-input u-input-rectangle u-white">
 																</div>
 																<div class="col-md-3" style="padding: 0;margin: 0;">
 																	<h5>Experience * </h5>
-																	<input required="" type="number" required="" placeholder="Ex: 5" name="experience" class="u-input u-input-rectangle u-white">
+																	<input type="number" required="" placeholder="Ex: 5" name="experience" class="u-input u-input-rectangle u-white">
 																</div>
 															</div>
 															<div class="u-form-group accept-check">
@@ -774,16 +780,8 @@
 																<b>Je jure avec franchise que les renseignements fournis ci-haut sont justes et sincères.</b>
 															</div>
 															<div class="u-align-left u-form-group u-form-submit">
-																<button type="submit" value="submit" class="stage-btn-submit">Envoyez
-																</button>	
+																<input value="Envoyer" type="submit" name="submit" class="stage-btn-submit">	
 															</div>
-															<div class="u-form-send-message u-form-send-success">
-																Thank you! Your message has been sent.
-															</div>
-															<div class="u-form-send-error u-form-send-message"> 
-																Unable to send your message. Please fix errors then try again.
-															</div>
-															<input type="hidden" value="" name="recaptchaResponse">
 														</form>
 													</div>
 												</div>
@@ -864,16 +862,14 @@
 			</div>
 		</section>
 
-		<footer class="page-footer">
+		<footer class="page-footer" style="background-color: black">
 			<div class="iw-footer-v2-widget">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-3 footer-left">
 							<div class="iw-footer-logo">
 								<a href="index.html">
-									<img alt="logo-widget"
-										src="wp-content/uploads/revslider/slider-2/apeslogowhite.png"
-										style="width: 200px;" />
+									<img alt="logo-widget" src="wp-content/uploads/revslider/slider-2/apeslogowhite.png" style="width: 200px;" />
 								</a>
 							</div>
 							<div class="footer-text">
@@ -895,25 +891,20 @@
 												<h4>Suivez nous sur: </h4>
 											</div>
 											<ol>
-												<li><i class="fa fa-youtube"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
+												<li><i class="fa fa-youtube" style="font-size: 20px;color: white;padding-right: 10px;"></i>
 													<a href="https://www.youtube.com"> YOUTUBE</a>
 												</li>
-												<li><i class="fa fa-facebook"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
-													<a href="https://www.youtube.com"> FACEBOOK</a>
+												<li><i class="fa fa-facebook" style="font-size: 20px;color: white;padding-right: 10px;"></i>
+													<a href="https://www.facebook.com"> FACEBOOK</a>
 												</li>
-												<li><i class="fa fa-instagram"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
-													<a href="https://www.youtube.com"> INSTAGRAM</a>
+												<li><i class="fa fa-instagram" style="font-size: 20px;color: white;padding-right: 10px;"></i>
+													<a href="https://www.instagram.com"> INSTAGRAM</a>
 												</li>
-												<li><i class="fa fa-google-plus"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
-													<a href="https://www.youtube.com"> GOOGLE +</a>
+												<li><i class="fa fa-google-plus" style="font-size: 20px;color: white;padding-right: 10px;"></i>
+													<a href="https://www.google.com"> GOOGLE +</a>
 												</li>
-												<li><i class="fa fa-wikipedia-w"
-														style="font-size: 20px;color: white;padding-right: 10px;"></i>
-													<a href="https://www.youtube.com"> WIKIPEDIA</a>
+												<li><i class="fa fa-wikipedia-w" style="font-size: 20px;color: white;padding-right: 10px;"></i>
+													<a href="https://www.wikipedia.com"> WIKIPEDIA</a>
 												</li>
 											</ol>
 										</div>
@@ -926,7 +917,7 @@
 										<div class="textwidget">
 											<ul style="color: rgb(209, 204, 204)">
 												<li>
-													<h5>APES: 52, Avenue Saïo Ibanda Bukavu <br> / Sud-Kivu</h5>
+													<h5>APES: 52, Avenue Saïo Ibanda Bukavu <br>/ Sud-Kivu</h5>
 												</li><br>
 												<li>
 													<h5>+243 997 738 579</h5>
@@ -940,11 +931,11 @@
 											</ul>
 											<div class="iw-contact iw-contact-widget">
 												<div class="ajax-overlay">
-													<span class="ajax-loading"><i
-															class="fa fa-spinner fa-spin fa-2x"></i></span>
+													<span class="ajax-loading">
+														<i class="fa fa-spinner fa-spin fa-2x"></i>
+													</span>
 												</div>
 												<div class="headding-bottom"></div>
-
 											</div>
 										</div>
 									</div>
@@ -964,21 +955,12 @@
 						<div class="col-md-6 col-sm-6 back-to-top-container">
 							<nav class="iw-main-nav">
 								<ul id="menu-footer-menu" class="menu">
-									<li id="menu-item-475"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-475"><a
-											href="index.html">Accueil</a></li>
-									<li id="menu-item-476"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-476"><a
-											href="Nosprojets/index.html">Nos projets</a></li>
-									<li id="menu-item-477"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-477"><a
-											href="about-us/index.html">A propos</a></li>
-									<li id="menu-item-479"
-										class="menu-item menu-item-type-custom menu-item-object-custom menu-item-479"><a
-											href="contact/index.html">Contact</a></li>
+									<li id="menu-item-475" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-475"><a href="index.php">Accueil</a></li>
+									<li id="menu-item-476" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-476"><a href="projects.php">Nos projets</a></li>
+									<li id="menu-item-477" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-477"><a href="about_us.php">A propos</a></li>
+									<li id="menu-item-479" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-479"><a href="contact.php">Contact</a></li>
 								</ul>
 							</nav>
-
 						</div>
 					</div>
 				</div>
@@ -1056,22 +1038,6 @@
 		id='infunding_map-js'></script>
 	<script type='text/javascript' src='wp-content/plugins/infunding/assets/js/markerclusterer.js'
 		id='markerclusterer-js'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4'
-		id='js-cookie-js'></script>
-	<script type='text/javascript' id='woocommerce-js-extra'>
-		/* <![CDATA[ */
-		var woocommerce_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%" };
-/* ]]> */
-	</script>
-	<script type='text/javascript'
-		src='wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min0e7d.js?ver=5.1.0'
-		id='woocommerce-js'></script>
-	<script type='text/javascript' id='wc-cart-fragments-js-extra'>
-		/* <![CDATA[ */
-		var wc_cart_fragments_params = { "ajax_url": "\/wp-admin\/admin-ajax.php", "wc_ajax_url": "\/?wc-ajax=%%endpoint%%", "cart_hash_key": "wc_cart_hash_0913cbd3ab01c0e01a9ab9639c7df8b6", "fragment_name": "wc_fragments_0913cbd3ab01c0e01a9ab9639c7df8b6", "request_timeout": "5000" };
-/* ]]> */
-	</script>
 
 	<script src="header-1.js"></script>
 
