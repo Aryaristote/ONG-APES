@@ -67,10 +67,15 @@ article {
 .main-article{
   border: none !important;
 }
+.main-article p{
+  color: #5b5b5b;
+  font-weight: 500;
+}
 article p {
   font-family: "Karla", sans-serif;
   font-size: 13px;
-  color: #c8c8c8;
+  color: #5b5b5b;
+  font-weight: bold;
 }
 article:nth-child(4) {
   grid-area: 1/2/4/3;

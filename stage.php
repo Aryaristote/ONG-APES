@@ -690,7 +690,7 @@
 			<div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
 				<h2 class="u-text u-text-1" style="color: #838383;">DEMANDER UN STAGE</h2>
 
-				<?= set_flash("Love") ?>
+				<!-- <?= set_flash("Love") ?> -->
 
 				<div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
 					<div class="u-layout">
