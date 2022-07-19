@@ -7,201 +7,15 @@
 	<link rel="stylesheet" href="header-1.css" />
 	<link rel="stylesheet" href="stageForm.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="nicepagef5e5.css?version=2f3e2b1a-efe6-4499-bd47-eb85722e98ee" media="screen">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link rel="pingback" href="xmlrpc.php">
-	<script>document.documentElement.className = document.documentElement.className + ' yes-js js_active js'</script>
+	<link rel="stylesheet" href="nicepagef5e5.css" media="screen">
 	<title>Contact</title>
-	<meta name='robots' content='max-image-preview:large' />
-	<link rel='dns-prefetch' href='http://s.w.org/' />
-	<link rel="alternate" type="application/rss+xml" title="inCharity &raquo; Feed" href="feed/index.html" />
-	<link rel="alternate" type="application/rss+xml" title="inCharity &raquo; Comments Feed"
-		href="comments/feed/index.html" />
-	<script type="text/javascript">
-		window._wpemojiSettings = { "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/", "ext": ".png", "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/", "svgExt": ".svg", "source": { "concatemoji": "https:\/\/charity.sdemo.site\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.5" } };
-		!function (e, a, t) { var n, r, o, i = a.createElement("canvas"), p = i.getContext && i.getContext("2d"); function s(e, t) { var a = String.fromCharCode; p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, e), 0, 0); e = i.toDataURL(); return p.clearRect(0, 0, i.width, i.height), p.fillText(a.apply(this, t), 0, 0), e === i.toDataURL() } function c(e) { var t = a.createElement("script"); t.src = e, t.defer = t.type = "text/javascript", a.getElementsByTagName("head")[0].appendChild(t) } for (o = Array("flag", "emoji"), t.supports = { everything: !0, everythingExceptFlag: !0 }, r = 0; r < o.length; r++)t.supports[o[r]] = function (e) { if (!p || !p.fillText) return !1; switch (p.textBaseline = "top", p.font = "600 32px Arial", e) { case "flag": return s([127987, 65039, 8205, 9895, 65039], [127987, 65039, 8203, 9895, 65039]) ? !1 : !s([55356, 56826, 55356, 56819], [55356, 56826, 8203, 55356, 56819]) && !s([55356, 57332, 56128, 56423, 56128, 56418, 56128, 56421, 56128, 56430, 56128, 56423, 56128, 56447], [55356, 57332, 8203, 56128, 56423, 8203, 56128, 56418, 8203, 56128, 56421, 8203, 56128, 56430, 8203, 56128, 56423, 8203, 56128, 56447]); case "emoji": return !s([55357, 56424, 8205, 55356, 57212], [55357, 56424, 8203, 55356, 57212]) }return !1 }(o[r]), t.supports.everything = t.supports.everything && t.supports[o[r]], "flag" !== o[r] && (t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && t.supports[o[r]]); t.supports.everythingExceptFlag = t.supports.everythingExceptFlag && !t.supports.flag, t.DOMReady = !1, t.readyCallback = function () { t.DOMReady = !0 }, t.supports.everything || (n = function () { t.readyCallback() }, a.addEventListener ? (a.addEventListener("DOMContentLoaded", n, !1), e.addEventListener("load", n, !1)) : (e.attachEvent("onload", n), a.attachEvent("onreadystatechange", function () { "complete" === a.readyState && t.readyCallback() })), (n = t.source || {}).concatemoji ? c(n.concatemoji) : n.wpemoji && n.twemoji && (c(n.twemoji), c(n.wpemoji))) }(window, document, window._wpemojiSettings);
-	</script>
-	<style type="text/css">
-		img.wp-smiley,
-		img.emoji {
-			display: inline !important;
-			border: none !important;
-			box-shadow: none !important;
-			height: 1em !important;
-			width: 1em !important;
-			margin: 0 .07em !important;
-			vertical-align: -0.1em !important;
-			background: none !important;
-			padding: 0 !important;
-		}
-	</style>
-	<link rel='stylesheet' id='woocommerce_prettyPhoto_css-css'
-		href='wp-content/plugins/woocommerce/assets/css/prettyPhotoa4a0.css?ver=5.7.5' type='text/css' media='all' />
-	<link rel='stylesheet' id='google-font-robotoslab-css'
-		href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='google-font-abeezee-css'
-		href='http://fonts.googleapis.com/css?family=ABeeZee%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='fancybox-css'
-		href='wp-content/themes/incharity/fancybox/jquery.fancyboxe7f3.css?ver=2.1.7' type='text/css' media='all' />
-	<link rel='stylesheet' id='fancybox-thumbs-css'
-		href='wp-content/themes/incharity/fancybox/helpers/jquery.fancybox-thumbse7f3.css?ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='select2-css-css' href='wp-content/themes/incharity/css/select2e7f3.css?ver=2.1.7'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='pwsignaturetwo-css'
-		href='wp-content/themes/incharity/fonts/pwsignaturetwo/stylesheete7f3.css?ver=2.1.7' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='woocommece-css' href='wp-content/themes/incharity/css/woocommecee7f3.css?ver=2.1.7'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='incharity-animation-css'
-		href='wp-content/themes/incharity/css/animatione7f3.css?ver=2.1.7' type='text/css' media='all' />
-	<link rel='stylesheet' id='incharity-style-css' href='wp-content/themes/incharity/stylea4a0.css?ver=5.7.5'
-		type='text/css' media='all' />
+
+	<link rel='stylesheet' id='google-font-robotoslab-css' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7' type='text/css' media='all' />
+	<link rel='stylesheet' id='incharity-style-css' href='wp-content/themes/incharity/stylea4a0.css?ver=5.7.5' type='text/css' media='all' />
+	
 	<style id='incharity-style-inline-css' type='text/css'>
-		a {
-			color: #53761f;
-		}
-
-		/** panel settings */
-		.panel-tools .button-command.active,
-		.reset-button button {
-			border-color: #53761f;
-			background-color: #53761f;
-		}
-
-		.woocommerce #respond input#submit.alt:hover,
-		.woocommerce a.button.alt:hover,
-		.woocommerce button.button.alt:hover,
-		.woocommerce input.button.alt:hover {
-			background-color: #53761f;
-		}
-
-		.woocommerce #payment #place_order {
-			background: #53761f;
-		}
-
-		.checkout-box .title,
-		.lost_password a {
-			color: #53761f;
-		}
-
-		.cart-table-items .cart-price,
-		.cart-table-items .product-info a:hover {
-			color: #53761f;
-		}
-
-		.onsale-label:before,
-		.new-label:before {
-			border-top-color: #53761f;
-		}
-
-		.tab-testimonial-home6 .iw-tabs.layout3 .iw-tab-item.active:before,
-		.tab-testimonial-home6 .iw-tabs.layout3 .iw-tab-item:hover:before {
-			border-left-color: #53761f;
-		}
-
-		.button1 {
-			border-color: #53761f;
-			color: #53761f;
-		}
-
-		.iw-mailchimp-form.style4 .mc-submit-button:hover {
-			color: #53761f;
-		}
-		/*===== BLOG LISTING AND DETAIL COLOR ====*/
-		.post-item .post-content-head .feature-post {
-			background: #53761f;
-		}
-
-		.sticky .post-content {
-			border-color: #53761f;
-		}
-
-		.widget_meta ul li a:hover,
-		.widget_recent_comments ul li:hover a {
-			color: #53761f;
-		}
-
-		.place-des-contain .des-content .read-more a {
-			color: #53761f;
-		}
-
-		.campaign-detail .owl-theme .owl-controls .owl-buttons div:hover {
-			background: #53761f;
-		}
-
-		.load-campaigns .post-pagination a.page-numbers:hover,
-		.load-campaigns .post-pagination span.page-numbers.current {
-			color: #fff;
-			border-color: #53761f;
-			background: #53761f;
-		}
-
-		.campaing-listing.infunding_style2 .item-info:hover {
-			box-shadow: 0 0 0 2px #53761f inset;
-		}
-
-
-		.info-item.style9 .icon i {
-			color: #53761f;
-		}
-
-		.info-item.style9:hover .icon i {
-			background: #53761f;
-			border-color: #53761f;
-		}
-
-		a.become-volunteer-button {
-			background: #53761f;
-		}
-
-		.in-volunteer-contact input.wpcf7-submit {
-			background: #53761f;
-		}
-
-		.in-volunteer-contact .iradio_flat.checked .iCheck-helper {
-			background: #53761f !important;
-		}
-
-		.down .header-version-4 .nav-trigger span {
-			background-color: #53761f;
-		}
-
-		/*===== END BLOG LISTING AND DETAIL COLOR ====*/
-
-		.iw-server-location-2 .marker-info-right .simple-list li {
-			color: #53761f;
-		}
-
-		/* Outside codes  */
-
-		.u-section-2 {
-			background-image: none;
-		}
-
-		.u-section-2 .u-sheet-1 {
-			min-height: 828px;
-		}
-
-		.u-section-2 .u-text-1 {
-			text-transform: uppercase;
-			font-weight: 700;
-			font-size: 1.875rem;
-			width: 345px;
-			margin: 31px auto 0;
-		}
-
-		.u-section-2 .u-layout-wrap-1 {
-			margin: 39px auto 31px 0;
-		}
-
-		.u-section-2 .u-layout-cell-1 {
-			min-height: 240px;
-		}
+		
 
 		.u-section-2 .u-container-layout-1 {
 			padding: 30px;
@@ -484,14 +298,6 @@
 			}
 		}
 
-		.u-input-rectangle
-		/* Outside codes  */
-
-		/*Theme color for campaign detail - duongca*/
-		.sidebar-right .campaign-progress .circle {
-			background-image: linear-gradient(to right, transparent 50%, #53761f 0px);
-		}
-
 		@keyframes infbg {
 			50% {
 				background: #53761f;
@@ -548,12 +354,11 @@
 	</style>
 </head>
 
-<body id="page-top"
-	class="page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page page-id-139 theme-incharity woocommerce-no-js wpb-js-composer js-comp-ver-6.3.0 vc_responsive">
+<body id="page-top" class="page-template page-template-page-templates page-template-home-page page-template-page-templateshome-page-php page page-id-139 theme-incharity woocommerce-no-js wpb-js-composer js-comp-ver-6.3.0 vc_responsive">
 	<div class="wrapper " style="background: #f9f9f9;">
-		<?php 
-			$nav = 'contact';
-			require "import/menu/menu.php" 
+		<?php
+		$nav = 'contact';
+		require "import/menu/menu.php"
 		?>
 
 		<section class="u-align-center u-clearfix u-grey-5 u-section-2" id="sec-c628">
@@ -570,36 +375,29 @@
 												<div class="u-container-layout u-container-layout-5">
 													<h2 class="u-text u-text-default u-text-10" style="color: #838383;">
 														Fait entendre votre voix</h2>
-													<h6 class="u-text u-text-11"
-														style="color: #838383;font-weight: bold;">DISPONIBLE 24h / 24h
+													<h6 class="u-text u-text-11" style="color: #838383;font-weight: bold;">DISPONIBLE 24h / 24h
 													</h6>
 													<div class="u-form u-form-1">
-														<form action="contactProcess.php" method="POST" id="contactForm" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form"
-															style="padding: 0;" source="email" name="form">
+														<form action="contactProcess.php" method="POST" id="contactForm" class="u-clearfix u-form-spacing-10 u-form-vertical u-inner-form" style="padding: 0;" source="email" name="form">
 															<div class="u-form-group u-form-name">
 																<label for="name-3d90" class="u-form-control-hidden u-label">Name</label>
 																<input required="" type="text" required="" placeholder="Entrez votre nom" id="name-3d90" name="name" class="u-input u-input-rectangle u-white">
 															</div>
 															<div class="u-form-email u-form-group">
-																<label for="email-3d90"
-																	class="u-form-control-hidden u-label">Email</label>
+																<label for="email-3d90" class="u-form-control-hidden u-label">Email</label>
 																<input type="email" placeholder="Entrez votre addresse mail" id="email-3d90" name="email" class="u-input u-input-rectangle u-white" required="">
 															</div>
 															<div class="u-form-group u-form-message">
-																<label for="message-3d90"
-																	class="u-form-control-hidden u-label">Message</label>
-																<textarea placeholder="Entrez votre message" rows="4"
-																	cols="50" id="message-3d90" name="message"
-																	class="u-input u-input-rectangle u-white"
-																	required=""></textarea>
+																<label for="message-3d90" class="u-form-control-hidden u-label">Message</label>
+																<textarea placeholder="Entrez votre message" rows="4" cols="50" id="message-3d90" name="message" class="u-input u-input-rectangle u-white" required=""></textarea>
 															</div>
 															<div class="u-align-left u-form-group u-form-submit">
-																<button type="submit" value="submit" class="stage-btn-submit stage-btn">Envoyez</button>	
+																<button type="submit" value="submit" class="stage-btn-submit stage-btn">Envoyez</button>
 															</div>
 															<div class="u-form-send-message u-form-send-success">
 																Thank you! Your message has been sent.
 															</div>
-															<div class="u-form-send-error u-form-send-message"> 
+															<div class="u-form-send-error u-form-send-message">
 																Unable to send your message. Please fix errors then try again.
 															</div>
 															<input type="hidden" value="" name="recaptchaResponse">
@@ -611,18 +409,15 @@
 									</div>
 									<div class="u-size-30">
 										<div class="u-layout-col">
-											<div
-												class="u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-6">
+											<div class="u-container-style u-layout-cell u-right-cell u-size-60 u-layout-cell-6">
 												<div class="u-container-layout u-container-layout-6">
 													<h3 class="u-text u-text-default u-text-12" style="color: #838383;">
 														Nous sommes ouvert de: </h3>
-													<h6 class="u-text u-text-13"
-														style="color: #838383;font-weight: bold;">Lundi-Samedi 8:30AM-
+													<h6 class="u-text u-text-13" style="color: #838383;font-weight: bold;">Lundi-Samedi 8:30AM-
 														17:00PM / Le telephone est ouvert 24/7</h6>
 													<div class="u-grey-light-2 u-map u-map-1">
 														<div class="embed-responsive">
-															<iframe class="" src="https://maps.google.com/maps?q=Bukavu&t=&z=13&ie=UTF8&iwloc=&output=embed"
-																data-map="JTdCJTIyYWRkcmVzcyUyMiUzQSUyMk1hbmhhdHRhbiUyQyUyME5ldyUyMFlvcmslMjIlMkMlMjJ6b29tJTIyJTNBMTAlMkMlMjJ0eXBlSWQlMjIlM0ElMjJyb2FkJTIyJTJDJTIybGFuZyUyMiUzQSUyMiUyMiU3RA=="></iframe>
+															<iframe class="" src="https://maps.google.com/maps?q=Bukavu&t=&z=13&ie=UTF8&iwloc=&output=embed" data-map="JTdCJTIyYWRkcmVzcyUyMiUzQSUyMk1hbmhhdHRhbiUyQyUyME5ldyUyMFlvcmslMjIlMkMlMjJ6b29tJTIyJTNBMTAlMkMlMjJ0eXBlSWQlMjIlM0ElMjJyb2FkJTIyJTJDJTIybGFuZyUyMiUzQSUyMiUyMiU3RA=="></iframe>
 														</div>
 													</div>
 												</div>
@@ -633,8 +428,7 @@
 							</div>
 							<div class="u-size-30">
 								<div class="u-layout-row">
-									<div
-										class="u-align-center u-container-style u-layout-cell u-left-cell u-size-15 u-size-30-md u-layout-cell-1">
+									<div class="u-align-center u-container-style u-layout-cell u-left-cell u-size-15 u-size-30-md u-layout-cell-1">
 										<div class="u-container-layout u-valign-top u-container-layout-1">
 											<span class="u-icon u-icon-circle u-text-grey-40 u-icon-1"></span>
 											<h2 class="u-text u-text-2" style="color: #838383;">NOTRE BUREAU</h2>
@@ -643,18 +437,15 @@
 											</p>
 										</div>
 									</div>
-									<div
-										class="u-align-center u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-2">
-										<div class="u-container-layout u-valign-top u-container-layout-2"><span
-												class="u-icon u-icon-circle u-text-grey-40 u-icon-2"></span>
+									<div class="u-align-center u-container-style u-layout-cell u-size-15 u-size-30-md u-layout-cell-2">
+										<div class="u-container-layout u-valign-top u-container-layout-2"><span class="u-icon u-icon-circle u-text-grey-40 u-icon-2"></span>
 											<h2 class="u-text u-text-4" style="color: #838383;">PHONE & EMAIL</h2>
 											<p class="u-text u-text-5" style="color: #838383;">
 												+243 997 738 579<br>+243 853 210 640 <br>apesrdc@gmail.com
 											</p>
 										</div>
 									</div>
-									<div
-										class="u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-layout-cell-4">
+									<div class="u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-layout-cell-4">
 										<div class="u-container-layout u-valign-top u-container-layout-4">
 											<span class="u-icon u-icon-circle u-text-grey-40 u-icon-4"></span>
 											<h2 class="u-align-center u-text u-text-8" style="color: #838383;">N°Compte
@@ -663,13 +454,12 @@
 												0160403117602901, 0160403117602902</p>
 										</div>
 									</div>
-									<div
-										class="u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-layout-cell-4">
+									<div class="u-container-style u-layout-cell u-right-cell u-size-15 u-size-30-md u-layout-cell-4">
 										<div class="u-container-layout u-valign-top u-container-layout-4">
 											<span class="u-icon u-icon-circle u-text-grey-40 u-icon-4"></span>
 											<h2 class="u-align-center u-text u-text-8" style="color: #838383;">Demander un stage</h2><br>
 											<div class="u-align-center u-form-group u-form-submit" style="font-size: 18px">
-												<a href="stage.php" type="submit" value="submit" class="stage-btn-submit">Demander un stage</a>	
+												<a href="stage.php" type="submit" value="submit" class="stage-btn-submit">Demander un stage</a>
 											</div>
 										</div>
 									</div>
@@ -703,8 +493,7 @@
 						<div class="col-md-9 col-sm-9 footer-right">
 							<div class="iw-footer-widget">
 								<div id="iw-sidebar-four" class="widget-area" role="complementary">
-									<div id="latest_post_campaign-2"
-										class="widget_latest_post_campaign widget-count-2 col-md-6 col-sm-6 col-xs-12">
+									<div id="latest_post_campaign-2" class="widget_latest_post_campaign widget-count-2 col-md-6 col-sm-6 col-xs-12">
 										<div class="footer-post-campaign">
 											<div class="footer-title">
 												<h4>Suivez nous sur: </h4>
@@ -728,8 +517,7 @@
 											</ol>
 										</div>
 									</div>
-									<div id="shortcode-widget-6"
-										class="shortcode_widget widget-count-2 col-md-6 col-sm-6 col-xs-12">
+									<div id="shortcode-widget-6" class="shortcode_widget widget-count-2 col-md-6 col-sm-6 col-xs-12">
 										<div class="footer-title">
 											<h4>Nous contacter</h4>
 										</div>
@@ -791,24 +579,6 @@
 			</div>
 		</footer>
 	</div>
-	<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-
-	<script src="header-1.js"></script>
-	<script type='text/javascript'
-		src='wp-content/themes/incharity/fancybox/helpers/jquery.fancybox-thumbse7f3.js?ver=2.1.7'
-		id='jquery.fancybox-thumbs-js'></script>
-	<script type='text/javascript' src='wp-content/themes/incharity/js/select2.fulle7f3.js?ver=2.1.7'
-		id='select2.full-js'></script>
-	<script type='text/javascript' src='wp-content/themes/incharity/js/ichecke7f3.js?ver=2.1.7'
-		id='icheck-js'></script>
-	<script type='text/javascript' src='wp-content/themes/incharity/js/jquery.fitvidse7f3.js?ver=2.1.7'
-		id='jquery-fitvids-js'></script>
-	<script type='text/javascript' id='incharity-template-js-extra'>
-		/* <![CDATA[ */
-		var inwaveCfg = { "siteUrl": "https:\/\/charity.sdemo.site\/wp-admin\/", "themeUrl": "https:\/\/charity.sdemo.site\/wp-content\/themes\/incharity", "baseUrl": "https:\/\/charity.sdemo.site", "ajaxUrl": "https:\/\/charity.sdemo.site\/wp-admin\/admin-ajax.php" };
-/* ]]> */
-	</script>
-	
 </body>
 
 <!-- Mirrored from charity.sdemo.site/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jan 2022 11:30:22 GMT -->
