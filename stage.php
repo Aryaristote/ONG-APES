@@ -208,10 +208,10 @@ require "./template/stage.views.php"
 																	<input name="file_resume" type="file" required="required" class="u-input u-input-rectangle u-white">
 																</div>
 
-																<!-- <div class="u-form-group u-form-name">
+																<div class="u-form-group u-form-name">
 																	<h5>Soumettre une pièce d'identité * </h5>
-																	<input name="file_id" type="file" required="required" class="u-input u-input-rectangle u-white">
-																</div> -->
+																	<input name="file_ident" type="file" required="required" class="u-input u-input-rectangle u-white">
+																</div>
 																
 																<div class="u-form-group accept-check">
 																	<input type="checkbox">
