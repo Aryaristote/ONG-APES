@@ -10,4 +10,4 @@
 
     // echo $rowcount;
 
-  include "logics/index.php";
+  include "logics/create_post.php";

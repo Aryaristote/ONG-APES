@@ -28,13 +28,13 @@
       <div class="content-wrapper d-flex align-items-center auth px-0">
         <div class="row w-100 mx-0">
           <div class="col-lg-4 mx-auto">
-            <?php if(array_key_exists('name', $errors)): ?>
+            <!-- <?php if($errors): ?>
               <?php foreach($errors as $error): ?>
                 <div class="alert alert-danger">
                 <?= $error ?>
                 </div>
               <?php endforeach ?>
-            <?php endif ?>
+            <?php endif ?> -->
             <div class="auth-form-light text-left py-5 px-4 px-sm-5">
               <div class="brand-logo">
                 <img src="../wp-content/uploads/revslider/slider-2/apeslogo.png" style="width: 100px" alt="logo">

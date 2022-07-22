@@ -4,6 +4,36 @@
     include "../config/database.php";
     include "../functions/function.php";
 
+    // if (isset($_POST['submit'])) {
+    //     $name = $_POST['name'];
+    //     $role = $_POST['role'];
+    //     $email = $_POST['email'];
+    //     $password = $_POST['password'];
+
+    //     $password_hash = password_hash($password, PASSWORD_BCRYPT);
+
+    //     $q = $db->prepare("SELECT * FROM admin WHERE email=:email");
+
+    //     $q->bindParam("email", $email, PDO::PARAM_STR);
+    //     $q->execute();
+    //     if ($q->rowCount() > 0) {
+    //         $errors = "The email address is already registered!";
+    //     }
+    //     if ($q->rowCount() == 0) {
+    //         $q = $connection->prepare("INSERT INTO admin(name, role, password, email) VALUES (:name, :role, :password_hash,:email)");
+    //         $q->bindParam("name", $name, PDO::PARAM_STR);
+    //         $q->bindParam("password_hash", $password_hash, PDO::PARAM_STR);
+    //         $q->bindParam("email", $email, PDO::PARAM_STR);
+
+    //         $result = $q->execute();
+    //         if ($result) {
+    //             echo '<p class="success">Your registration was successful!</p>';
+    //         } else {
+    //             echo '<p class="error">Something went wrong!</p>';
+    //         }
+    //     }
+    // }
+
     if(isset($_POST['submit'])){
         if(!empty(['name', 'email', 'role', 'password', 'password_confirm'])){
             $errors = [];

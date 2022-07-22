@@ -175,12 +175,13 @@ require "./template/stage.views.php"
 																<div class="u-form-group u-form-name">
 																	<h5>Niveau d'étude:</h5>
 																	<div class="select">
-																		<select id="standard-select">
-																			<option value="Option 1">Diplome</option>
-																			<option value="Option 2">Grade</option>
-																			<option value="Option 3">Licence</option>
-																			<option value="Option 4">Master</option>
-																			<option value="Option 5">Autre</option>
+																		<select name="niveau" id="standard-select">
+																		<option value="">Niveau d'etude</option>
+																			<option value="Diplome">Diplome</option>
+																			<option value="Grade">Grade</option>
+																			<option value="Licence">Licence</option>
+																			<option value="Master">Master</option>
+																			<option value="Autre">Autre</option>
 																		</select>
 																		<span class="focus"></span>
 																	</div>
@@ -205,12 +206,12 @@ require "./template/stage.views.php"
 
 																<div class="u-form-group u-form-name">
 																	<h5>Soumettre une lettre de motivation * </h5>
-																	<input name="file_resume" type="file" required="required" class="u-input u-input-rectangle u-white">
+																	<input name="file2" type="file" required="required" class="u-input u-input-rectangle u-white">
 																</div>
 
 																<div class="u-form-group u-form-name">
 																	<h5>Soumettre une pièce d'identité * </h5>
-																	<input name="file_ident" type="file" required="required" class="u-input u-input-rectangle u-white">
+																	<input name="file3" type="file" required="required" class="u-input u-input-rectangle u-white">
 																</div>
 																
 																<div class="u-form-group accept-check">

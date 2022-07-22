@@ -2,7 +2,7 @@
     session_start();
     include "../config/database.php";
 
-    $q = $db->query("SELECT id, name, location, domain, niveau, files_url, files_url2, files_url3 FROM visitors ORDER BY name DESC LIMIT 0,5");
+    $q = $db->query("SELECT id, name, location, domain, niveau, files_url, files_url2, files_url3 FROM visitors ORDER BY name");
     $stages = $q->fetchAll(PDO::FETCH_OBJ);
 
     $req = $db->query("SELECT COUNT(*) FROM visitors;");
@@ -10,4 +10,4 @@
 
     // echo $rowcount;
 
-  include "logics/index.php";
+  include "logics/stage_show.php";
