@@ -21,7 +21,7 @@
             $q->execute([
                 'id' => $_GET['id'],
             ]);
-            $success = "Votre projet a été supprimé";
+            $_SESSION["delete_post"] = "Votre projet a été supprimé";
             header("Location: post_list.php");
         }else{
             $error = "Le projet n'a pas été supprimé";

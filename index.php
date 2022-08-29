@@ -12,9 +12,7 @@
     }
 ?>
 <!DOCTYPE html>
-<html lang="en-US">
-
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -109,6 +107,7 @@
 	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rbtools.minb724.js?ver=6.2.15'></script>
 	<script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rs6.minb724.js?ver=6.2.15'></script>
 	<script type='text/javascript' src='wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
+	
 	<script type="text/javascript">
 		function setREVStartSize(e) {
 			//window.requestAnimationFrame(function() {				 

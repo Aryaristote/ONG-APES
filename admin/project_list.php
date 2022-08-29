@@ -3,7 +3,7 @@
     include "../config/database.php";
     include "./filter/auth.php";
 
-    $q = $db->query("SELECT * FROM project");
+    $q = $db->query("SELECT * FROM project ORDER BY created_at DESC");
     
     if($q){
         $projects = $q->fetchAll(PDO::FETCH_OBJ);

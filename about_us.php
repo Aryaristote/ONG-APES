@@ -4,7 +4,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -20,9 +20,11 @@
 	<link rel='stylesheet' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css'/>
 	<link rel='stylesheet' href='wp-content/plugins/iw_composer_addons/assets/css/iw-shortcodese7f3.css?ver=2.1.7' type='text/css'/>
 
+	<script type='text/javascript' src='wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'></script>
 	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css'/>
 	<link rel='stylesheet' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7' type='text/css'/>
 	<link rel='stylesheet' href='wp-content/themes/incharity/stylea4a0.css?ver=5.7.5' type='text/css'/>
+
 	<style type='text/css'>
 		.button1 {
 			border-color: #53761f;

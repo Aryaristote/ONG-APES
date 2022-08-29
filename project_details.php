@@ -17,8 +17,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -293,6 +292,7 @@
 		}
 	</style>
 
+<script type='text/javascript' src='wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'></script>
 	<link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.mina4a0.css?ver=5.7.5' type='text/css' media='all' />
 	<link rel='stylesheet' id='wc-block-vendors-style-css' href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-stylecb20.css?ver=4.4.3' type='text/css' media='all' />
 	<link rel='stylesheet' id='wc-block-style-css' href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/stylecb20.css?ver=4.4.3' type='text/css' media='all' />

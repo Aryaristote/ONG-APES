@@ -84,3 +84,7 @@ HTML;
         </div>
     </div>
 </nav>
+
+<script type='text/javascript' src='../../wp-content/themes/incharity/js/bootstrap.mine7f3.js?ver=2.1.7' id='bootstrap-js'></script>
+<script src="../../header-1.js"></script>
+<!-- <script type='text/javascript' src='../../wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'></script> -->

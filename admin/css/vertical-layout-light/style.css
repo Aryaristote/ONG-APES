@@ -13841,6 +13841,19 @@ input[type="button"].btn-block {
   margin-bottom: 0;
 }
 
+.own-cardTitle{
+  height: 65px;
+  overflow: hidden;
+  text-transform: lowercase;
+}
+
+.own-carDescr{
+  height: 47px;
+  overflow: hidden;
+  text-transform: lowercase;
+  color: #000;
+}
+
 .card-link:hover {
   text-decoration: none;
 }
@@ -14600,6 +14613,10 @@ a.badge-dark:focus, a.badge-dark.focus {
   padding: 0.75rem 1.25rem;
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.125);
+  color: #000;
+}
+.list-group-item:hover{
+  text-decoration: none;
 }
 
 .list-group-item:first-child {
@@ -28580,6 +28597,7 @@ div.tagsinput span.tag a {
   display: flex;
   -webkit-flex-direction: column;
   flex-direction: column;
+  margin-left: 20%;
 }
 
 @media (max-width: 991px) {
@@ -30023,6 +30041,11 @@ div.tagsinput span.tag a {
   .navbar .navbar-brand-wrapper .brand-logo-mini {
     padding-top: 0px;
   }
+}
+
+.own-classe{
+  position: fixed;
+  width: 20%;
 }
 
 /* Layouts */

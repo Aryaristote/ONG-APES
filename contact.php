@@ -4,8 +4,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -19,6 +18,7 @@
 	<link rel='stylesheet' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7' type='text/css' media='all' />
 	<link rel='stylesheet' href='wp-content/themes/incharity/stylea4a0.css?ver=5.7.5' type='text/css'/>
 
+	<script type='text/javascript' src='wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'></script>
 	<link rel="shortcut icon" type="image/png" href="wp-content/favIcons/android-icon-36x361.png">
 	
 	<style type='text/css'>

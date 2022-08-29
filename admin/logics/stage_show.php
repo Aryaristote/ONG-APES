@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 
 <!-- Mirrored from bootstrapdash.com/demo/skydash-free/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Jul 2022 10:30:23 GMT -->
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Stage Liste</title>
   <!-- plugins:css -->
@@ -75,120 +75,45 @@
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <!-- partial:partials/_settings-panel.html -->
-      <div class="theme-setting-wrapper">
-        <div id="settings-trigger"><i class="ti-settings"></i></div>
-        <div id="theme-settings" class="settings-panel">
-          <i class="settings-close ti-close"></i>
-          <p class="settings-heading">SIDEBAR SKINS</p>
-          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Light</div>
-          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
-          <p class="settings-heading mt-2">HEADER SKINS</p>
-          <div class="color-tiles mx-0 px-4">
-            <div class="tiles success"></div>
-            <div class="tiles warning"></div>
-            <div class="tiles danger"></div>
-            <div class="tiles info"></div>
-            <div class="tiles dark"></div>
-            <div class="tiles default"></div>
-          </div>
-        </div>
-      </div>
-      
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
-      <nav class="sidebar sidebar-offcanvas" id="sidebar">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.php">
-                    <i class="icon-grid menu-icon"></i>
-                    <span class="menu-title">Dashboard</span>
-                </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="post_list.php">
-                <i class="icon-contract menu-icon"></i>
-                <span class="menu-title">Actualités</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="project_list.php">
-                <i class="icon-columns menu-icon"></i>
-                <span class="menu-title">Projets</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="stage_show.php">
-                <i class="icon-layout menu-icon"></i>
-                <span class="menu-title">Offres</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="create_post.php">
-              <i class="icon-contract menu-icon"></i>
-                <span class="menu-title">Creer Actualité</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="create_project.php">
-              <i class="icon-columns menu-icon"></i>
-                <span class="menu-title">Creer un projets</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="create_offre.php">
-              <i class="icon-paper menu-icon"></i>
-                <span class="menu-title">Creer une Offre</span>
-              </a>
-            </li>
-        </ul>
-      </nav>
+      <?php
+        require "navbar.php"
+      ?>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
-          <div class="row">
-            <div class="col-md-12 grid-margin stretch-card">
-              <div class="card">
-                <div class="card-body">
-                  <p class="card-title">Dépôt De Candidature</p>
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="table-responsive">
-                      <table class="display expandable-table" style="width:100%">
-                          <thead>
-                            <tr>
-                              <th>Quote#</th>
-                              <th>Nom & Post-nom</th>
-                              <th>Ville</th>
-                              <th>Domaine</th>
-                              <th>Poste</th>
-                              <th>Niveau d'études</th>
-                              <th>Cv</th>
-                              <th>Lettre de motivation</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <?php foreach($stages as $key => $stage): ?>
-                              <tr>
-                                  <th scope="row"><?= $key + 1 ?></th>
-                                  <td><?= $stage->name ?></td>
-                                  <td><?= $stage->location ?></td>
-                                  <td><?= $stage->domain ?></td>
-                                  <td><?= $stage->applied_offer ?></td>
-                                  <td><?= $stage->niveau ?></td>
-                                  <td><a href="<?= $stage->files_url ?>"><?= $stage->files_name ?></a></td>
-                                  <td><a href="<?= $stage->files_url2 ?>"><?= $stage->files_name2 ?></a></td>
-                              </tr>
-                            <?php endforeach ?>
-                          </tbody>
-                        </table>
-                      </div><br>
-                        <!-- <a href="#"><b>Voir tous </b><i class="fa fa-arrow-down"></i></a> -->
-                    </div>
-                  </div>
-                  </div>
+            <div class="card">
+              <p class="card-title" style="padding: 20px 0 0 10px">Offres d'emplois</p>
+            </div><br>
+            <div class="col-md-12 grid-margin">
+              <?php if(isset($_SESSION['delete_offre'])): ?>
+                <div class="col-md-12 alert alert-success alert-dismissible">
+                  <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <?= $_SESSION['delete_offre'] ?>
                 </div>
-              </div>
-          </div>
+              <?php endif ?>
+
+              <div class="row">
+                <?php foreach($offres as $offre): ?>
+                  <div class="col-md-4" style="margin-bottom: 20px">
+                    <a href="one_offre.php?id=<?= $offre->offre_id ?>" class="card-link">
+                    <div class="card">
+                    <img class="card-img-top" src="../../jobs/jobs-backimage.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title own-cardTitle"><?= substr($offre->post_name, 0, 150)."..." ?></h5>
+                      <p class="card-text own-carDescr"><?= substr($offre->post_description, 0, 100)."..." ?></p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item"><b>Zone: </b><?= $offre->post_zone ?></li>
+                      <li class="list-group-item"><b>Type: </b><?= $offre->post_contract ?></li>
+                      <li class="list-group-item"><b>Date de creation: </b><?= $offre->created_at ?></li>
+                    </ul>
+                    </div>
+                    </a>
+                  </div>
+                <?php endforeach; ?>
+            </div>
         </div>
         <!-- content-wrapper ends -->
         <!-- partial:partials/_footer.html -->
@@ -232,6 +157,15 @@
     $.fn.dataTable.ext.errMode = 'throw';
   </script> -->
 </body>
+
+<?php
+	$pageWasRefreshed = isset($_SERVER['HTTP_CACHE_CONTROL']) && $_SERVER['HTTP_CACHE_CONTROL'] === 'max-age=0';
+	if($pageWasRefreshed && isset($_SESSION['delete_offre'])) {
+		unset ($_SESSION['delete_offre']);
+	} else {
+	//do nothing;
+	}
+?>
 
 
 <!-- Mirrored from bootstrapdash.com/demo/skydash-free/template/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Jul 2022 10:30:23 GMT -->

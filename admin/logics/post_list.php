@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 
 <!-- Mirrored from bootstrapdash.com/demo/skydash-free/template/pages/tables/basic-table.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Jul 2022 10:30:26 GMT -->
 <head>
   <!-- Required meta tags -->
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Skydash Admin</title>
   <!-- plugins:css -->
@@ -69,73 +69,12 @@
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
       <!-- partial:partials/_settings-panel.html -->
-      <div class="theme-setting-wrapper">
-        <div id="settings-trigger"><i class="ti-settings"></i></div>
-        <div id="theme-settings" class="settings-panel">
-          <i class="settings-close ti-close"></i>
-          <p class="settings-heading">SIDEBAR SKINS</p>
-          <div class="sidebar-bg-options selected" id="sidebar-light-theme"><div class="img-ss rounded-circle bg-light border mr-3"></div>Light</div>
-          <div class="sidebar-bg-options" id="sidebar-dark-theme"><div class="img-ss rounded-circle bg-dark border mr-3"></div>Dark</div>
-          <p class="settings-heading mt-2">HEADER SKINS</p>
-          <div class="color-tiles mx-0 px-4">
-            <div class="tiles success"></div>
-            <div class="tiles warning"></div>
-            <div class="tiles danger"></div>
-            <div class="tiles info"></div>
-            <div class="tiles dark"></div>
-            <div class="tiles default"></div>
-          </div>
-        </div>
-      </div>
       
       <!-- partial -->
       <!-- partial:partials/_sidebar.html -->
-      <nav class="sidebar sidebar-offcanvas" id="sidebar">
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.php">
-                    <i class="icon-grid menu-icon"></i>
-                    <span class="menu-title">Dashboard</span>
-                </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="post_list.php">
-                <i class="icon-contract menu-icon"></i>
-                <span class="menu-title">Actualités</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="project_list.php">
-                <i class="icon-columns menu-icon"></i>
-                <span class="menu-title">Projets</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="stage_show.php">
-                <i class="icon-layout menu-icon"></i>
-                <span class="menu-title">Offres</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="create_post.php">
-              <i class="icon-contract menu-icon"></i>
-                <span class="menu-title">Creer Actualité</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="create_project.php">
-              <i class="icon-columns menu-icon"></i>
-                <span class="menu-title">Creer un projets</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="create_offre.php">
-              <i class="icon-paper menu-icon"></i>
-                <span class="menu-title">Creer une Offre</span>
-              </a>
-            </li>
-        </ul>
-      </nav>
+      <?php
+        require "navbar.php"
+      ?>
       <!-- partial -->
       <div class="main-panel">
         <div class="content-wrapper">
@@ -155,10 +94,10 @@
 
             <div class="col-lg-12 grid-margin stretch-card">
               <div class="">
-              <?php if(isset($_SESSION['delete_success'])): ?>
+              <?php if(isset($_SESSION['delete_post'])): ?>
                 <div class="col-md-12 alert alert-success alert-dismissible">
                   <button type="button" class="close" data-dismiss="alert">&times;</button>
-                  <?= $_SESSION['delete_success'] ?>
+                  <?= $_SESSION['delete_post'] ?>
                 </div>
               <?php endif ?>
                 <?php if(count($news) > 0): ?>
@@ -231,6 +170,15 @@
   <!-- Custom js for this page-->
   <!-- End custom js for this page-->
 </body>
+
+<?php
+	$pageWasRefreshed = isset($_SERVER['HTTP_CACHE_CONTROL']) && $_SERVER['HTTP_CACHE_CONTROL'] === 'max-age=0';
+	if($pageWasRefreshed && isset($_SESSION['delete_post'])) {
+		unset ($_SESSION['delete_post']);
+	} else {
+	//do nothing;
+	}
+?>
 
 
 <!-- Mirrored from bootstrapdash.com/demo/skydash-free/template/pages/tables/basic-table.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 18 Jul 2022 10:30:26 GMT -->

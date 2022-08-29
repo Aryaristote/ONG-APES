@@ -3,8 +3,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -13,6 +12,7 @@
 	<link rel="stylesheet" href="nicepagef5e5.css" media="screen">
 	<title>Offre d'emploi</title>
 
+	<script type='text/javascript' src='wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'></script>
 	<link rel='stylesheet' id='google-font-robotoslab-css' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css' media='all' />
 	<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7' type='text/css' media='all' />
 	<link rel='stylesheet' id='incharity-style-css' href='wp-content/themes/incharity/stylea4a0.css?ver=5.7.5' type='text/css' media='all' />
@@ -149,14 +149,14 @@
 					<div class="description">	
 						<div class="block_one">
 							<h3 class="well">Job Description: </h3>
-							<p>
+							<p style="font-size: 14px">
 								<?= nl2br($one_offre->post_description) ?>
 							</p>
 						</div>
 						<div class="block_one">
 							<h3 class="well">Exigence: </h3>
 							<ul>
-								<li><?= nl2br($one_offre->post_exigence) ?></li>
+								<li style="font-size: 14px"><?= nl2br($one_offre->post_exigence) ?></li>
 							</ul>
 						</div>
 					</div><hr>

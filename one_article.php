@@ -16,8 +16,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -29,14 +28,7 @@
 	<link rel="stylesheet" href="external_card.css" />
 
 	<title>Article details</title>
-
-	<link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.mina4a0.css?ver=5.7.5' type='text/css' media='all' />
-	<link rel='stylesheet' id='wc-block-vendors-style-css' href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/vendors-stylecb20.css?ver=4.4.3' type='text/css' media='all' />
-	<link rel='stylesheet' id='wc-block-style-css' href='wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/stylecb20.css?ver=4.4.3' type='text/css' media='all' />
-	<link rel='stylesheet' id='jquery-selectBox-css' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox7359.css?ver=1.2.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='yith-wcwl-main-css' href='wp-content/plugins/yith-woocommerce-wishlist/assets/css/stylef214.css?ver=3.0.20' type='text/css' media='all' />
-	<link rel='stylesheet' id='font-awesome-css' href='wp-content/plugins/iw_composer_addons/assets/css/font-awesome/css/font-awesome.mine7f3.css?ver=2.1.7' type='text/css' media='all' />
+  
 	<style id='font-awesome-inline-css' type='text/css'>
 		[data-font="FontAwesome"]:before {
 			font-family: 'FontAwesome' !important;
@@ -53,6 +45,7 @@
 	</style>
 	<link rel='stylesheet' id='iw-shortcodes-css' href='wp-content/plugins/iw_composer_addons/assets/css/iw-shortcodese7f3.css?ver=2.1.7' type='text/css' media='all' />
 	
+  <script type='text/javascript' src='wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'></script>
 	<link rel='stylesheet' id='google-font-robotoslab-css' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css' media='all' />
 	<link rel='stylesheet' id='bootstrap-css' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7' type='text/css' media='all' />
 	<link rel='stylesheet' id='incharity-style-css' href='wp-content/themes/incharity/stylea4a0.css?ver=5.7.5' type='text/css' media='all' />

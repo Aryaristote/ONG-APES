@@ -12,8 +12,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -317,6 +316,7 @@
 	</style>
 	<link rel='stylesheet' href='wp-content/plugins/iw_composer_addons/assets/css/iw-shortcodese7f3.css?ver=2.1.7' type='text/css'/>
 	
+	<script type='text/javascript' src='wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'></script>
 	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css'/>
 	<link rel='stylesheet' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7' type='text/css'/>
 	<link rel='stylesheet' href='wp-content/themes/incharity/stylea4a0.css?ver=5.7.5' type='text/css'/>
@@ -523,5 +523,7 @@
 		</footer>
 	</div>
 </body>
+	<script type='text/javascript' src='../wp-content/themes/incharity/js/bootstrap.mine7f3.js?ver=2.1.7' id='bootstrap-js'></script>
+	<script src="../header-1.js"></script>
 
 </html>

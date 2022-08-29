@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "29ab9ae21915a4536b4cc9a282b05dce",
+    "packages": [
+        {
+            "name": "samayo/bulletproof",
+            "version": "v4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/samayo/bulletproof.git",
+                "reference": "c99c96189a0de35f4326b1cc1098e96c6ff6f38e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/samayo/bulletproof/zipball/c99c96189a0de35f4326b1cc1098e96c6ff6f38e",
+                "reference": "c99c96189a0de35f4326b1cc1098e96c6ff6f38e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-exif": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "samayo"
+                }
+            ],
+            "description": "A simple and secure PHP image uploader",
+            "homepage": "http://github.com/samayo/bulletproof",
+            "keywords": [
+                "Simple",
+                "image",
+                "security",
+                "upload"
+            ],
+            "support": {
+                "issues": "https://github.com/samayo/bulletproof/issues",
+                "source": "https://github.com/samayo/bulletproof/tree/master"
+            },
+            "time": "2018-06-23T20:35:21+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

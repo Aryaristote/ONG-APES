@@ -3,11 +3,8 @@
     include "../config/database.php";
     include "./filter/auth.php";
 
-    $q = $db->query("SELECT * FROM visitors ORDER BY applied_offer DESC");
-    $stages = $q->fetchAll(PDO::FETCH_OBJ);
-
-    $req = $db->query("SELECT COUNT(*) FROM visitors;");
-    $rowcount = $req->fetchAll(PDO::FETCH_OBJ);
+    $q = $db->query("SELECT * FROM offres ORDER BY created_at DESC");
+    $offres = $q->fetchAll(PDO::FETCH_OBJ);
 
     // echo $rowcount;
 

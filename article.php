@@ -9,13 +9,10 @@
         var_dump("Fails, Did not get date from DB!");
         die();
     }
-
-
 ?>
 
 <!DOCTYPE html>
-<html lang="en-US">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<html lang="fr">
 
 <head>
 	<meta charset="UTF-8">
@@ -42,6 +39,8 @@
 			-moz-osx-font-smoothing: grayscale !important;
 		}
 	</style>
+	
+	<script type='text/javascript' src='wp-includes/js/jquery/jquery.min9d52.js?ver=3.5.1'></script>
 	
 	<link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto+Slab%3A100%2C300%2C400%2C700&amp;ver=2.1.7' type='text/css' />
 	<link rel='stylesheet' href='wp-content/themes/incharity/css/bootstrap.mine7f3.css?ver=2.1.7' type='text/css' />
