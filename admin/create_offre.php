@@ -25,6 +25,7 @@
             // die();
 
             $success = "Demande envoyée avec succès";
+            header("Location: stage_show.php");
           }else{
             $error = "Veuillez remplir tous les champs";
           }
