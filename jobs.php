@@ -230,12 +230,17 @@
 	}
 ?>
 
-
-<!-- Mirrored from charity.sdemo.site/about-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jan 2022 11:26:26 GMT -->
 	<script src="admin/vendors/js/vendor.bundle.base.js"></script>
 	<script src="admin/js/off-canvas.js"></script>
 	<script src="admin/js/hoverable-collapse.js"></script>
 	<script src="admin/js/template.js"></script>
 	<script src="admin/js/settings.js"></script>
 	<script src="admin/js/todolist.js"></script>
+
+	<!-- Developed by: Ary aristote -->
+	<!-- Email: aryaristote@gmail.com -->
+	<!-- Phone: (+243) 990 413 132 -->
+	<!-- 2022 / Avril -->
+
+	<script type='text/javascript' src='wp-content/themes/incharity/js/bootstrap.mine7f3.js?ver=2.1.7' id='bootstrap-js'></script>
 </html>

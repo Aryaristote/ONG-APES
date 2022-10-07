@@ -590,7 +590,13 @@
 </body>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.min.js"></script>																								
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.bundle.min.js"></script>																								
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.esm.min.js"></script>																								
-<!-- Mirrored from charity.sdemo.site/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jan 2022 11:30:22 GMT -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.0/js/bootstrap.esm.min.js"></script>		
+	
 
+	<!-- Developed by: Ary aristote -->
+	<!-- Email: aryaristote@gmail.com -->
+	<!-- Phone: (+243) 990 413 132 -->
+	<!-- 2022 / Avril -->
+	
+	<script type='text/javascript' src='wp-content/themes/incharity/js/bootstrap.mine7f3.js?ver=2.1.7' id='bootstrap-js'></script>
 </html>

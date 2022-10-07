@@ -249,7 +249,11 @@
 		</footer>
 	</div>
 </body>
+	<!-- Developed by: Ary aristote -->
+	<!-- Email: aryaristote@gmail.com -->
+	<!-- Phone: (+243) 990 413 132 -->
+	<!-- 2022 / Avril -->
 
-<!-- Mirrored from charity.sdemo.site/about-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 26 Jan 2022 11:26:26 GMT -->
-
+	
+<script type='text/javascript' src='wp-content/themes/incharity/js/bootstrap.mine7f3.js?ver=2.1.7' id='bootstrap-js'></script>
 </html>

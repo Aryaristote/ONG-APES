@@ -425,5 +425,11 @@
 		</section>
 	</div>
 </body>
+	<!-- Developed by: Ary aristote -->
+	<!-- Email: aryaristote@gmail.com -->
+	<!-- Phone: (+243) 990 413 132 -->
+	<!-- 2022 / Avril -->
 
+	
+<script type='text/javascript' src='wp-content/themes/incharity/js/bootstrap.mine7f3.js?ver=2.1.7' id='bootstrap-js'></script>
 </html>
